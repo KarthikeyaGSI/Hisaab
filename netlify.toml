@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+[build.environment]
+NODE_VERSION = "24"
+[functions]
+directory = "netlify/functions"
+[[headers]]
+for = "/api/v1/reports*"
+[headers.values]
+Cache-Control = "private, no-store"

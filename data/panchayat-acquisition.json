@@ -1,0 +1,21 @@
+{
+  "updatedOn": "2026-10-07",
+  "panchayat": "Chandanbhati",
+  "localBodyCode": "115783",
+  "planYears": [
+    "2024-2025",
+    "2025-2026",
+    "2026-2027"
+  ],
+  "planningRecords": 436,
+  "activitiesWithReportedGeotags": 36,
+  "technicalRecords": 63,
+  "administrativeRecords": 60,
+  "activityReportRows": 111,
+  "reportOnlyCreatedActivities": 11,
+  "proposedPaymentMatches": 2,
+  "verifiedPaymentLinks": 0,
+  "approvedLocations": 0,
+  "permission": "Pending",
+  "scope": "One panchayat; returned activity-year records, not nationwide projects or payments."
+}

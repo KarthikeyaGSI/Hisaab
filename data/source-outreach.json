@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-10-07",
+  "requests": [
+    {
+      "custodian": "NRIDA / OMMAS",
+      "sentOn": "2026-10-07",
+      "status": "Forwarded · data response pending",
+      "purpose": "Bill-to-road allocations, contracts, payment definitions and reconciliation of conflicting sanction figures.",
+      "latestResponseOn": "2026-10-07",
+      "responseSummary": "Request forwarded to a government contact; no records or reuse permission supplied."
+    },
+    {
+      "custodian": "eGramSwaraj",
+      "sentOn": "2026-10-07",
+      "status": "Sent · response pending",
+      "purpose": "Authorized activity-to-location-to-voucher export and permission for attributed republication."
+    },
+    {
+      "custodian": "Odisha PPMS",
+      "sentOn": "2026-10-07",
+      "status": "Sent · response pending",
+      "purpose": "Five named project records: payment dates, recipients, allocation/amount definitions, export method and reuse terms."
+    }
+  ]
+}

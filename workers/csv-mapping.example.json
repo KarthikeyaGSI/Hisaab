@@ -1,0 +1,5 @@
+{
+ "version":"review-required-1", "document_title":"Replace with the original export title",
+ "amount_unit":"rupees", "payment_kind":"transaction", "purpose":"Unclassified",
+ "columns":{"work_id":"Work ID","title":"Work Title","district":"District","state":"State","financial_year":"Financial Year","area_id":"Reviewed LGD Area ID","authority":"Executing Authority","sanction":"Sanction Amount","sanction_date":"Sanction Date","contract":"Award Amount","contract_date":"Award Date","payment":"Net Payment","payment_id":"Payment ID","payment_date":"Payment Date","completion_date":"Completion Date"}
+}

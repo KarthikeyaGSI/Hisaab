@@ -1,0 +1,35 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.hisaab/
+data/originals/
+data/published.json
+data/acquisition/
+test-results/
+playwright-report/
+tmp/screenshots/
+*.tsbuildinfo
+supabase/.temp/
+supabase/.branches/
+public/vendor/
+
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# Funding acquisition scratch files and local geometry runtime
+tmp/funding/
+
+# Runtime scratch, captured sessions, and private acquisition helpers
+tmp/
+
+# Account setup captures stay local alongside credentials.
+design/owner-setup-ready.jpg
+design/netlify-authorization.png
+design/supabase-hisaab-organisation.png
+design/supabase-hosted-auth.png
+design/supabase-hosted-security.png

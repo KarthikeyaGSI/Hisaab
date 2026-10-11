@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-06T18:51:00.469555+00:00",
+  "counts": {
+    "projectsAudited": 7161,
+    "identityChecksPassed": 7161,
+    "sanctionDatePresent": 7161,
+    "agreementDatePresent": 7143,
+    "agreementIdentifierPresent": 7143,
+    "sourceSanctionValuePresent": 7161,
+    "sourceAgreementValuePresent": 7161,
+    "financialUnitVerified": 0,
+    "individualPaymentEvidence": 0,
+    "completionCertificate": 0
+  },
+  "originalDocumentsChecksumVerified": 32,
+  "method": "All six identity attributes, every referenced feature, original SHA-256 and available stage fields rechecked. This is automated lineage review, not publication or independent field verification.",
+  "published": 0,
+  "next": "Resolve amount units with project-specific official reports; acquire dated payment records and completion evidence; review geometry and publish through MFA."
+}

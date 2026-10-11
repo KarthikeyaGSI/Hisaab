@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-06T18:58:05.262921+00:00",
+  "sourceUrl": "https://pmgsy.dord.gov.in/MvcReportViewer.aspx?_r=%2fPMGSYCitizen%2fFinalBillPaymentPending&PINTStateCode=26&PINTAgencyCode=22&PINTFACode=0&PINTPMGSYVersion=0&LocalizationValue=en&DispAgencyName=Rural+Works+Organisation",
+  "counts": {
+    "sourceRows": 10,
+    "uniqueRoadMatches": 10,
+    "geographyProposals": 10,
+    "sanctionValuesDifferBetweenReports": 8,
+    "individualPayments": 0,
+    "completionCertificates": 0,
+    "published": 0
+  },
+  "permissionPolicy": "https://pmgsy.dord.gov.in/Home/HomeCopyrightPolicy/",
+  "meaning": "Source-reported road sanction and cumulative expenditure with reported physical completion dates. No individual payments or approved geography.",
+  "limitations": [
+    "Parent drilldown advertises 9 pending works but export contains 10 rows; preserve discrepancy.",
+    "Physical completion is reported, not a completion certificate.",
+    "Expenditure is cumulative; individual voucher dates, payees and net/gross semantics absent."
+  ]
+}

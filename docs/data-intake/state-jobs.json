@@ -1,0 +1,847 @@
+{
+  "version": "hisaab-collector-jobs/1",
+  "status": "prepared_not_dispatched",
+  "years": [
+    "2026-2027",
+    "2025-2026",
+    "2024-2025",
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021",
+    "2019-2020",
+    "2018-2019",
+    "2017-2018",
+    "2016-2017"
+  ],
+  "jobs": [
+    {
+      "jurisdiction": "35",
+      "name": "Andaman and Nicobar Islands",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "28",
+      "name": "Andhra Pradesh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "12",
+      "name": "Arunachal Pradesh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "18",
+      "name": "Assam",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "10",
+      "name": "Bihar",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "4",
+      "name": "Chandigarh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "22",
+      "name": "Chhattisgarh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "38",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "7",
+      "name": "Delhi",
+      "status": "unassigned",
+      "priority": "Existing Delhi SER-2 and NCRTC dossiers",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "30",
+      "name": "Goa",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "24",
+      "name": "Gujarat",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "6",
+      "name": "Haryana",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "2",
+      "name": "Himachal Pradesh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "1",
+      "name": "Jammu and Kashmir",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "20",
+      "name": "Jharkhand",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "29",
+      "name": "Karnataka",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "32",
+      "name": "Kerala",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "37",
+      "name": "Ladakh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "31",
+      "name": "Lakshadweep",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "23",
+      "name": "Madhya Pradesh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "27",
+      "name": "Maharashtra",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "14",
+      "name": "Manipur",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "17",
+      "name": "Meghalaya",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "15",
+      "name": "Mizoram",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "13",
+      "name": "Nagaland",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "21",
+      "name": "Odisha",
+      "status": "unassigned",
+      "priority": "Existing road and panchayat pilots",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "34",
+      "name": "Puducherry",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "3",
+      "name": "Punjab",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "8",
+      "name": "Rajasthan",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "11",
+      "name": "Sikkim",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "33",
+      "name": "Tamil Nadu",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "36",
+      "name": "Telangana",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "16",
+      "name": "Tripura",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "9",
+      "name": "Uttar Pradesh",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "5",
+      "name": "Uttarakhand",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    },
+    {
+      "jurisdiction": "19",
+      "name": "West Bengal",
+      "status": "unassigned",
+      "priority": "Establish strongest complete pilot chain",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review"
+    }
+  ]
+}

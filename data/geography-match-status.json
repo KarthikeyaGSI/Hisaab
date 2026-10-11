@@ -1,0 +1,14 @@
+{
+  "method": "Six exact source attributes and unique spending candidate; all matching geometry segments retained for manual scope and identity review",
+  "counts": {
+    "sourceProposals": 16240,
+    "unmatchedOrAmbiguous": 210,
+    "projectsWithSingleFeature": 4989,
+    "projectsWithExactAttributeProposals": 7161,
+    "projectsWithMultipleFeatures": 2172
+  },
+  "published": 0,
+  "approvedPaymentLinks": 0,
+  "geographyEdition": "2022 archived mirror",
+  "sourceFiles": "58 preserved archives; 29 source state files"
+}

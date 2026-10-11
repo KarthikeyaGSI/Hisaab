@@ -1,0 +1,45 @@
+name: Hisaab validation
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Start disposable local database
+        run: npx supabase start -x studio,realtime,imgproxy,edge-runtime,logflare,vector,supavisor,mailpit > /tmp/hisaab-local-start.log 2>&1
+      - run: node scripts/configure-local.mjs
+      - run: node scripts/database-security.mjs
+      - run: docker exec -i supabase_db_Hisaab psql -U postgres -d postgres < scripts/publication-security.sql
+      - run: docker exec -i supabase_db_Hisaab psql -U postgres -d postgres < scripts/source-invalidation-security.sql
+      - run: node scripts/test-admin.mjs
+      - run: node scripts/test-publication.mjs
+      - run: node scripts/test-retention.mjs
+      - run: node scripts/test-budget-context.mjs
+      - run: docker exec -i supabase_db_Hisaab psql -U postgres -d postgres < scripts/catalogue-security.sql
+      - run: npm run typecheck
+      - run: npm test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install -r workers/requirements.txt
+      - run: python3 -m unittest discover -s workers -p '*test*.py'
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-failures
+          path: test-results/
+          retention-days: 7
+      - name: Stop disposable database
+        if: always()
+        run: npx supabase stop --no-backup

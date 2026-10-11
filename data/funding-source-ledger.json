@@ -1,0 +1,4244 @@
+{
+  "scope": "Union development funding",
+  "complete": false,
+  "identifiedChannelsAreExhaustive": false,
+  "note": "All acquired demand rows are indexed privately. Programme identities and maintenance splits are still being classified; this channel queue is not a claim that every programme has been enumerated.",
+  "rows": [
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "union-programme-lines",
+      "label": "Union budget programmes",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://www.indiabudget.gov.in/previous_union_budget.php",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "inventory_classification_pending",
+      "gap": "Source fiscal columns are interpreted privately, but programme identities, development/maintenance classification and hierarchy reconciliation remain required.",
+      "nextAction": "Classify original rows, document programme/head identities, draft private facts from verified columns and review separately."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 18,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 18,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 17,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 28,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 56,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 56,
+          "unionShareRecords": 56,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 57,
+          "unionShareRecords": 1,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 57,
+          "unionShareRecords": 57,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 57,
+          "unionShareRecords": 1,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 57,
+          "unionShareRecords": 57,
+          "conflictingRecords": 0,
+          "missingAmounts": 2,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 85,
+          "unionShareRecords": 1,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 85,
+          "unionShareRecords": 85,
+          "conflictingRecords": 29,
+          "missingAmounts": 0,
+          "reviewedRecords": 28,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 84,
+          "unionShareRecords": 1,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 84,
+          "unionShareRecords": 84,
+          "conflictingRecords": 1,
+          "missingAmounts": 0,
+          "reviewedRecords": 28,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 56,
+          "unionShareRecords": 1,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 56,
+          "unionShareRecords": 56,
+          "conflictingRecords": 29,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDRF",
+      "label": "State Disaster Response Fund",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 29,
+          "unionShareRecords": 29,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 9,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 8,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 18,
+          "unionShareRecords": 18,
+          "conflictingRecords": 0,
+          "missingAmounts": 7,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 0,
+          "missingAmounts": 18,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 56,
+          "unionShareRecords": 56,
+          "conflictingRecords": 0,
+          "missingAmounts": 22,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 57,
+          "unionShareRecords": 57,
+          "conflictingRecords": 0,
+          "missingAmounts": 34,
+          "reviewedRecords": 1,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 56,
+          "unionShareRecords": 56,
+          "conflictingRecords": 0,
+          "missingAmounts": 46,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 84,
+          "unionShareRecords": 84,
+          "conflictingRecords": 0,
+          "missingAmounts": 78,
+          "reviewedRecords": 2,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 83,
+          "unionShareRecords": 83,
+          "conflictingRecords": 1,
+          "missingAmounts": 27,
+          "reviewedRecords": 19,
+          "status": "reviewed_subset_with_gaps"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "reviewed_subset_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 55,
+          "unionShareRecords": 55,
+          "conflictingRecords": 28,
+          "missingAmounts": 15,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDRF",
+      "label": "National Disaster Response Fund",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 9,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 8,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 9,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 7,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "SDMF",
+      "label": "State Disaster Mitigation Fund",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 20,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 28,
+          "unionShareRecords": 28,
+          "conflictingRecords": 28,
+          "missingAmounts": 17,
+          "reviewedRecords": 0,
+          "status": "private_review_pending"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "private_records_with_gaps",
+      "gap": "Mitigation-release annexure captions and displayed fiscal years conflict. Supplemental facts remain withheld; rights, editions and unknown stages still require review.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "NDMF",
+      "label": "National Disaster Mitigation Fund",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "capital-investment-loans",
+      "label": "Special assistance for capital investment / capital loans",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "finance-commission-development",
+      "label": "Finance Commission local-body and development grants",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://fincomindia.nic.in/commission-reports",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "centrally-sponsored",
+      "label": "Centrally sponsored development schemes",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "central-sector",
+      "label": "Direct Union development programmes",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://www.indiabudget.gov.in/",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "development-grants",
+      "label": "Article 275 and other attributable development grants",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://www.indiabudget.gov.in/doc/eb/stat18.pdf",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Publication rights and explicit fact/edition review remain pending; unknown stages are not zero.",
+      "nextAction": "Acquire explicit Union-share state orders, release statements and recipient utilisation; preserve separate editions and reporting cutoffs."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2016-2017",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2017-2018",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2018-2019",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2019-2020",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2020-2021",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2021-2022",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2022-2023",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2023-2024",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2024-2025",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2025-2026",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    },
+    {
+      "programmeOrChannel": "disaster-reconstruction",
+      "label": "Identifiable disaster recovery and reconstruction programmes",
+      "financialYear": "2026-2027",
+      "sourceRoute": "https://ndmindia.mha.gov.in/ndmi/responsefund",
+      "stages": {
+        "allocated": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "released": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        },
+        "reported_spent": {
+          "candidateRecords": 0,
+          "unionShareRecords": 0,
+          "conflictingRecords": 0,
+          "missingAmounts": 0,
+          "reviewedRecords": 0,
+          "status": "awaiting_source_assessment"
+        }
+      },
+      "status": "awaiting_source_assessment",
+      "gap": "Response/recovery fund totals do not establish a separately identified reconstruction purpose.",
+      "nextAction": "Collect named reconstruction and recovery programme orders, Union-share splits and reporting periods."
+    }
+  ],
+  "updatedAt": "2026-10-09T20:45:21.551Z"
+}

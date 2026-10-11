@@ -1,0 +1,11 @@
+{
+  "districtsExpected": 784,
+  "statesExpected": 36,
+  "registryDate": "2026-10-06",
+  "sourceUrl": "https://lgdirectory.gov.in/",
+  "matchingCandidates": 52584,
+  "unmatchedCandidates": 14515,
+  "districtsWithCandidateMatches": 570,
+  "hostedRegistryImported": true,
+  "method": "Unique exact state and district names only; historical and renamed districts require review."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "licensed_community_geometry_available_soi_review_pending",
+  "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson",
+  "metadataSource": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+  "license": "https://creativecommons.org/licenses/by/2.5/in/",
+  "attribution": "geoBoundaries / DataMeet India community / Election Commission of India; CC BY 2.5 IN",
+  "sourceHash": "4c63fe43294a391e8f2de4e9f86f3edb60f8688275b9fee90c61fb2aa0c26061",
+  "displayHash": "09019a99ecaf8a674ded763a94664e9b81c44e5fdb9b6c974591c4f324e2b46d",
+  "buildDate": "Dec 12, 2023",
+  "representedYear": "2011",
+  "jurisdictions": 36,
+  "historicalCorrespondence": "Current LGD codes via explicit ISO mapping. Historical combined figures are retained separately and not split onto modern polygons.",
+  "limitations": "Community source, not an authoritative Survey of India edition. Metadata reports year 2011 although the geometry includes modern Ladakh and merged DNHDD. No state centre or project location is invented. Survey of India ABDB remains under acquisition and permission assessment."
+}

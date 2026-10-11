@@ -1,0 +1,64 @@
+# Review of the three supplied payment-source reports
+
+Reviewed 7 October 2026. These documents are research inputs, not instructions or authorization to send requests, bypass access controls, file RTIs, or publish unreviewed payments. Originals and checksums are retained privately.
+
+## What changed our acquisition priorities
+
+| Priority | Finding | What is established in this workspace | Next evidence gate |
+|---|---|---|---|
+| 1 | Bengaluru BBMP work-bill payments | Downloaded one FY 2025–26 CSV: 4,729 rows, nine fields, 3,964 distinct recognizable job codes. Official public viewer opens without login and shows job-linked bills, contractor labels, gross/deductions/net and RTGS records. | Validate the historical CSV against official bills, resolve repeated bill IDs/payment attempts, confirm units, obtain exact geography and assess publication terms. |
+| 2 | MGNREGA Work Register Part B → wage list → FTO bank-response rows | The PDF gives a much more specific report chain and an example FTO/wage list than our earlier research. Its underlying live URLs/track files were not supplied. The other two reports did not establish a complete live chain. | Reproduce one work-to-payment-line join through official navigation; preserve amounts/status/date meanings, rejection/reissue relationships and reviewed geography. Aggregate wage recipients privately rather than publish worker identities. |
+| 3 | MPLADS eSAKSHI per-work vendor expenditure | Official dashboard retrieved. Its own explanation describes vendor payments against ongoing/completed works, online scope from 1 April 2023 and stakeholder-entered completion. Linked dashboard scripts provide an avenue for inspecting actual public report behavior. | Inspect a work's displayed expenditure rows; verify the work/payment join against the UI before using a bulk key. Do not accept reported 106,000-line counts or matching rates as our own acquired coverage. |
+| 4 | New PPMS expenditure/timeline report | PDF supplies `/report/ifms-transaction-expenditure-details`, apparently adding work-order, bill preparation, IFMS and completion dates. Our direct fetch timed out. Existing PPMS project/bill/cheque report collection remains usable. | Follow the public report and compare exact project/bill keys with preserved pilot evidence. IFMS success and financial completion must remain distinct from recipient credit. |
+| 5 | West Bengal PHED scheme → work order → agency | Markdown report supplies a concrete Atharabeki scheme/work-order example and bill-register request scope. Our existing 9,337 scheme rows remain cumulative financial records. | Capture exact work-order editions and obtain bill allocations and dated payment responses; never turn cumulative payment into individual transactions. |
+| 6 | PMGSY and eGramSwaraj custodian exports | Reports sharpen which records to request: payment transaction lines, road/activity allocations, deduction destinations and bank-response/reissue records. Old exchange documentation is not a current read API contract. | Keep PMGSY road requests separate from the Chandanbhati PR&DW pilot; append precise specifications when authorized, without duplicate outreach. |
+
+## Bengaluru: an actual new acquisition, not just a recommendation
+
+Source mirror: https://data.opencity.in/dataset/bbmp-work-orders-and-payments-2025-26
+
+Observed resource: https://data.opencity.in/dataset/280a1196-074e-43ac-acd9-914918b429f5/resource/7a6907c2-6efd-43d6-99ac-1d10f67b3f85/download/bbmp-2025-26-198-wards-work-orders.csv
+
+The preserved CSV has `slno`, `id`, `ward`, `wodetails`, `contractor`, `brnumber`, `amount`, `nett`, `deduction`. All 4,729 rows have contractor labels and embedded RTGS reference/date text. All satisfy amount minus deduction equals nett using exact decimals. There are 4,702 recognizable job-code rows representing 3,964 distinct job codes. Twenty-seven rows need another identifier interpretation. Fourteen row IDs repeat with differing RTGS records; no exact row duplicates exist after ignoring serial number. A repeated bill with the same amount but a different RTGS date could reflect a payment attempt or another event: neither sum both nor delete one without source history.
+
+The mirror's retrieved catalogue lists “Other (Public Domain)” and a 14 May 2026 update. This corrects the PDF's claim that the license field is absent, but is not proof of every original record's scope or freshness. The original CSV does not independently define amount units or bank-credit semantics.
+
+Official source: https://accounts.bbmp.gov.in/vssWB/
+
+Browser verification opened the public Payments report and a job-linked bill. The date widget retained its default 1 April 2026–31 March 2027 range despite an attempted narrower input; the displayed 3,549 rows are therefore that default report's count, not a one-day sample or a count of reviewed transactions. No authentication or CAPTCHA bypass was used.
+
+Observed work `045-22-000006`, “Foot path Maintenance in Ward No 45”: work order dated 19 November 2022; source contractor label LIHARIKA CONSTRUCTIO; Final bill; gross 1,864,036.00, deductions 285,665.00 and net/recorded Paid 1,578,371.00. RTGS-labelled date 1 April 2026; level explicitly **RTGS Generated**; credit/debit UTR fields blank. This proves a source-linked payment/instruction record, not independently verified recipient settlement. This is a different financial year and job from the CSV examples; no cross-edition reconciliation is claimed.
+
+Uploads lists estimates, approvals, agreement, work order, measurement book, bill, photographs and completion-certificate controls. Clicking the completion-certificate control did not open a file; a listed control is not an acquired certificate. Exact works coordinates remain missing. Contractor columns can include personal phone numbers; these are excluded from safe review notes and must be removed before app publication.
+
+Private evidence: `data/acquisition/report-review-2026-10-07/`, containing CSV/HTML originals, source metadata, checksums, arithmetic assessment and minimized browser observations. No payment publication or nationwide coverage count was changed.
+
+## Corrections required before using the reports
+
+1. **Chandanbhati is a PPMS/Panchayati Raj pilot, not an OMMAS/PMGSY road.** The PDF's sections 4 and 9.5 send its `OD/345/...` code to NRIDA/OMMAS; that code is not our PMGSY `IMS_PR_ROAD_CODE`. Its proposed Odisha Finance request also selects Rural Development while asking for this PR&DW project. Correct department, scheme and identifiers before sending or filing.
+2. **PPMS public discovery is already working.** The PDF says cheque documents are discoverable only through search and no public index exists. We have preserved paginated official project/bill rows whose exact rows link payment PDFs. Those source-provided associations are stronger than name/amount proximity; they still do not prove allocation scope or settlement. Do not downgrade exact source links or adopt the PDF's suggested proximity join.
+3. **MGNREGA “end-to-end” is overstated within the PDF.** Its executive verdict claims live testing end-to-end, while its dossier describes Work Register Part B/muster connections as documented or interaction-bound. The supplied FTO example is useful but no work-linked original accompanies it. Request the original report URLs/track files or reproduce the missing joins.
+4. **MPLADS bulk joining remains disputed.** Counts and matching rates attributed to independent pipelines have no accompanying originals. A recommendation-detail ID may be scoped to an MP rather than globally unique. Confirm scope against source/UI before selecting a composite key; geography remains another gap. The PDF also contradicts itself about public work-level drill-down availability. The TXT's recommendation to abandon eSAKSHI is not justified by a historic cutoff alone.
+5. **PFMS APISetu listing exists.** The official directory at https://directory.apisetu.gov.in/api-collection/pfms names payment-status services and reports a forbidden schema fetch. Thus the PDF's “no listing” claim is inaccurate. This does not establish a nationwide project-payment export, current working schema, or permission for bulk use.
+6. **Current PMGSY flow supersedes a blanket absence claim.** Official indexed 2026 Accounts Manual section 3.2.4 describes OMMAS claims to IFMIS via API, state JSON claims and PFMS/RBI reconciliation. The PDF says this interface is documented nowhere using older material. Request current state/year-specific implementations; do not treat a historical manual as the present universal architecture.
+7. **TXT endpoint/table names are unsupported.** `/v1/api/voucher/activity`, `Voucher_Activity_Mapping`, `OMMAS_to_PFMS_Reconciliation` and several exact field lists are asserted without a current primary specification. Treat them as requested relationships, not confirmed deployed endpoints/tables. Its simulated examples are not data; its purported MGNREGA example has inconsistent work-code digits and no reproduced payment chain.
+8. **Ratings are not coverage.** TXT's High/Strong state ratings often infer public access from internal digitization. Guessed IDs, login bypass, simulated payment records and legal conclusions about APIs must not become implementation instructions. The report's AE/JE-as-transit-node assertion is also unproven for our pilot.
+9. **Do not copy RTI legal conclusions unchecked.** The PDF offers detailed legal amendment claims and draft filing language. Those need current official-law and authority verification before filing. None of these attachments authorizes submissions, fees or new outreach.
+
+## Useful reusable ideas
+
+- Represent obligation, bill, allocated project share, payment attempt and reversal separately. A work may have many bills; a bill or payment may cover multiple works/components.
+- Request the records the source actually holds, plus definitions and allocation crosswalks, rather than inventing a database table name or asking for a new unauthenticated replica.
+- Show evidence levels separately: source-recorded expenditure; bill passed; instruction/RTGS generated; bank-reported processing/credit; independent settlement evidence. Do not require a bank statement to describe an official public bank-response record accurately, but do not label it independent verification.
+- Keep reported completion, accessible stage photos, completion certificates and independent inspection as separate facts, rather than a single automatic completed state.
+- Test one failed/reissued payment and one split allocation before scaling a source. The Bengaluru repeated-ID rows offer a concrete test case.
+
+## Immediate order of work
+
+1. Validate Bengaluru's historical CSV against official source bills; determine identities/attempts, units, contractor-field redaction and actual site documentation.
+2. Reproduce one MGNREGA work → wage list → payment-line bank-response chain; record missing links precisely and prepare a separate materials/vendor request.
+3. Inspect eSAKSHI's work expenditure view and validate a small cross-state work/payment sample. Do not run an unreviewed nationwide endpoint collector.
+4. Assess the new PPMS timeline report and obtain pilot bill/settlement scope from the correct PR&DW/treasury custodian.
+5. Continue WB work-order evidence and current eGramSwaraj/PMGSY export requests. Existing reply deadlines stay unchanged.
+
+All these improve the plan. None establishes all-payment nationwide coverage, exact geography for every row, or permission to publish unreviewed records.

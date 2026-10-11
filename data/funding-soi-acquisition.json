@@ -1,0 +1,21 @@
+{
+  "sourceUrl": "https://surveyofindia.gov.in/documents/State_District_Subdistrict_PAN%20INDIA.rar",
+  "sourceSha256": "b8325e5d9dd0f04a6663d775363fe38cd2f23bd9dbae3fb7118b4e6e0ce0bcb7",
+  "original": "data/originals/funding-boundaries/b8325e5d9dd0f04a6663d775363fe38cd2f23bd9dbae3fb7118b4e6e0ce0bcb7",
+  "retrievedAt": "2026-10-09T18:15:00Z",
+  "sourceStateRows": 40,
+  "originalArchiveCrcCheck": "state files extracted successfully with bsdtar",
+  "permissionStatus": "written_reuse_permission_required",
+  "policy": "https://surveyofindia.gov.in/pages/copyright-policy",
+  "publication": "private_only",
+  "edition": "requires source metadata review",
+  "sourceFields": [
+    "DeletionFlag",
+    "OBJECTID_1",
+    "OBJECTID",
+    "STATE",
+    "Shape_Leng",
+    "Shape_Area",
+    "Country"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "Official MPLADS eSAKSHI public expenditure report",
+  "scope": "Odisha \u00b7 default Lok Sabha dashboard filter; online records from 1 April 2023",
+  "rows": 3826,
+  "distinctWorkIds": 2195,
+  "states": {
+    "Odisha": 3826
+  },
+  "sourceStatusCounts": {
+    "Payment In-Progress": 107,
+    "Payment Success": 3719
+  },
+  "encodingIssueRows": 7,
+  "missingDateRows": 0,
+  "invalidAmountRows": 0,
+  "approvedPayments": 0,
+  "verifiedSettlementPayments": 0
+}

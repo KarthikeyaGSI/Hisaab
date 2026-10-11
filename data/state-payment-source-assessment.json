@@ -1,0 +1,258 @@
+{
+  "assessedOn": "2026-10-07",
+  "jurisdictions": [
+    {
+      "jurisdiction": "Andhra Pradesh",
+      "pmgsySourcePartition": "Andhra Pradesh",
+      "pmgsySourceWorks": 6090,
+      "paymentAcquisitionStatus": "CFMS works-module lead; bulk project-payment access unverified",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Arunachal Pradesh",
+      "pmgsySourcePartition": "Arunachal Pradesh",
+      "pmgsySourceWorks": 1986,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Assam",
+      "pmgsySourcePartition": "Assam",
+      "pmgsySourceWorks": 11562,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Bihar",
+      "pmgsySourcePartition": "Bihar",
+      "pmgsySourceWorks": 20879,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Chhattisgarh",
+      "pmgsySourcePartition": "Chhattisgarh",
+      "pmgsySourceWorks": 11144,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Goa",
+      "pmgsySourcePartition": "Goa",
+      "pmgsySourceWorks": 82,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Gujarat",
+      "pmgsySourcePartition": "Gujarat",
+      "pmgsySourceWorks": 5309,
+      "paymentAcquisitionStatus": "IFMS documentation lead; transaction export unverified",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Haryana",
+      "pmgsySourcePartition": "Haryana",
+      "pmgsySourceWorks": 791,
+      "paymentAcquisitionStatus": "HEWP official FAQ; authorized export needed",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Himachal Pradesh",
+      "pmgsySourcePartition": "Himachal Pradesh",
+      "pmgsySourceWorks": 4310,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Jharkhand",
+      "pmgsySourcePartition": "Jharkhand",
+      "pmgsySourceWorks": 9556,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Karnataka",
+      "pmgsySourcePartition": "Karnataka",
+      "pmgsySourceWorks": 4618,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Kerala",
+      "pmgsySourcePartition": null,
+      "pmgsySourceWorks": null,
+      "paymentAcquisitionStatus": "PRICE official analytics; transaction feed unverified",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Madhya Pradesh",
+      "pmgsySourcePartition": "Madhya Pradesh",
+      "pmgsySourceWorks": 24114,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Maharashtra",
+      "pmgsySourcePartition": "Maharashtra",
+      "pmgsySourceWorks": 8262,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Manipur",
+      "pmgsySourcePartition": "Manipur",
+      "pmgsySourceWorks": 2261,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Meghalaya",
+      "pmgsySourcePartition": "Meghalaya",
+      "pmgsySourceWorks": 1473,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Mizoram",
+      "pmgsySourcePartition": "Mizoram",
+      "pmgsySourceWorks": 374,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Nagaland",
+      "pmgsySourcePartition": "Nagaland",
+      "pmgsySourceWorks": 551,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Odisha",
+      "pmgsySourcePartition": "Odisha",
+      "pmgsySourceWorks": 19491,
+      "paymentAcquisitionStatus": "PPMS project/bill documents acquired; settlement and reuse missing",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Punjab",
+      "pmgsySourcePartition": "Punjab",
+      "pmgsySourceWorks": 1575,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Rajasthan",
+      "pmgsySourcePartition": "Rajasthan",
+      "pmgsySourceWorks": 19443,
+      "paymentAcquisitionStatus": "Jan Soochna official portal; exact works-payment route untested",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Sikkim",
+      "pmgsySourcePartition": "Sikkim",
+      "pmgsySourceWorks": 1264,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Tamil Nadu",
+      "pmgsySourcePartition": "Tamil Nadu",
+      "pmgsySourceWorks": 10590,
+      "paymentAcquisitionStatus": "IFHRMS official system; public project-payment export unverified",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Telangana",
+      "pmgsySourcePartition": "Telangana",
+      "pmgsySourceWorks": 4062,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Tripura",
+      "pmgsySourcePartition": "Tripura",
+      "pmgsySourceWorks": 1755,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Uttar Pradesh",
+      "pmgsySourcePartition": "Uttar Pradesh",
+      "pmgsySourceWorks": 21307,
+      "paymentAcquisitionStatus": "JJM public dashboard inspected; transaction export unverified",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Uttarakhand",
+      "pmgsySourcePartition": "Uttarakhand",
+      "pmgsySourceWorks": 3184,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "West Bengal",
+      "pmgsySourcePartition": "West Bengal",
+      "pmgsySourceWorks": 8313,
+      "paymentAcquisitionStatus": "PHED scheme expenditure acquired; individual payments missing",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Andaman and Nicobar Islands",
+      "pmgsySourcePartition": "Andaman And Nicobar",
+      "pmgsySourceWorks": 133,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Chandigarh",
+      "pmgsySourcePartition": null,
+      "pmgsySourceWorks": null,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Dadra and Nagar Haveli and Daman and Diu",
+      "pmgsySourcePartition": null,
+      "pmgsySourceWorks": null,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Delhi",
+      "pmgsySourcePartition": null,
+      "pmgsySourceWorks": null,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Jammu and Kashmir",
+      "pmgsySourcePartition": "Jammu And Kashmir",
+      "pmgsySourceWorks": 4388,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Ladakh",
+      "pmgsySourcePartition": "Ladakh",
+      "pmgsySourceWorks": 199,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Lakshadweep",
+      "pmgsySourcePartition": null,
+      "pmgsySourceWorks": null,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    },
+    {
+      "jurisdiction": "Puducherry",
+      "pmgsySourcePartition": "Puducherry",
+      "pmgsySourceWorks": 72,
+      "paymentAcquisitionStatus": "Dedicated state payment route not assessed; national scheme sources remain candidates",
+      "verifiedCompletePayments": false
+    }
+  ],
+  "scope": "Research/acquisition status, not full state spending coverage; PMGSY original counts are road/tender records, not payments"
+}

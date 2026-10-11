@@ -1,0 +1,15 @@
+{
+  "documentsPreserved": 1306,
+  "documents": 1306,
+  "failures": 0,
+  "districtsNotAssessed": true,
+  "clippedDocuments": 395,
+  "chequeReportConflicts": 323,
+  "beneficiarySumConflicts": 115,
+  "sharedPaymentIdentities": 0,
+  "quarantinedBillIdentities": 5,
+  "documentsWithReportConflict": 0,
+  "approvedPayments": 0,
+  "attemptedThisBatch": 20,
+  "lastCollectionScope": "statewide"
+}

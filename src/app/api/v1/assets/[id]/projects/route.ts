@@ -1,0 +1,4 @@
+import {publicDb} from '@/lib/public-db';
+import {readCatalogue} from '@/lib/catalogue';
+import {workSchema} from '@/lib/validation';
+export async function GET(_request:Request,{params}:{params:Promise<{id:string}>}){const {id}=await params;if(!/^[a-f0-9]{20}:\d+$/.test(id))return Response.json({error:'Invalid asset identity'},{status:400});try{if(process.env.HISAAB_DATA_MODE!=='supabase')return Response.json({works:(await readCatalogue()).works.filter(w=>w.assetId===id)});const result=await publicDb().from('published_work_receipts').select('payload').eq('payload->>assetId',id).limit(100);if(result.error)throw result.error;return Response.json({works:(result.data??[]).map(r=>workSchema.parse(r.payload)),coverage:'Exact published asset links only'});}catch{return Response.json({error:'Linked projects unavailable'},{status:503});}}

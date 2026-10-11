@@ -1,0 +1,201 @@
+{
+  "source": "Official MPLADS public expenditure reports",
+  "scope": "Default Rajya Sabha filter; not all schemes, tenures/statuses or government payments",
+  "house": 1,
+  "observedStatePartitions": 36,
+  "attemptedStatePartitions": 36,
+  "assessedStatePartitions": 36,
+  "failedPartitions": 0,
+  "expenditureRows": 26286,
+  "encodingIssueRows": 70,
+  "approvedPayments": 0,
+  "independentlyVerifiedSettlementPayments": 0,
+  "states": [
+    {
+      "name": "Andaman And Nicobar Islands",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Andhra Pradesh",
+      "status": "assessed",
+      "rows": 496
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Assam",
+      "status": "assessed",
+      "rows": 401
+    },
+    {
+      "name": "Bihar",
+      "status": "assessed",
+      "rows": 1422
+    },
+    {
+      "name": "Chandigarh",
+      "status": "assessed",
+      "rows": 59
+    },
+    {
+      "name": "Chhattisgarh",
+      "status": "assessed",
+      "rows": 565
+    },
+    {
+      "name": "Delhi",
+      "status": "assessed",
+      "rows": 47
+    },
+    {
+      "name": "Goa",
+      "status": "assessed",
+      "rows": 38
+    },
+    {
+      "name": "Gujarat",
+      "status": "assessed",
+      "rows": 543
+    },
+    {
+      "name": "Haryana",
+      "status": "assessed",
+      "rows": 269
+    },
+    {
+      "name": "Himachal Pradesh",
+      "status": "assessed",
+      "rows": 978
+    },
+    {
+      "name": "Jammu And Kashmir",
+      "status": "assessed",
+      "rows": 195
+    },
+    {
+      "name": "Jharkhand",
+      "status": "assessed",
+      "rows": 1454
+    },
+    {
+      "name": "Karnataka",
+      "status": "assessed",
+      "rows": 1350
+    },
+    {
+      "name": "Kerala",
+      "status": "assessed",
+      "rows": 693
+    },
+    {
+      "name": "Ladakh",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Lakshadweep",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Madhya Pradesh",
+      "status": "assessed",
+      "rows": 2014
+    },
+    {
+      "name": "Maharashtra",
+      "status": "assessed",
+      "rows": 445
+    },
+    {
+      "name": "Manipur",
+      "status": "assessed",
+      "rows": 19
+    },
+    {
+      "name": "Meghalaya",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Mizoram",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Nagaland",
+      "status": "assessed",
+      "rows": 130
+    },
+    {
+      "name": "Odisha",
+      "status": "assessed",
+      "rows": 557
+    },
+    {
+      "name": "Puducherry",
+      "status": "assessed",
+      "rows": 95
+    },
+    {
+      "name": "Punjab",
+      "status": "assessed",
+      "rows": 3226
+    },
+    {
+      "name": "Rajasthan",
+      "status": "assessed",
+      "rows": 1857
+    },
+    {
+      "name": "Sikkim",
+      "status": "assessed",
+      "rows": 187
+    },
+    {
+      "name": "Tamil Nadu",
+      "status": "assessed",
+      "rows": 1077
+    },
+    {
+      "name": "Telangana",
+      "status": "assessed",
+      "rows": 478
+    },
+    {
+      "name": "The Dadra And Nagar Haveli And Daman And Diu",
+      "status": "assessed",
+      "rows": 0
+    },
+    {
+      "name": "Tripura",
+      "status": "assessed",
+      "rows": 39
+    },
+    {
+      "name": "Uttar Pradesh",
+      "status": "assessed",
+      "rows": 6896
+    },
+    {
+      "name": "Uttarakhand",
+      "status": "assessed",
+      "rows": 562
+    },
+    {
+      "name": "West Bengal",
+      "status": "assessed",
+      "rows": 194
+    }
+  ],
+  "distinctWorkIds": 16020,
+  "sourceStatusCounts": {
+    "Payment In-Progress": 560,
+    "Payment Success": 25726
+  },
+  "recommendationIdsWithMultipleFullWorkIds": 0
+}

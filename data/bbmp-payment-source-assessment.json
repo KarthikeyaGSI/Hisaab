@@ -1,0 +1,19 @@
+{
+  "source": "BBMP via OpenCity mirror; official viewer inspected separately",
+  "financialYear": "2025-26",
+  "wardRegime": "198",
+  "rows": 4729,
+  "recognizedJobCodes": 3964,
+  "amountArithmeticMatches": 4729,
+  "repeatedBillIds": 14,
+  "approvedPayments": 0,
+  "primaryViewerVerified": true,
+  "exactGeographyVerified": false,
+  "unrecognizedJobRows": 27,
+  "exactDuplicateRows": 0,
+  "provisionalBills": 4715,
+  "conflictingBills": 0,
+  "paymentAmountsVerified": 0,
+  "primaryBillsCompared": 2,
+  "partialPaidMismatchObserved": true
+}

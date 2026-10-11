@@ -1,0 +1,970 @@
+{
+  "sourceId": "pmgsy-dashboard",
+  "sourceUrl": "https://pmgsy.dord.gov.in/dbweb",
+  "retrievedAt": "2026-10-05T20:19:04.535946+00:00",
+  "yearWindow": "2016–2026 sanction-year assessment; not a full ten-year ledger",
+  "publication": "pending_permission_geography_and_evidence_review",
+  "statePartitions": [
+    {
+      "sourceStateCode": 1,
+      "state": "Andaman And Nicobar",
+      "status": "original_preserved",
+      "sourceRows": 133,
+      "uniqueSourceWorks": 133,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 3,
+      "withinYearWindow": 120,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "527d43c70a6f3041d586c1f0288e69eee489c8f65dfdffa4b49ca95499b952de",
+      "publication": "not_published",
+      "normalizedCandidates": 120,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 120,
+      "hostedCandidatesInserted": 120
+    },
+    {
+      "sourceStateCode": 2,
+      "state": "Andhra Pradesh",
+      "status": "original_preserved",
+      "sourceRows": 6091,
+      "uniqueSourceWorks": 6090,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 28,
+      "withinYearWindow": 1512,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 2357,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "0a3bb39ef5a601d4bb327f8947d8dff128a8ac4e2f35060bf8c07d534df9314d",
+      "publication": "not_published",
+      "normalizedCandidates": 1512,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 1512,
+      "hostedCandidatesInserted": 1512
+    },
+    {
+      "sourceStateCode": 3,
+      "state": "Arunachal Pradesh",
+      "status": "original_preserved",
+      "sourceRows": 1993,
+      "uniqueSourceWorks": 1986,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 25,
+      "withinYearWindow": 1013,
+      "quarantinedRows": 7,
+      "quarantine": [
+        {
+          "row": 935,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 936,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 937,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1330,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1946,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1948,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1953,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "5db88130d71f7949beaabed9a578f59711d3a13302e19587eeef2b444e805f25",
+      "publication": "not_published",
+      "normalizedCandidates": 1013,
+      "candidateQuarantine": 7,
+      "hostedCandidatesProcessed": 1013,
+      "hostedCandidatesInserted": 1013
+    },
+    {
+      "sourceStateCode": 4,
+      "state": "Assam",
+      "status": "original_preserved",
+      "sourceRows": 11562,
+      "uniqueSourceWorks": 11562,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 26,
+      "withinYearWindow": 5958,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "fbb78f6f48ef4be0982254f9e5f43964a5b7adc48092e7520386bf84d2b57772",
+      "publication": "not_published",
+      "normalizedCandidates": 5958,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 5958,
+      "hostedCandidatesInserted": 5958
+    },
+    {
+      "sourceStateCode": 5,
+      "state": "Bihar",
+      "status": "original_preserved",
+      "sourceRows": 20879,
+      "uniqueSourceWorks": 20879,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 38,
+      "withinYearWindow": 5627,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "e86bc25a0b82dcbfa69157f21d7a705da76ac71720d499edba7092d5c31ca35e",
+      "publication": "not_published",
+      "normalizedCandidates": 5627,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 5627,
+      "hostedCandidatesInserted": 5627
+    },
+    {
+      "sourceStateCode": 7,
+      "state": "Chhattisgarh",
+      "status": "original_preserved",
+      "sourceRows": 11160,
+      "uniqueSourceWorks": 11144,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 28,
+      "withinYearWindow": 4354,
+      "quarantinedRows": 16,
+      "quarantine": [
+        {
+          "row": 822,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 823,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 824,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 825,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 826,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 827,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 828,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 829,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 830,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 831,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 832,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 833,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 834,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4719,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 6671,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 10368,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "0eae50dce46a6cddff94ea4a155e284457d370329edbadbacb74e96a503ed2ae",
+      "publication": "not_published",
+      "normalizedCandidates": 4354,
+      "candidateQuarantine": 16,
+      "hostedCandidatesProcessed": 4354,
+      "hostedCandidatesInserted": 4354
+    },
+    {
+      "sourceStateCode": 11,
+      "state": "Goa",
+      "status": "original_preserved",
+      "sourceRows": 82,
+      "uniqueSourceWorks": 82,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 2,
+      "withinYearWindow": 12,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "bdda376c63d0ae968267500368e1e410d1ba1baf81c36e0713d0309004458636",
+      "publication": "not_published",
+      "normalizedCandidates": 12,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 12,
+      "hostedCandidatesInserted": 12
+    },
+    {
+      "sourceStateCode": 12,
+      "state": "Gujarat",
+      "status": "original_preserved",
+      "sourceRows": 5309,
+      "uniqueSourceWorks": 5309,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 33,
+      "withinYearWindow": 769,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "ac60c355e5db613ee404b4e515e8bd8c0b9667b49cc19d87c5f8cfa5b10dc6b1",
+      "publication": "not_published",
+      "normalizedCandidates": 769,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 769,
+      "hostedCandidatesInserted": 769
+    },
+    {
+      "sourceStateCode": 13,
+      "state": "Haryana",
+      "status": "original_preserved",
+      "sourceRows": 791,
+      "uniqueSourceWorks": 791,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 22,
+      "withinYearWindow": 264,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "7757c502ff5873ff29df0561c463bdd2934e7f7aa40aa1c8c8830d208f8f4fa2",
+      "publication": "not_published",
+      "normalizedCandidates": 264,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 264,
+      "hostedCandidatesInserted": 264
+    },
+    {
+      "sourceStateCode": 14,
+      "state": "Himachal Pradesh",
+      "status": "original_preserved",
+      "sourceRows": 4316,
+      "uniqueSourceWorks": 4310,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 12,
+      "withinYearWindow": 1966,
+      "quarantinedRows": 6,
+      "quarantine": [
+        {
+          "row": 700,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4159,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4160,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4170,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4171,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4173,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "8ee63db355f3bc69fcddf74176c31c37fb3f0c60176e9f5ddd45912016830986",
+      "publication": "not_published",
+      "normalizedCandidates": 1966,
+      "candidateQuarantine": 6,
+      "hostedCandidatesProcessed": 1966,
+      "hostedCandidatesInserted": 1966
+    },
+    {
+      "sourceStateCode": 15,
+      "state": "Jammu And Kashmir",
+      "status": "original_preserved",
+      "sourceRows": 4388,
+      "uniqueSourceWorks": 4388,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 20,
+      "withinYearWindow": 2492,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "0616222414d2f3db18efd46cd2cbf0e72408e6dae9b2f2afecc6dddd27528921",
+      "publication": "not_published",
+      "normalizedCandidates": 2492,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 2492,
+      "hostedCandidatesInserted": 2492
+    },
+    {
+      "sourceStateCode": 16,
+      "state": "Jharkhand",
+      "status": "original_preserved",
+      "sourceRows": 9558,
+      "uniqueSourceWorks": 9556,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 24,
+      "withinYearWindow": 4569,
+      "quarantinedRows": 2,
+      "quarantine": [
+        {
+          "row": 990,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 991,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "3f061c0828f009446869bd5c7b40d949f8992c6390cec4fec8ead3685e777421",
+      "publication": "not_published",
+      "normalizedCandidates": 4569,
+      "candidateQuarantine": 2,
+      "hostedCandidatesProcessed": 4569,
+      "hostedCandidatesInserted": 4569
+    },
+    {
+      "sourceStateCode": 17,
+      "state": "Karnataka",
+      "status": "original_preserved",
+      "sourceRows": 4618,
+      "uniqueSourceWorks": 4618,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 30,
+      "withinYearWindow": 980,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "aeb03728292b408ab8a963fbbda7c81a271e9faf0dcffd71544983af621f5201",
+      "publication": "not_published",
+      "normalizedCandidates": 980,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 980,
+      "hostedCandidatesInserted": 980
+    },
+    {
+      "sourceStateCode": 18,
+      "state": "Keralam",
+      "status": "original_preserved",
+      "sourceRows": 1808,
+      "uniqueSourceWorks": 1808,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 14,
+      "withinYearWindow": 471,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "96d5076e9d93120cf3aac4de825c60d5e2e3323efc54d136754d4a9c0282f913",
+      "publication": "not_published",
+      "normalizedCandidates": 471,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 471,
+      "hostedCandidatesInserted": 471
+    },
+    {
+      "sourceStateCode": 20,
+      "state": "Madhya Pradesh",
+      "status": "original_preserved",
+      "sourceRows": 24115,
+      "uniqueSourceWorks": 24114,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 55,
+      "withinYearWindow": 6263,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 857,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "6c6b6d041868755db94901dcc3807f361e015b467bfbcfb489e4a6659632953c",
+      "publication": "not_published",
+      "normalizedCandidates": 6263,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 6263,
+      "hostedCandidatesInserted": 6263
+    },
+    {
+      "sourceStateCode": 21,
+      "state": "Maharashtra",
+      "status": "original_preserved",
+      "sourceRows": 8263,
+      "uniqueSourceWorks": 8262,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 34,
+      "withinYearWindow": 1648,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 5165,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "e8539ee821929cada81f2f952eea61ceed2e0cd1b2877b9b259f2f107a35ddf4",
+      "publication": "not_published",
+      "normalizedCandidates": 1648,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 1648,
+      "hostedCandidatesInserted": 1648
+    },
+    {
+      "sourceStateCode": 22,
+      "state": "Manipur",
+      "status": "original_preserved",
+      "sourceRows": 2261,
+      "uniqueSourceWorks": 2261,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 9,
+      "withinYearWindow": 718,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "db1688bdfccd8020fbb4da14101930a2f043b1648f1676ee9a141217d1e35476",
+      "publication": "not_published",
+      "normalizedCandidates": 718,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 718,
+      "hostedCandidatesInserted": 718
+    },
+    {
+      "sourceStateCode": 23,
+      "state": "Meghalaya",
+      "status": "original_preserved",
+      "sourceRows": 1473,
+      "uniqueSourceWorks": 1473,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 7,
+      "withinYearWindow": 753,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "3adb1385b13ebab3a7b34d418bf30e4b086d3ea3d003098c9853ddbf5716a3fb",
+      "publication": "not_published",
+      "normalizedCandidates": 753,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 753,
+      "hostedCandidatesInserted": 753
+    },
+    {
+      "sourceStateCode": 24,
+      "state": "Mizoram",
+      "status": "original_preserved",
+      "sourceRows": 374,
+      "uniqueSourceWorks": 374,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 8,
+      "withinYearWindow": 157,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "e5f3e04c29f05e2084e7557c25a9ebc550e8c6b29f2236133472864e2120085d",
+      "publication": "not_published",
+      "normalizedCandidates": 157,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 157,
+      "hostedCandidatesInserted": 157
+    },
+    {
+      "sourceStateCode": 25,
+      "state": "Nagaland",
+      "status": "original_preserved",
+      "sourceRows": 551,
+      "uniqueSourceWorks": 551,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 12,
+      "withinYearWindow": 246,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "d6c6fadd43f605fa70aa163ae8f318e2ccb613150790732210304d93f0d954e4",
+      "publication": "not_published",
+      "normalizedCandidates": 246,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 246,
+      "hostedCandidatesInserted": 246
+    },
+    {
+      "sourceStateCode": 26,
+      "state": "Odisha",
+      "status": "original_preserved",
+      "sourceRows": 19504,
+      "uniqueSourceWorks": 19491,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 30,
+      "withinYearWindow": 7630,
+      "quarantinedRows": 13,
+      "quarantine": [
+        {
+          "row": 4247,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4249,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 4251,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 6748,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 6749,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 15045,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 15046,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 15047,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 15354,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 18513,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 18558,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 18559,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 18563,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "dfe979c1e9f3450dd3eff902c7028d52a415ec435f82536e1736a7574aa05c70",
+      "publication": "not_published",
+      "normalizedCandidates": 7630,
+      "candidateQuarantine": 13,
+      "hostedCandidatesProcessed": 7630,
+      "hostedCandidatesInserted": 7630
+    },
+    {
+      "sourceStateCode": 27,
+      "state": "Puducherry",
+      "status": "original_preserved",
+      "sourceRows": 72,
+      "uniqueSourceWorks": 72,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 2,
+      "withinYearWindow": 72,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "b768d31e60a5f10e5ecb50463a4ef46629f459196b13e9eb6fb3aa771f9e1e3b",
+      "publication": "not_published",
+      "normalizedCandidates": 72,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 72,
+      "hostedCandidatesInserted": 72
+    },
+    {
+      "sourceStateCode": 28,
+      "state": "Punjab",
+      "status": "original_preserved",
+      "sourceRows": 1575,
+      "uniqueSourceWorks": 1575,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 22,
+      "withinYearWindow": 395,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "ff45a578d298a1533ab67677e1a513d06a4d20c7e5e8c145286ba83e2045f8dd",
+      "publication": "not_published",
+      "normalizedCandidates": 395,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 395,
+      "hostedCandidatesInserted": 395
+    },
+    {
+      "sourceStateCode": 29,
+      "state": "Rajasthan",
+      "status": "original_preserved",
+      "sourceRows": 19444,
+      "uniqueSourceWorks": 19443,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 41,
+      "withinYearWindow": 4082,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 12982,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "4b71a373fbd132af210a211cd59b59b9e7b856b531517c6ccd49551822a96419",
+      "publication": "not_published",
+      "normalizedCandidates": 4082,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 4082,
+      "hostedCandidatesInserted": 4082
+    },
+    {
+      "sourceStateCode": 30,
+      "state": "Sikkim",
+      "status": "original_preserved",
+      "sourceRows": 1264,
+      "uniqueSourceWorks": 1264,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 6,
+      "withinYearWindow": 493,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "4d1b7d22ed638c943ea4b4e15afacee30ad3e189ebdbd9e147da285f5df89c29",
+      "publication": "not_published",
+      "normalizedCandidates": 493,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 493,
+      "hostedCandidatesInserted": 493
+    },
+    {
+      "sourceStateCode": 31,
+      "state": "Tamil Nadu",
+      "status": "original_preserved",
+      "sourceRows": 10591,
+      "uniqueSourceWorks": 10590,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 37,
+      "withinYearWindow": 3897,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 10118,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "bdd1ecab86d3ab79f8a74dea995125d7b205838eb8409a7deb194a0a3348ded0",
+      "publication": "not_published",
+      "normalizedCandidates": 3897,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 3897,
+      "hostedCandidatesInserted": 3897
+    },
+    {
+      "sourceStateCode": 32,
+      "state": "Tripura",
+      "status": "original_preserved",
+      "sourceRows": 1755,
+      "uniqueSourceWorks": 1755,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 8,
+      "withinYearWindow": 390,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "f5709b7f07d09c9c4b17a4b07b7c1f5314e08ab5fc9419ab7f15c78a8f8b703d",
+      "publication": "not_published",
+      "normalizedCandidates": 390,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 390,
+      "hostedCandidatesInserted": 390
+    },
+    {
+      "sourceStateCode": 33,
+      "state": "Uttar Pradesh",
+      "status": "original_preserved",
+      "sourceRows": 21307,
+      "uniqueSourceWorks": 21307,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 75,
+      "withinYearWindow": 3409,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "5cdd259a5ad6a83c7e5bc4e839492657fb65f1c576068eb69a8958bd75dbfe0c",
+      "publication": "not_published",
+      "normalizedCandidates": 3409,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 3409,
+      "hostedCandidatesInserted": 3409
+    },
+    {
+      "sourceStateCode": 34,
+      "state": "Uttarakhand",
+      "status": "original_preserved",
+      "sourceRows": 3184,
+      "uniqueSourceWorks": 3184,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 13,
+      "withinYearWindow": 2065,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "eb517e4764f3c8ff5335c0fb4641580e0fe9d303b6cdc1b77dfe17b4e33a1d4a",
+      "publication": "not_published",
+      "normalizedCandidates": 2065,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 2065,
+      "hostedCandidatesInserted": 2065
+    },
+    {
+      "sourceStateCode": 35,
+      "state": "West Bengal",
+      "status": "original_preserved",
+      "sourceRows": 8314,
+      "uniqueSourceWorks": 8313,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 23,
+      "withinYearWindow": 3506,
+      "quarantinedRows": 1,
+      "quarantine": [
+        {
+          "row": 6886,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "35a669896e532fd84e62ad94df6a8f6f87e2826c20a924e62108299a05a3ff4d",
+      "publication": "not_published",
+      "normalizedCandidates": 3506,
+      "candidateQuarantine": 1,
+      "hostedCandidatesProcessed": 3506,
+      "hostedCandidatesInserted": 3506
+    },
+    {
+      "sourceStateCode": 36,
+      "state": "Telangana",
+      "status": "original_preserved",
+      "sourceRows": 4095,
+      "uniqueSourceWorks": 4062,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 32,
+      "withinYearWindow": 1151,
+      "quarantinedRows": 33,
+      "quarantine": [
+        {
+          "row": 110,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 669,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 670,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 671,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 673,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 674,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 839,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1474,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1475,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1476,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1477,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1478,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1479,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1480,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 1609,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2344,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2345,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2346,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2741,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2742,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2743,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2744,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2745,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2746,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 2747,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3141,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3144,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3717,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3718,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3719,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3887,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3888,
+          "reason": "Incomplete source work identity"
+        },
+        {
+          "row": 3889,
+          "reason": "Incomplete source work identity"
+        }
+      ],
+      "sha256": "900a633017355b3af3abb5abc07935fa15936c459afc2bc65235dcaeab0231ee",
+      "publication": "not_published",
+      "normalizedCandidates": 1151,
+      "candidateQuarantine": 33,
+      "hostedCandidatesProcessed": 1151,
+      "hostedCandidatesInserted": 1151
+    },
+    {
+      "sourceStateCode": 37,
+      "state": "Ladakh",
+      "status": "original_preserved",
+      "sourceRows": 199,
+      "uniqueSourceWorks": 199,
+      "duplicateRows": 0,
+      "conflictingIdentities": 0,
+      "districtNames": 2,
+      "withinYearWindow": 117,
+      "quarantinedRows": 0,
+      "quarantine": [],
+      "sha256": "f6fb7891b978941f5064c957cb71d63c21d67153c7b6bd48284590666065e23b",
+      "publication": "not_published",
+      "normalizedCandidates": 117,
+      "candidateQuarantine": 0,
+      "hostedCandidatesProcessed": 117,
+      "hostedCandidatesInserted": 117
+    }
+  ],
+  "totalSourceRows": 211029,
+  "uniqueSourceWorks": 210946,
+  "withinYearWindow": 67099,
+  "overviewPartitions": 32,
+  "successfulPartitions": 32,
+  "currentLgdCoverageVerified": false,
+  "normalizedCandidates": 67099,
+  "candidateQuarantine": 83,
+  "hostedCandidatesProcessed": 67099
+}

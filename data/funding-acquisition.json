@@ -1,0 +1,280 @@
+{
+  "disasterRecords": 1651,
+  "disasterQuarantinedRows": 16,
+  "boundary": {
+    "status": "licensed_community_geometry_available_soi_review_pending",
+    "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson",
+    "metadataSource": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+    "license": "https://creativecommons.org/licenses/by/2.5/in/",
+    "attribution": "geoBoundaries / DataMeet India community / Election Commission of India; CC BY 2.5 IN",
+    "sourceHash": "4c63fe43294a391e8f2de4e9f86f3edb60f8688275b9fee90c61fb2aa0c26061",
+    "displayHash": "09019a99ecaf8a674ded763a94664e9b81c44e5fdb9b6c974591c4f324e2b46d",
+    "buildDate": "Dec 12, 2023",
+    "representedYear": "2011",
+    "jurisdictions": 36,
+    "historicalCorrespondence": "Current LGD codes via explicit ISO mapping. Historical combined figures are retained separately and not split onto modern polygons.",
+    "limitations": "Community source, not an authoritative Survey of India edition. Metadata reports year 2011 although the geometry includes modern Ladakh and merged DNHDD. No state centre or project location is invented. Survey of India ABDB remains under acquisition and permission assessment."
+  },
+  "updatedAt": "2026-10-09T20:45:21.565Z",
+  "complete": false,
+  "publication": "reviewed_partial_subset",
+  "gaps": [
+    "Union Budget republication permission remains pending.",
+    "Every inventoried budget row requires development classification and hierarchy reconciliation.",
+    "PIB explicit Union-share allocations and reconciled releases are published as a partial subset. Combined-share allocations from other reports remain excluded until explicit Union evidence and rights pass.",
+    "2026–27 state releases and recipient utilisation are not established by these annexures.",
+    "SDMF/NDMF release annexure captions and displayed fiscal years conflict; 168 supplemental facts remain withheld. Reconstruction, recipient utilisation and other programme/year partitions remain in the acquisition queue.",
+    "PIB FY 2025–26 release totals disagree with their state-row sums: SDRF difference ₹210 crore; NDRF difference ₹99.93 crore. Both release columns remain withheld; no amount is guessed."
+  ],
+  "editions": [
+    {
+      "financialYear": "2016-2017",
+      "demands": 98,
+      "lines": 11672,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 495,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2016-2017/ub2016-17/eb/allsbe.pdf",
+      "sha256": "0cc82803f4097e3862b48fba7f5a3e1bcd2a579c430391a714798e103adeb9a1"
+    },
+    {
+      "financialYear": "2017-2018",
+      "demands": 100,
+      "lines": 5361,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 338,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2017-2018/ub2017-18/eb/allsbe.pdf",
+      "sha256": "15dfb7f390a739104fb6017aabced70f87d00dc1ee90f250a8d66c85f689a3d1"
+    },
+    {
+      "financialYear": "2018-2019",
+      "demands": 99,
+      "lines": 5494,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 341,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2018-2019/ub2018-19/eb/allsbe.pdf",
+      "sha256": "d6307f9ea0172c516d5c48e5dec5a97eabf74721ad3dd3ccb1e3ff3ad1348323"
+    },
+    {
+      "financialYear": "2019-2020",
+      "demands": 100,
+      "lines": 5822,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 354,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2019-20/doc/eb/allsbe.pdf",
+      "sha256": "05ef86059365525e56c8e43d74346960ebdfa047266ce5707ea68d068ad97c87"
+    },
+    {
+      "financialYear": "2020-2021",
+      "demands": 101,
+      "lines": 5759,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 354,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2020-21/doc/eb/allsbe.pdf",
+      "sha256": "e4d4a8c5906cf19df24ce3e37ee69967bba61ae309429523b5691449beb75d51"
+    },
+    {
+      "financialYear": "2021-2022",
+      "demands": 101,
+      "lines": 5889,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 362,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2021-22/doc/eb/allsbe.pdf",
+      "sha256": "5c4999e706d1c674b5c9eb5bd2b9357d7e544afec59d7e49082887772d0a5709"
+    },
+    {
+      "financialYear": "2022-2023",
+      "demands": 102,
+      "lines": 5839,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 364,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2022-23/doc/eb/allsbe.pdf",
+      "sha256": "00429a4959a9a8933a6992ba9fd8f090e8d59edec82d7e0e68b55a3fab21ef6e"
+    },
+    {
+      "financialYear": "2023-2024",
+      "demands": 102,
+      "lines": 5908,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 363,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2023-24/doc/eb/allsbe.pdf",
+      "sha256": "a72a806318122ddebef42bb9832e8f379f01eea68da0b0ed2c015ab6a4a98cee"
+    },
+    {
+      "financialYear": "2024-2025",
+      "demands": 102,
+      "lines": 5904,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 362,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/doc/eb/allsbe.pdf",
+      "sha256": "6ec918ddbf2b102248a704e520b5145a2dcaf5ba8a834fb551851bf3844535d1"
+    },
+    {
+      "financialYear": "2025-2026",
+      "demands": 102,
+      "lines": 5770,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 350,
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2025-26/doc/eb/allsbe.pdf",
+      "sha256": "138bdfa3daa23d14f8a40a0fcf0b8964829cf4727f2089771060294c31725478"
+    },
+    {
+      "financialYear": "2026-2027",
+      "demands": 102,
+      "lines": 5621,
+      "status": "private_classification_and_reconciliation_pending",
+      "reconciled": false,
+      "pages": 349,
+      "sourceUrl": "https://www.indiabudget.gov.in/doc/eb/allsbe.pdf",
+      "sha256": "4f10ec12b2daf5ec0cd1c83642aa7682deb274ad863d0d16e72368ad5f743b25"
+    }
+  ],
+  "hosted": {
+    "originalsVerified": 17,
+    "privateFacts": 1387,
+    "inventoryRows": 69039,
+    "publishedFacts": 0,
+    "verifiedAt": "2026-10-09T19:07:04.059956+00:00",
+    "fiscalInterpretations": 56926,
+    "databaseSizeDisplay": "420 MB",
+    "capacityGuardBytes": 445644800
+  },
+  "disasterConflictRows": 196,
+  "columnInterpretations": {
+    "privateRows": 56926,
+    "editions": [
+      {
+        "financialYear": "2016-2017",
+        "interpretedRows": 9322,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2017-2018",
+        "interpretedRows": 4501,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2018-2019",
+        "interpretedRows": 4596,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2019-2020",
+        "interpretedRows": 4812,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2020-2021",
+        "interpretedRows": 4815,
+        "quarantinedRows": 1
+      },
+      {
+        "financialYear": "2021-2022",
+        "interpretedRows": 4899,
+        "quarantinedRows": 2
+      },
+      {
+        "financialYear": "2022-2023",
+        "interpretedRows": 4822,
+        "quarantinedRows": 1
+      },
+      {
+        "financialYear": "2023-2024",
+        "interpretedRows": 4896,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2024-2025",
+        "interpretedRows": 4803,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2025-2026",
+        "interpretedRows": 4758,
+        "quarantinedRows": 0
+      },
+      {
+        "financialYear": "2026-2027",
+        "interpretedRows": 4702,
+        "quarantinedRows": 0
+      }
+    ],
+    "publication": false,
+    "scope": "Source financial columns only. Programme classification and hierarchy reconciliation are still required."
+  },
+  "publicationCheckpoint": {
+    "checkedAt": "2026-10-09T20:43:40.003198+00:00",
+    "reviewedRecords": 86,
+    "byYearAndStage": [
+      {
+        "year": "2021-2022",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      },
+      {
+        "year": "2021-2022",
+        "states": 1,
+        "measure": "released",
+        "records": 2
+      },
+      {
+        "year": "2022-2023",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      },
+      {
+        "year": "2022-2023",
+        "states": 1,
+        "measure": "released",
+        "records": 1
+      },
+      {
+        "year": "2023-2024",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      },
+      {
+        "year": "2023-2024",
+        "states": 28,
+        "measure": "released",
+        "records": 30
+      },
+      {
+        "year": "2024-2025",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      },
+      {
+        "year": "2024-2025",
+        "states": 28,
+        "measure": "released",
+        "records": 47
+      },
+      {
+        "year": "2025-2026",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      },
+      {
+        "year": "2026-2027",
+        "states": 1,
+        "measure": "allocated",
+        "records": 1
+      }
+    ]
+  }
+}

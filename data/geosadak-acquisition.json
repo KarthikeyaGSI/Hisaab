@@ -1,0 +1,315 @@
+{
+  "edition": "2022 archived mirror",
+  "mirrorCommit": "ae9940c94ea61ebb1503952622b990aa1f0ec9d6",
+  "originalArchives": 58,
+  "stateFiles": 29,
+  "assetRows": 812976,
+  "byKind": {
+    "public": 375207,
+    "agriculture": 155550,
+    "health": 92767,
+    "education": 173212,
+    "road": 16240
+  },
+  "textEncodingReview": 47,
+  "quarantinedRows": 21,
+  "files": [
+    {
+      "path": "data/Facilities/AndhraPradesh.zip",
+      "sourceRows": 42474,
+      "accepted": 42474
+    },
+    {
+      "path": "data/Facilities/ArunachalPradesh.zip",
+      "sourceRows": 2989,
+      "accepted": 2989
+    },
+    {
+      "path": "data/Facilities/Assam.zip",
+      "sourceRows": 31154,
+      "accepted": 31154
+    },
+    {
+      "path": "data/Facilities/Bihar.zip",
+      "sourceRows": 30446,
+      "accepted": 30446
+    },
+    {
+      "path": "data/Facilities/Chhattisgarh.zip",
+      "sourceRows": 24424,
+      "accepted": 24424
+    },
+    {
+      "path": "data/Facilities/Gujarat.zip",
+      "sourceRows": 38636,
+      "accepted": 38633
+    },
+    {
+      "path": "data/Facilities/Haryana.zip",
+      "sourceRows": 16441,
+      "accepted": 16441
+    },
+    {
+      "path": "data/Facilities/HimachalPradesh.zip",
+      "sourceRows": 10431,
+      "accepted": 10431
+    },
+    {
+      "path": "data/Facilities/JammuAndKashmir.zip",
+      "sourceRows": 13080,
+      "accepted": 13080
+    },
+    {
+      "path": "data/Facilities/Jharkhand.zip",
+      "sourceRows": 15392,
+      "accepted": 15392
+    },
+    {
+      "path": "data/Facilities/Karnataka.zip",
+      "sourceRows": 61042,
+      "accepted": 61042
+    },
+    {
+      "path": "data/Facilities/Kerala.zip",
+      "sourceRows": 31875,
+      "accepted": 31871
+    },
+    {
+      "path": "data/Facilities/Ladakh.zip",
+      "sourceRows": 1003,
+      "accepted": 1003
+    },
+    {
+      "path": "data/Facilities/MadhyaPradesh.zip",
+      "sourceRows": 57307,
+      "accepted": 57306
+    },
+    {
+      "path": "data/Facilities/Maharashtra.zip",
+      "sourceRows": 68357,
+      "accepted": 68357
+    },
+    {
+      "path": "data/Facilities/Manipur.zip",
+      "sourceRows": 4815,
+      "accepted": 4815
+    },
+    {
+      "path": "data/Facilities/Meghalaya.zip",
+      "sourceRows": 2961,
+      "accepted": 2961
+    },
+    {
+      "path": "data/Facilities/Mizoram.zip",
+      "sourceRows": 1511,
+      "accepted": 1511
+    },
+    {
+      "path": "data/Facilities/Nagaland.zip",
+      "sourceRows": 2352,
+      "accepted": 2352
+    },
+    {
+      "path": "data/Facilities/Odisha.zip",
+      "sourceRows": 32432,
+      "accepted": 32424
+    },
+    {
+      "path": "data/Facilities/Punjab.zip",
+      "sourceRows": 28319,
+      "accepted": 28319
+    },
+    {
+      "path": "data/Facilities/Rajasthan.zip",
+      "sourceRows": 41006,
+      "accepted": 41005
+    },
+    {
+      "path": "data/Facilities/Sikkim.zip",
+      "sourceRows": 1020,
+      "accepted": 1020
+    },
+    {
+      "path": "data/Facilities/Tamilnadu.zip",
+      "sourceRows": 28299,
+      "accepted": 28299
+    },
+    {
+      "path": "data/Facilities/Telangana.zip",
+      "sourceRows": 34931,
+      "accepted": 34931
+    },
+    {
+      "path": "data/Facilities/Tripura.zip",
+      "sourceRows": 4360,
+      "accepted": 4360
+    },
+    {
+      "path": "data/Facilities/UttarPradesh.zip",
+      "sourceRows": 101543,
+      "accepted": 101539
+    },
+    {
+      "path": "data/Facilities/Uttarakhand.zip",
+      "sourceRows": 25534,
+      "accepted": 25534
+    },
+    {
+      "path": "data/Facilities/WestBengal.zip",
+      "sourceRows": 42623,
+      "accepted": 42623
+    },
+    {
+      "path": "data/Proposals/AndhraPradesh.zip",
+      "sourceRows": 21,
+      "accepted": 21
+    },
+    {
+      "path": "data/Proposals/ArunachalPradesh.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Assam.zip",
+      "sourceRows": 509,
+      "accepted": 509
+    },
+    {
+      "path": "data/Proposals/Bihar.zip",
+      "sourceRows": 163,
+      "accepted": 163
+    },
+    {
+      "path": "data/Proposals/Chhattisgarh.zip",
+      "sourceRows": 2,
+      "accepted": 2
+    },
+    {
+      "path": "data/Proposals/Gujarat.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Haryana.zip",
+      "sourceRows": 247,
+      "accepted": 247
+    },
+    {
+      "path": "data/Proposals/HimachalPradesh.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/JammuAndKashmir.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Jharkhand.zip",
+      "sourceRows": 159,
+      "accepted": 159
+    },
+    {
+      "path": "data/Proposals/Karnataka.zip",
+      "sourceRows": 5669,
+      "accepted": 5669
+    },
+    {
+      "path": "data/Proposals/Kerala.zip",
+      "sourceRows": 283,
+      "accepted": 283
+    },
+    {
+      "path": "data/Proposals/Ladakh.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/MadhyaPradesh.zip",
+      "sourceRows": 3421,
+      "accepted": 3421
+    },
+    {
+      "path": "data/Proposals/Maharashtra.zip",
+      "sourceRows": 657,
+      "accepted": 657
+    },
+    {
+      "path": "data/Proposals/Manipur.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Meghalaya.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Mizoram.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Nagaland.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Odisha.zip",
+      "sourceRows": 1340,
+      "accepted": 1340
+    },
+    {
+      "path": "data/Proposals/Punjab.zip",
+      "sourceRows": 496,
+      "accepted": 496
+    },
+    {
+      "path": "data/Proposals/Rajasthan.zip",
+      "sourceRows": 369,
+      "accepted": 369
+    },
+    {
+      "path": "data/Proposals/Sikkim.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/Tamilnadu.zip",
+      "sourceRows": 10,
+      "accepted": 10
+    },
+    {
+      "path": "data/Proposals/Telangana.zip",
+      "sourceRows": 215,
+      "accepted": 215
+    },
+    {
+      "path": "data/Proposals/Tripura.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/UttarPradesh.zip",
+      "sourceRows": 2679,
+      "accepted": 2679
+    },
+    {
+      "path": "data/Proposals/Uttarakhand.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    },
+    {
+      "path": "data/Proposals/WestBengal.zip",
+      "sourceRows": 0,
+      "accepted": 0
+    }
+  ],
+  "spendingLinked": 0,
+  "publication": "asset_geography_only_not_payment_evidence",
+  "deployment": "local_geography_store; hosted distribution pending",
+  "sourceRelease": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1800373",
+  "license": "Government Open Data License India; attribution required",
+  "photosAvailable": 0,
+  "buildingFootprintsAvailable": 0
+}

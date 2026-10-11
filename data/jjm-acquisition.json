@@ -1,0 +1,51 @@
+{
+  "sourceUrl": "https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx",
+  "reports": [
+    {
+      "year": "2019-2020",
+      "rows": 31,
+      "sha256": "dfe72cfe68b8f433044f6a5666d6af1ebe92c1e1af7fb6dc38c15c280214942b",
+      "status": "original_preserved",
+      "hostedOriginalVerified": true
+    },
+    {
+      "year": "2020-2021",
+      "rows": 30,
+      "sha256": "a921ae59a01f90a67d7af3d7b7d3d95424396c2dd21a916657747d8f603f3169",
+      "status": "original_preserved",
+      "hostedOriginalVerified": true
+    },
+    {
+      "year": "2021-2022",
+      "rows": 30,
+      "sha256": "30f30a2e92e34c5dacd21bf361bfae8913dbb7646e3a01d17d667e2c78ef76a9",
+      "status": "original_preserved",
+      "hostedOriginalVerified": true
+    },
+    {
+      "year": "2022-2023",
+      "rows": 27,
+      "sha256": "3cbc1813cd9b937cd934f067f974d6db03ec4b15e6299b9deec808ce8db71eb9",
+      "status": "original_preserved",
+      "hostedOriginalVerified": true
+    },
+    {
+      "year": "2023-2024",
+      "rows": 30,
+      "sha256": "0a64aebf81d641b8cc9a0d5abb0cad4051c156382a60421ee7116aa75de27e49",
+      "status": "original_preserved",
+      "hostedOriginalVerified": true
+    }
+  ],
+  "yearsAssessed": [
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023",
+    "2023-2024"
+  ],
+  "sourceRows": 148,
+  "scope": "State financial context only",
+  "publication": "private_pending_review",
+  "hostedOriginalsVerified": true
+}

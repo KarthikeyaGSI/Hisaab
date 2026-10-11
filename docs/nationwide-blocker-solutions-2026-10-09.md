@@ -1,0 +1,141 @@
+# Hisaab: solutions to the nationwide evidence and product blockers
+
+Research checkpoint: 9 October 2026. This is a researched implementation and acquisition strategy, not a declaration that the missing records have been obtained. Publicly published verified spending projects remain zero. Existing evidence, conflicts and owner approval gates are unchanged.
+
+## What changes in our approach
+
+The original product needs a source-backed evidence chain, not a large set of unrelated locations. Its source documents already allow incomplete chains, missing fields and visible uncertainty. We should review and publish each supported fact, after its identity, rights and evidence checks, rather than wait for every field to become complete. A properly reviewed official payment report can be labelled “officially reported payment”; it must not become “recipient settlement confirmed” without suitable transaction evidence. A financial record without actual geography belongs in the spending ledger and coverage counts, not at an invented map point.
+
+No public universal feed of every Indian development payment was verified in this research. Government systems do contain useful connections, but many are available only to their record custodians. The viable strategy combines national scheme connectors, state works/treasury connectors and documented agency exports. National coverage is measured by scheme, jurisdiction, financial year and evidence stage; one national scheme is not all government spending.
+
+## 1. Connect actual projects, locations and payments
+
+**Solution:** request the existing crosswalk records held at the point where works systems hand bills to accounting systems. Build a namespaced graph: physical project/activity → sanction/package/agreement → bill and component → allocated payment → response/reversal. Maintain separate many-to-many allocation records. A treasury or PFMS “project” may identify a programme rather than an individual road; confirm its granularity before linking it to a dot.
+
+The official [eGramSwaraj changes notice effective April 2021](https://panchayat.tripura.gov.in/sites/default/files/2023-10/List%20of%20Changes%20effective%20in%20eGramSwaraj%20wef%201_April_2021.pdf) documents work-code selection for XV Finance Commission payment vouchers and geotag eligibility. This is a specific work-to-voucher route for that documented scope, not proof that every current voucher contains a complete location or payment chain. Request activity IDs, voucher IDs and the existing asset/geotag link for our two Chandanbhati candidates; verify the returned rows against the originals.
+
+The [CGA project-creation and agency-mapping instructions](https://cga.nic.in/writereaddata/file/OMNo354-357dtdt29012025.pdf) document project creation and selection in TSA Hybrid claims for enabled ministries/schemes. Ask the programme division for its project-agency-claim mapping and the implementing agency for the physical work crosswalk. This is not an anonymous public API or a universal asset identifier.
+
+**Newer, higher-priority route:** the [1 September 2026 agency programme/project SOP](https://cga.nic.in/writereaddata/file/ITD94dt01092026.pdf) documents programme/project codes, claim transaction/voucher details, vendors, components and deductions. Request the existing agency-project-to-claim/component mapping for applicable pilots. Crucially, programme/project fields are non-mandatory in limit allocation; missing codes remain missing. The [30 September 2026 limit-allocation SOP](https://cga.nic.in/writereaddata/file/ITD108dt30092026.pdf) retains that optionality. Assignment limits are spending authority, not money already paid. Confirm physical-project granularity and actual module adoption; these manuals do not establish public access or universal historical coverage.
+
+**First execution:** use the 155 Balangir dossiers and five MPLADS pilots, not all 812,976 historical locations. Request the PPMS Case Record Report / Project All Document bundle identified in the preserved official manual, plus the accounting crosswalk. Keep the 7,161 OMMAS geography proposals as candidates until project identities, geometry editions and financial links pass review.
+
+**Acceptance:** one real original links an exact physical work to an exact bill/payment allocation and actual source location. Package shares reconcile without copying the full package amount to each project. Independent site confirmation remains a separate evidence stage.
+
+## 2. Obtain genuine payment details and stop double counting
+
+**Solution:** acquire records from both the works custodian and the payment custodian. Request component-level gross, deductions, net, recipient capacity, payment reference, date roles and failed/reissued/reversed lineage. Retain reported expenditure separately from individual payment events.
+
+The [CGA SNA-SPARSH FAQ and state practices](https://cga.nic.in/writereaddata/file/OMNo115dt25092025.pdf), PDF pages 23–24, distinguish transaction responses from file-level fund movement and place individual deductions in State IFMIS rather than PFMS. Page 40 describes Odisha post-payment claim deconsolidation. Pages 57–60 describe Chhattisgarh FTO consumption and response integration. These give precise custodian/export targets; they do not establish that our pilot bills use these workflows or that Hisaab can access them.
+
+For applicable TSA schemes, request the existing [CGA report exports](https://cga.nic.in/writereaddata/file/OMNo30SOPTSAdt04062025.pdf): TSA01 transaction tracking, TSA02 expenditure, TSA07 transfers and TSA08 rejected/cancelled/reversal details; for TSA Hybrid, HTSA02 claim tracking, HTSA05 expenditure, HTSA06 transfers and HTSA09 agency monthly expenditure. Preserve the report's Figures In selection, dates, scope, status and identifiers. A transfer report is not a second contractor payment. Expenditure summaries can include stages that do not establish final credit; validate their definitions.
+
+The [TSA Hybrid deduction instructions](https://cga.nic.in/writereaddata/file/OMNo284-324dt27112024.pdf) and [failed-claim reinitiation/cancellation procedure](https://cga.nic.in/writereaddata/file/SOPReinitiationPermanent26dt04062025.pdf) identify separate deductions and failed/reissued paths. They are possible accounting explanations to investigate, not proof resolving our observed gross/net differences.
+
+**First execution:** resolve the five MPLADS recipient-role/deduction questions and the five PPMS missing-cheque-date cases using named registers and bank-response extracts, with banking identifiers omitted. For MGNREGA, retain work → muster → wage-list → FTO → transaction response links. Neither Data Entry Date nor the central-share transfer date becomes a worker's credit date.
+
+**Acceptance:** each payment has a stable source identity, documented allocated share, amount basis and date role. Returns reduce the relevant event; a replacement links to the failed original. Unknown recipient capacity remains unknown. Totals count terminal allocated flows once, keep transfers out, and disclose incomplete allocation coverage. Statutory deductions, advances and contractor payments are not mixed into one unexplained number.
+
+## 3. Expand nationwide without pretending one source covers everything
+
+**Solution:** maintain a coverage matrix with jurisdiction × scheme/department × year × stage. Distinguish source discovered, access tested, sample acquired, linkage validated, refresh validated and publication reviewed. Add independent sources through the same schema. Explicitly retain unlocated financial records and uncovered sectors.
+
+| Route | What is supported now | Exact next evidence | Limitation |
+|---|---|---|---|
+| MPLADS | Existing default reports across both houses and observed state partitions | Pilot voucher references, deductions, actual sites; later tenure filters | One scheme, stated dashboard period and filters |
+| Odisha PPMS | Existing statewide bill inventory and Balangir bill/photo dossiers | Work-document bundle and project/component/payment crosswalk | Treasury processing is not all state development expenditure |
+| eGramSwaraj | Existing Chandanbhati planning/approval/geotag samples and cashbook | Activity-voucher-geotag crosswalk and current permitted voucher export | Mandatory work-code notice has a particular grant scope |
+| PMGSY / OMMAS / eMARG | Existing financial/geography candidates; official maintenance workflow | Road/package bill allocations, maintenance agreements, inspection/bill/payment records | Construction and maintenance are separate scopes; historical off-system records may remain |
+| MGNREGA | Existing observed work/muster/wage-list pilot | FTO and transaction responses, work-code geotags | Wage, material and other components need separate treatment |
+| Rajasthan WAM / IFMS | Official works/work-order/vendor-bill-to-treasury workflow | Authorized division sample with bill/voucher/payment mapping | Authenticated departmental workflow; no public bulk export verified |
+| Chhattisgarh e-Kosh | Official integration documented in CGA state-practice manual | Custodian-held FTO/claim/bill mapping and response extract | Module and scheme applicability must be confirmed |
+| Kerala PRICE / BiMS | Official directory identifies estimates and bill-management systems | Existing estimate/work-order/bill crosswalk from implementing unit | Directory presence does not prove a usable public payment export |
+| Haryana HEWP | Official works/e-measurement guidance | Agreement/measurement/bill/payment sample from department | Role-based workflow, not verified nationwide feed |
+| Bengaluru works bills | Two official historical comparisons and existing mirror assessment | Event-level amounts, instalments/reissues and exact work locations | Net bill cannot be substituted for the displayed Paid amount |
+| Andhra Pradesh CFMS | Official portal lists works workflow | Custodian sample with work/MB/bill/payment keys | Public bulk transaction access not established |
+| West Bengal water works | Existing cumulative report inventory | Individual bill/payment allocations and site evidence | Cumulative expenditure is not transaction-level payment coverage |
+| JJM 2.0 water schemes | Current 2026 guidelines identify scheme finance and asset registries | Scheme/asset IDs → implementing-agency claim → IFMIS bill → transaction response | Mandated integration is not a publicly accessible complete export |
+| Railway procurement and works | Official post-contract supplier bill workflow and earlier documented works-system integration | Work/project/order → receipt/inspection → bill → IPAS payment/return mapping from responsible railway unit | Supplier procurement is not every station construction or works contract |
+| NHM infrastructure | Official finance and PFMS guidance identifies financial custodians | Named facility/project approval → agreement/invoice → voucher/payment mapping from health society/implementing unit | FMR aggregates, staffing expenditure and health-service payments are not all hospital development projects |
+
+Primary entry points: [Rajasthan WAM](https://wam.rajasthan.gov.in/), [Kerala LSGD systems](https://lsgd.kerala.gov.in/en/digital-governance/other-systems/), [Haryana HEWP FAQ](https://works.haryana.gov.in/HEWP_Login/FAQs.aspx), [AP CFMS](https://cfms.ap.gov.in/), [PMGSY eMARG notices](https://pmgsy.nic.in/e-marg-letters). Portal inspection and documentation establish leads, not export permission. No new credentials, hidden endpoints or guessed payment identifiers were used.
+
+**Water sector bridge:** the [JJM 2.0 operational guidelines](https://jaljeevanmission.gov.in/sites/default/files/guideline/Operational-Guidelines-JJM-2.pdf), visually inspected PDF pages 78, 81 and 137, describe Sujalam Bharat scheme/asset georeferencing and claims through JJM-MIS and State IFMIS, with scheme-level SNA-SPARSH integration. Request the existing scheme-ID/asset-ID/claim crosswalk, geometry, implementing-agency bills and transaction responses together. The [6 August 2026 ministry announcement](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295509&lang=1&reg=1) reports SNA-SPARSH releases across thirteen states. Those central releases are not thirteen states' complete contractor-payment records. This is a strong new sample route, not an acquired public API.
+
+**Rail and health targets:** the official [railway supplier post-contract manual](https://rwp.indianrailways.gov.in/works/uploads/File/User_manual_for_vendors_on_Post_Contract_Activities%281%29.pdf) connects digital supplier bills and receipt/inspection documents with IPAS processing. Obtain minimized mappings from the bill-paying unit; do not request a supplier's login or infer a bill was paid merely because it was submitted. The [Railways 2021–22 yearbook](https://indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2023/PDF%20Year%20Book%202021-22-English.pdf) describes IRPSM integration with IREPS and IPAS/AIMS; verify current adoption for the actual works pilot. [NHM Finance](https://nhm.gov.in/guidelines/index1.php?lang=1&level=1&lid=166&sublinkid=1039) identifies finance responsibilities at state/district levels, and its [PFMS guidance directory](https://www.nhm.gov.in/index4.php?lang=1&level=0&lid=438&linkid=351) supplies workflow documentation. Request an existing facility-specific construction bill/voucher crosswalk from that custodian; a financial-management aggregate is insufficient.
+
+Use [CAG state accounts](https://cag.gov.in/en/state-accounts-report?defuat_state_id=76) and [official output-outcome frameworks](https://dmeo.gov.in/output-outcome-framework) as scope and reconciliation context. Compare totals only for matching period, fund flow and accounting basis. Do not add Union transfers to state end-use payments. A gap is a collection/reconciliation gap, not evidence of corruption. Other states, railways, hospitals, housing, urban utilities, public enterprises and local/off-budget spending remain separate acquisition scopes; no all-sector connector was verified for them.
+
+**Acceptance:** a real sample and repeat-import test precede wider partitions. Published coverage states its denominator and cutoff. “Nationwide” requires a defined scope; “all nationwide payments” cannot be asserted while schemes, local bodies, historical periods or cash/off-system transactions remain unaccounted for.
+
+## 4. Resolve amount conflicts, units and conflicting dates
+
+**Solution:** make source meaning part of the record: currency, declared scale, amount basis, reporting period, stage/date role, revision and evidence locator. Preserve editions and ask for the existing instruction/amendment explaining differences. A numerical match produces a reconciliation observation, not approval.
+
+The CGA reports manual explicitly offers Actuals, Thousands, Lakhs and Crores. A copied number without the selected scale is insufficient. The PPMS illustrative running-account bill has rupee labels but does not define its separate public report field. Our eight readable PPMS discrepancies remain unresolved even after matching their component tables; do not round them away. Keep the eight OMMAS sanction conflicts and nine-parent/ten-export discrepancy visible until a dated scope/amendment resolves them.
+
+**First execution:** send no new message automatically. Add a field-definition schedule to the existing custodian requests: exact pilot bill IDs, report amount, component sum, cheque amount, observed units, filter and source edition. Ask for existing accounting/rounding instructions, not a newly invented explanation.
+
+**Acceptance:** conversions preserve source decimals exactly; source-declared tolerances are recorded. Physical completion, portal marking, bill entry, cheque issue, treasury processing and recipient credit are separate dates. Conflicts can block the affected fact or total while unrelated reviewed facts remain usable.
+
+## 5. Obtain real geography and meaningful completion evidence
+
+**Solution:** keep geography and completion as independent evidence chains. A point, road line or project footprint must have source identity, capture date, precision and geometry edition. Do not replace missing project geography with a district centre. Display source-reported sites and independently checked sites with distinct labels after review.
+
+The official [GeoMGNREGA manual](https://bhuvan-app2.nrsc.gov.in/mgnregatpv/mapview/apptools/nrega_tpv/nrega_manual_v1.pdf) documents work-coded geotag workflows and authorized block/district/state roles. Request the approved work-code/location records from those custodians; a statistics/user CSV in the manual is not a verified public bulk asset export. Check current schema before ingesting an older manual's workflow.
+
+[PMGSY's open-GIS release](https://www.pmgsy.nic.in/sites/default/files/Press_Releases/PIB1800373_2.pdf) supports a licensed road-geography route. The GeoSadak endpoint was unavailable during this research; preserve the existing pinned release and verify its licence, release edition and road IDs before use. This geography licence does not authorize unrelated finance or third-party imagery. [UDISE school GIS](https://gis.udiseplus.gov.in/) is a school-site lead; link a school payment only when the financial document identifies that institution or a custodian supplies its official crosswalk.
+
+For completion, obtain the existing certificate, issuer, named work and recorded date. Before/during photographs do not certify completion; source photo approval does not establish independent site verification. User media can supplement evidence with consent and visible status, but cannot certify government payment.
+
+**Acceptance:** the selected dot opens the matching physical project and geometry source. Photo stage, certificate completion, portal status and citizen observations remain separate. No 3D building extrusion implies that the spending financed that building unless the identity chain supports it.
+
+## 6. Reduce dependence on unanswered departments
+
+**Solution:** ask for narrow existing tables and reports from the accountable custodian, not just an API from a helpdesk. Offer a redacted five-project sample before a national export. Ask support to identify the programme division, DDO/PAO, treasury, implementing unit and technical operator separately. Request a data dictionary, cutoff, update schedule, attribution, correction contact and publication terms alongside the sample.
+
+Continue the four agreed routes in parallel: permitted public reports; authorized department exports; targeted RTI for existing records; local implementing-unit partnership. A useful alternative to unrestricted API access is a custodian-produced periodic CSV plus a document manifest. Another is supervised inspection of named existing records followed by minimized copies. Neither requires sharing departmental login credentials.
+
+[API Setu policy](https://docs.apisetu.gov.in/document-central/api-policy/Policy%20Statement.html) is an access framework, not proof of an open PFMS payments endpoint. [GODL](https://ap.data.gov.in/godl) applies to covered released data, not every government webpage or personal record. Separate access, authenticity and republication permission. Obtain a permitted public derivative without banking details or signatures; keep originals private.
+
+For RTI, identify the proper central or state authority. The [central portal guidance](https://www.rtionline.gov.in/guidelines.php?appeal=&pageid=c4ca4238a0b923820dcc509a6f75849b) does not provide a route for every state/local authority. Ask for the named existing sanction, bill allocation, voucher and response records, with permissible redaction and recorded inspection routes; do not promise disclosure or request a new analysis. Applicant eligibility/details, submission and applicable fees remain owner tasks. Follow-ups retain the agreed dates and require specific outbound authorization. No new email, application or paid filing was performed by this research.
+
+**Acceptance:** an actual sample with declared custody, identities, source definitions and reuse basis. A forwarding email, system manual or informal assurance does not close this blocker. If records do not exist or cannot be released, retain that documented gap and use a supported partial card.
+
+## 7. Finish the whole application and production release
+
+**Solution:** deliver the original user workflows while clearly separating software readiness from completeness of government records. The map is one view of an evidence ledger. Historical assets stay optional; scoped spending records stay primary. Add stage filters so a Paid selection does not silently show sanctions as paid projects.
+
+| Product area | Concrete completion route | Acceptance evidence |
+|---|---|---|
+| Map and receipts | Stable project IDs across tiles and receipt API; source links; partial facts and missing stages; geometry precision | Click every pilot feature and verify the matching project/source; empty/failed queries explain coverage |
+| Review and totals | Explicit fact/entry decisions; conflicts and approvals enforced by server and database; event/allocation lineage | Unsupported approval rejected; missing stages remain missing; transfer/reversal/split tests pass |
+| Citizen reporting | Consent, private originals, redacted derivatives, offline retry, factual review and duplicate suggestions | Sensitive evidence excluded from public output; retries do not duplicate a report |
+| File / Track / Verify | Prepare a dossier for the proper official portal; user files; store authentic registration/status receipts; distinguish closure from resolution | No claimed filing without official receipt; no fabricated integration or automatic complaint |
+| Accountability | Correction/right-of-reply records, evidence-backed moderation and audit history | Contested facts stay visible with provenance and decision history; AI does not accuse unsupported actors |
+| Access and inclusion | Owner MFA, private evidence boundaries; keyboard/list alternative; low-data mode; reviewed language content | Unauthenticated private endpoints remain denied; mobile/offline/error paths and accessible navigation checked |
+| Hosted data | Move large local geography archive to a licensed immutable tile/object service or dedicated tile server; host receipt/search data separately | Public selection works after local computer is off; private originals absent from deployment bundle |
+| Deployment | Git secret/data exclusion, reproducible build, staging, managed migrations/backups, domain/security headers, monitoring and rollback | Restore rehearsal, owner MFA, source reachability, privacy and live map tests pass before production launch |
+
+The [CPGRAMS FAQ](https://pgportal.gov.in/Home/Faq) and [official portal](https://pgportal.gov.in/) support an official submission/tracking route. No universal Hisaab filing API was verified. Start with accurate file assistance and owner/user-provided registration evidence; route RTI separately. Local reopen/verification states must not pretend to change the authority's official state.
+
+[Next.js on Netlify](https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/) provides a supported deployment route. [PMTiles](https://docs.protomaps.com/pmtiles/) provides an archive/tile-hosting option; verify the existing renderer's compatible serving path, stable feature IDs, byte-range/cache behaviour and licensing before migration. The ignored local SQLite geography archive will not appear in production merely by pushing code to Git. Existing map licences and source publication terms remain release checks. No deployment was performed in this research.
+
+The original pilot scope and the later request for every nationwide payment are different acceptance targets. We must not silently claim the latter by shipping the former. A scoped public beta, if separately approved, can expose reviewed partial cards and a national coverage ledger while acquisition continues. It does not count as all-state, all-sector, all-payment completion.
+
+## Execution order and remaining dependencies
+
+1. Save this research, update exact export targets and surface it inside Spending. Completed in this research turn after validation; no new money records acquired or published.
+2. Apply fact-level review to the best-supported Balangir/MPLADS records. Inspect existing publication code and database decisions before any change; preserve owner MFA and missing stages. Existing partial-fact policy is not automatic publication permission.
+3. Obtain the five-project custodian bundles, claim/component crosswalks, definitions and source geography. Validate one chain per source. External dependency: authority response or permitted inspection; no amount of interface work replaces this.
+4. Reconcile conflicts, import authorized samples privately, then present concrete evidence decisions to the owner. Publish only explicitly approved facts and locations through the existing workflow.
+5. Expand those validated connectors by state/year with checkpointing, refresh tests and coverage denominators. Add Rajasthan/Chhattisgarh/Kerala/Haryana routes after real sample validation; add other sectors through independent inventories and custodians.
+6. Finish reporting/tracking/accessibility and production storage/release checks. Keep full nationwide acceptance open until its defined scope actually passes.
+
+Seven technical/acquisition solution routes are now specified. They are not seven closed evidence gaps. The decisive next result is a genuine allocated payment attached to its physical project, followed by a reliable repeatable export—not another million unrelated points.
+
+## Research provenance and limits
+
+Ten official PDF manuals/notices were preserved with retrieval timestamps and SHA-256 checksums under the ignored private acquisition folder. Nine have text extraction; JJM 2.0 is an image-based PDF with relevant pages visually inspected and minimized findings recorded. The separate 2026 PMGSY manual fetch timed out; it is not counted as an acquired document. Full original product PDFs were extracted privately and used to check scope. SNA-SPARSH PDF page 24 and September agency-project SOP page 8 were visually inspected for deduction meaning and optional identifiers. Public portal/documentation checks are research observations, not authorization or an actual transaction export. Original edition/role restrictions are retained.
+
+This report adds no payment approvals, no public map projects, no external messages, no fees and no new access. The paused background acquisition schedule remains paused for owner review; this active research session does not resume it.

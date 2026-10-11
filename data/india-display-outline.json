@@ -1,0 +1,19 @@
+{
+  "source": "Survey of India",
+  "sourceUrl": "https://surveyofindia.gov.in/documents/Outline_of_India.zip",
+  "sourcePage": "https://surveyofindia.gov.in/pages/outline-maps-of-india",
+  "permissionNotice": "https://www.surveyofindia.gov.in/documents/ibd-vectorformat.pdf",
+  "usage": "Individual, internal, educational, research and website purposes; no commercial usage permitted by SOI notice",
+  "sourceScale": "Generalized 1:16m per download page; permission notice refers to 1:15m",
+  "originalSha256": "bf48477f01fe8addd6384490fc6f8decc9643110331ffef2c3f17e5cccd53b88",
+  "outputSha256": "5f9af37780197fb1bc83bcd37ce1864b9dcd38daae40e2c65441e22886dc4e36",
+  "displaySimplificationMetres": 150,
+  "bounds": [
+    68.17751186879362,
+    6.752782631992962,
+    97.41289651394186,
+    37.088140591545184
+  ],
+  "purpose": "Display mask only; never asset location validation",
+  "bytes": 2486393
+}

@@ -1,0 +1,26 @@
+{
+  "updatedOn": "2026-10-07",
+  "source": "Odisha PPMS IFMS transaction report",
+  "district": "Balangir",
+  "block": "Balangir",
+  "pagesCollected": 4,
+  "billRecords": 158,
+  "panchayats": 25,
+  "statusCounts": {
+    "Bill successful from treasury": 146,
+    "Failed": 2,
+    "Processed successfully": 4,
+    "Processed Successfully": 6
+  },
+  "verifiedPayments": 0,
+  "publishedProjects": 0,
+  "missing": [
+    "Payment dates",
+    "Recipient identities/roles",
+    "Gross/net definitions",
+    "Report cutoff",
+    "Reviewed exact project geography",
+    "Reuse basis"
+  ],
+  "scope": "One block; source-reported bill status, not independently confirmed settlement"
+}

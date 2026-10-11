@@ -1,0 +1,11 @@
+{
+  "candidatesAssessed": 5,
+  "workingPilot": "Chandanbhati (GP)",
+  "reason": "Exact PPMS identity plus matching source bill, cheque and beneficiary arithmetic; existing eGramSwaraj work sample. Cross-system project joins remain unverified.",
+  "reportedLocations": 20,
+  "arithmeticReconciles": 1,
+  "clippedDocuments": 2,
+  "beneficiarySumConflicts": 2,
+  "approvedPayments": 0,
+  "publishedProjects": 0
+}

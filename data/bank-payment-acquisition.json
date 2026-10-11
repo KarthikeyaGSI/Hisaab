@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-06T19:19:21.883943+00:00",
+  "sourceUrl": "https://pmgsy.dord.gov.in/PFMSReports/PFMSReports/DisplayMISPayment?id=01-04-2019$07-10-2026",
+  "documentHash": "7d70ef4dd2a5def96a2367f2b9265fd900f5f8ec2ac7bec8b45b631cdd1d4000",
+  "recordsPreserved": 16768,
+  "duplicatesExcluded": 0,
+  "quarantined": 0,
+  "reportedBankAccepted": 16768,
+  "withBankReportedTransactionDate": 16768,
+  "projectAllocations": 0,
+  "published": 0,
+  "scope": "Odisha Rural Works Organisation; source report range 2019\u20132026, not nationwide payment coverage",
+  "limitations": [
+    "Bill-to-road allocations, contractor/payee identity and net/gross semantics absent.",
+    "Institution payments may include other expenditure; none assigned to development projects.",
+    "Bank status is source-reported, not an independent bank confirmation."
+  ]
+}

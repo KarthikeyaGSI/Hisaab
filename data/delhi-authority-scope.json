@@ -1,0 +1,401 @@
+{
+  "updatedOn": "2026-10-09",
+  "period": {
+    "closedFinancialYear": "2025–26",
+    "currentFinancialYear": "2026–27",
+    "cutoff": "2026-10-09"
+  },
+  "authorities": [
+    {
+      "id": "pwd",
+      "name": "Public Works Department",
+      "level": "GNCTD",
+      "rosterStatus": "partial",
+      "expectedUnits": null,
+      "units": [
+        {
+          "id": "pwd-ser2",
+          "name": "South East Road Division 2 (SER-2)",
+          "workRegister": "missing",
+          "paymentRegister": "missing",
+          "reconciliation": "pending",
+          "geography": "missing",
+          "publication": "pending",
+          "nextAction": "Exact-ID Tender Status search found the diagnostic at Financial Evaluation; award search returned no matching rows and tender-detail access was denied. Reconcile this with eMonitoring using the requested original award/agreement, sanction, allocated bills/payments and exact bridge site. Complete registers and pre-November 2025 custody/opening balances remain requested."
+        }
+      ],
+      "nextAction": "Start with SER-2 while establishing all current PWD divisions and accounting custodians. Public monitoring descriptions do not establish a complete work or payment register.",
+      "sourceUrl": "https://www.pwddelhi.gov.in/office-user-directory"
+    },
+    {
+      "id": "mcd",
+      "name": "Municipal Corporation of Delhi",
+      "level": "Municipal",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Twelve administrative zones are observed, but they are not a verified engineering/accounts unit denominator. Obtain the full unit roster, zone/division work registers and allocated-payment records, retaining historical corporation/ward identifiers.",
+      "sourceUrl": "https://mcdonline.nic.in/portal/zones"
+    },
+    {
+      "id": "ndmc",
+      "name": "New Delhi Municipal Council",
+      "level": "Municipal",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Assess the official Vendor Payment Detail route when accessible, obtain its work/bill allocation fields and complete unit/register scope. A linked payment page or login screen is not acquired payment data.",
+      "sourceUrl": "https://www.ndmc.gov.in/"
+    },
+    {
+      "id": "djb",
+      "name": "Delhi Jal Board",
+      "level": "GNCTD board",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Trace Chandrawal budget heads to the actual allotment, implementing package, bill allocation and recipient payments. Keep Union/Delhi provisions and government transfers distinct from vendor payments.",
+      "sourceUrl": "https://delhijalboard.delhi.gov.in/hi/node/1751"
+    },
+    {
+      "id": "ifc",
+      "name": "Irrigation and Flood Control Department",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/organizational-setup"
+    },
+    {
+      "id": "dusib",
+      "name": "Delhi Urban Shelter Improvement Board",
+      "level": "GNCTD board",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://delhishelterboard.in/main/"
+    },
+    {
+      "id": "dda",
+      "name": "Delhi Development Authority",
+      "level": "Central authority",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://dda.gov.in/departments"
+    },
+    {
+      "id": "cpwd",
+      "name": "Central Public Works Department",
+      "level": "Central",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://www.cpwd.gov.in/publication/SUOMOTODISCLOSURE.pdf"
+    },
+    {
+      "id": "dmrc",
+      "name": "Delhi Metro Rail Corporation",
+      "level": "Joint government",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://delhimetrorail.com/pages/about-us/tenders_by_category/6uww"
+    },
+    {
+      "id": "ncrtc",
+      "name": "National Capital Region Transport Corporation",
+      "level": "Joint government",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Review preserved vendor-payment reports and the Jangpura award candidate. Obtain the official bill-to-agreement allocation, amount definitions, deductions/returns, sanction and exact Delhi site before publication.",
+      "sourceUrl": "https://ncrtc.in/vendor/"
+    },
+    {
+      "id": "northern-railway",
+      "name": "Northern Railway Delhi Division and construction units",
+      "level": "Central",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://nr.indianrailways.gov.in/view_section.jsp?backgroundColor=LIGHTSTEELBLUE&fontColor=black&id=0%2C4%2C644&lang=0"
+    },
+    {
+      "id": "nhai",
+      "name": "National Highways Authority of India",
+      "level": "Central authority",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://nhai.gov.in/nhai/taxonomy/term/19"
+    },
+    {
+      "id": "delhi-cantonment",
+      "name": "Delhi Cantonment Board",
+      "level": "Cantonment",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://dgde.gov.in/en/autonomous-bodies-institutions-under-directorate-general-defence-estates/"
+    },
+    {
+      "id": "dsiidc",
+      "name": "Delhi State Industrial and Infrastructure Development Corporation",
+      "level": "GNCTD company",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://dsiidc.delhi.gov.in/"
+    },
+    {
+      "id": "transport",
+      "name": "Transport Department",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://transport.delhi.gov.in/transport/whos-who"
+    },
+    {
+      "id": "dtc",
+      "name": "Delhi Transport Corporation",
+      "level": "GNCTD corporation",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://transport.delhi.gov.in/transport/transport-archive-data"
+    },
+    {
+      "id": "dtidc",
+      "name": "Delhi Transport Infrastructure Development Corporation",
+      "level": "GNCTD company",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://dtidc.co.in/FileUpload/getUpload/section4ofrti_417.pdf"
+    },
+    {
+      "id": "development",
+      "name": "Development Department and rural works",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://development.delhi.gov.in/"
+    },
+    {
+      "id": "revenue",
+      "name": "Revenue Department and district offices",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Thirteen district entries are observed in the current directory; district geography is not a payment-register denominator. Identify actual funding/executing offices and registers without placing projects at district centres.",
+      "sourceUrl": "https://revenue.delhi.gov.in/revenue/list-villages"
+    },
+    {
+      "id": "dttdc",
+      "name": "Delhi Tourism and Transportation Development Corporation",
+      "level": "GNCTD company",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://delhitourism.gov.in/dttdc/tender.html"
+    },
+    {
+      "id": "damb",
+      "name": "Delhi Agricultural Marketing Board and market committees",
+      "level": "GNCTD board",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://govtprocurement.delhi.gov.in/nicgep/app?page=FrontEndTendersByOrganisation&service=page"
+    },
+    {
+      "id": "dpgs",
+      "name": "Delhi Parks and Gardens Society",
+      "level": "GNCTD society",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://dpgs.delhi.gov.in/"
+    },
+    {
+      "id": "forests",
+      "name": "Department of Forests and Wildlife",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://forest.delhi.gov.in/"
+    },
+    {
+      "id": "environment",
+      "name": "Department of Environment",
+      "level": "GNCTD",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://environment.delhi.gov.in/"
+    },
+    {
+      "id": "ndmc-smart-city",
+      "name": "NDMC Smart City Limited",
+      "level": "Municipal company",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://smartcity.ndmc.gov.in/"
+    },
+    {
+      "id": "dtl",
+      "name": "Delhi Transco Limited",
+      "level": "GNCTD company · scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.dtl.gov.in/Content/202_6_StateUTGencoTranscoDiscom.aspx"
+    },
+    {
+      "id": "ipgcl",
+      "name": "Indraprastha Power Generation Company Limited",
+      "level": "GNCTD company · scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.ipgcl-ppcl.gov.in/publicnoticeDocs.htm"
+    },
+    {
+      "id": "ppcl",
+      "name": "Pragati Power Corporation Limited",
+      "level": "GNCTD company · scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.ipgcl-ppcl.gov.in/publicnoticeDocs.htm"
+    },
+    {
+      "id": "powergrid",
+      "name": "Power Grid Corporation of India and Delhi project SPVs",
+      "level": "Central company · Delhi allocation required",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.powergrid.in/en/transmission"
+    },
+    {
+      "id": "tpddl",
+      "name": "Tata Power Delhi Distribution Limited",
+      "level": "Regulated utility · public-spending scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.derc.gov.in/distribution-licensees"
+    },
+    {
+      "id": "brpl",
+      "name": "BSES Rajdhani Power Limited",
+      "level": "Regulated utility · public-spending scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.derc.gov.in/distribution-licensees"
+    },
+    {
+      "id": "bypl",
+      "name": "BSES Yamuna Power Limited",
+      "level": "Regulated utility · public-spending scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.derc.gov.in/distribution-licensees"
+    },
+    {
+      "id": "igl",
+      "name": "Indraprastha Gas Limited",
+      "level": "Utility company · public-spending scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.iglonline.net/tenderList"
+    },
+    {
+      "id": "gail",
+      "name": "GAIL India Limited",
+      "level": "Central company · Delhi allocation required",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.gailonline.com/VendorZone/VendorZoneNew.html"
+    },
+    {
+      "id": "aai",
+      "name": "Airports Authority of India",
+      "level": "Central authority · Delhi allocation required",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://aai.aero/en/corporate/status-of-tenders-contracts"
+    },
+    {
+      "id": "dial",
+      "name": "Delhi International Airport Limited",
+      "level": "Concession operator · public-spending scope to confirm",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://aera.gov.in/uploads/mytp/17383230869949.pdf"
+    },
+    {
+      "id": "nbcc",
+      "name": "NBCC India Limited and client-funded Delhi projects",
+      "level": "Central company · client allocation required",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Confirm the Delhi public-development spending scope and official government-funded/client allocation. Obtain relevant units and project/bill registers; exclude unrelated commercial expenditure and whole-company or regional totals.",
+      "sourceUrl": "https://www.nbccindia.in/"
+    },
+    {
+      "id": "asi-delhi",
+      "name": "Archaeological Survey of India Delhi Circle",
+      "level": "Central",
+      "rosterStatus": "pending",
+      "expectedUnits": null,
+      "units": [],
+      "nextAction": "Establish the engineering/accounts unit roster and obtain the complete in-scope work and bill/payment registers, official identifiers, control totals and location records. Distinguish funding and executing roles to avoid counting a project twice.",
+      "sourceUrl": "https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=Home&service=direct&sp=SwQxl9kNBvRiUJqX6a5wNFg%3D%3D"
+    }
+  ]
+}

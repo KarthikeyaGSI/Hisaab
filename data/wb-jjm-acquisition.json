@@ -1,0 +1,9 @@
+{
+  "districtPartitions": 22,
+  "observedPartitions": 22,
+  "schemeRows": 9337,
+  "failures": 0,
+  "individualPayments": 0,
+  "approvedPayments": 0,
+  "completeObservedPartitions": true
+}
