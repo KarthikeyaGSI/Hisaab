@@ -93,7 +93,8 @@ def fetch(source, state, refresh=False):
     if checkpoint.exists() and not refresh:
         receipt=json.loads(checkpoint.read_text()); raw=(ROOT/receipt['original']).read_bytes()
         if hashlib.sha256(raw).hexdigest()!=receipt['sha256']: raise ValueError('Original checksum changed')
-        return raw,receipt
+        if not (parsed.path.lower().endswith('.pdf') and receipt['contentType']!='application/pdf'):
+            return raw,receipt
     BASE.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(dir=BASE) as folder:
         target=Path(folder)/'response'
@@ -112,6 +113,8 @@ def fetch(source, state, refresh=False):
         else: raise ValueError('Redirect limit')
         raw=target.read_bytes()
         if not raw: raise ValueError('Empty original')
+        if parsed.path.lower().endswith('.pdf') and not raw.lstrip().startswith(b'%PDF-'):
+            raise ValueError('Expected original PDF; server returned an HTML/other response. Not financial evidence.')
         if not raw.lstrip().startswith(b'%PDF-') and blocked(raw.decode(errors='replace')): raise ValueError('Access restriction: retained as blocker, not evidence')
         digest=hashlib.sha256(raw).hexdigest()
         original=ROOT/'data/originals/state-development'/digest
@@ -166,7 +169,9 @@ def _collect(state, kind=None, retry=False, refresh_indexes=False):
     queue=[s for s in state['sources'] if kind is None or s['kind']==kind]; observed=set(s['url'] for s in queue)
     for source in queue:
         if not retry and any(f['url']==source['url'] for f in result['failures']): continue
-        if any(d['url']==source['url'] for d in result['documents']) and source['kind'] not in ('budget_index','monthly_expenditure_index','procurement_index'): continue
+        existing=next((d for d in result['documents'] if d['url']==source['url']),None)
+        invalid_pdf=existing is not None and urlparse(source['url']).path.lower().endswith('.pdf') and existing['contentType']!='application/pdf'
+        if existing and not invalid_pdf and source['kind'] not in ('budget_index','monthly_expenditure_index','procurement_index'): continue
         try:
             raw,receipt=fetch(source,state,refresh_indexes and source['kind'] in ('budget_index','monthly_expenditure_index','procurement_index'))
             extraction=extract(raw,receipt)
@@ -212,8 +217,17 @@ def update_summary():
         candidate_file=BASE/code/'candidates.json'
         candidates=json.loads(candidate_file.read_text()) if candidate_file.exists() else {}
         counts={key:len(candidates.get(key,[])) for key in ('budgetCandidates','expenditureCandidates','projectCandidates')}
+        fiscalCoverage=[]
+        for fy in YEARS:
+            budget=[r for r in candidates.get('budgetCandidates',[]) if r.get('financialYear')==fy]
+            spend=[r for r in candidates.get('expenditureCandidates',[]) if r.get('financialYear')==fy]
+            fiscalCoverage.append({'financialYear':fy,'budgetCandidates':len(budget),
+                                  'reportedExpenditureCandidates':len(spend),
+                                  'latestExpenditureCutoff':max((r['periodEnd'] for r in spend),default=None),
+                                  'completeCoverage':False})
+        counts['financialYearCoverage']=fiscalCoverage
         states.append({'order':n,'code':code,'name':name,'status':'partial_collected' if d['documents'] else 'source_assessed' if planned.get('sources') else 'pending','originals':len(documents),'pdfs':len({x['sha256'] for x in documents if x['contentType']=='application/pdf'}),'sourceTables':sum(x['sourceTables'] for x in documents),'numericEvidenceLines':sum(x['numericLines'] for x in documents),'blockedSources':len(d['failures']),'reviewedFinancialFacts':0,'publishedFacts':0,'completeCoverage':False,'nextAction':planned.get('nextAction','Inspect official budgets, monthly expenditure and departmental project/procurement reports.'),'sourceKinds':sorted(set(x['sourceKind'] for x in documents)),**counts})
-    write(ROOT/'data/state-development-acquisition.json',{'version':VERSION,'updatedAt':now(),'financialYears':YEARS,'scope':'28 states in owner order; broad evidence acquisition; not a complete payment ledger','states':states,'originals':sum(s['originals'] for s in states),'pdfs':len({x['sha256'] for x in all_documents if x['contentType']=='application/pdf'}),'sourceTables':sum(s['sourceTables'] for s in states),'numericEvidenceLines':sum(s['numericEvidenceLines'] for s in states),'reviewedFinancialFacts':0,'publication':'private_collection_only','completeCoverage':False,**{key:sum(s[key] for s in states) for key in ('budgetCandidates','expenditureCandidates','projectCandidates')}})
+    write(ROOT/'data/state-development-acquisition.json',{'version':VERSION,'updatedAt':now(),'financialYears':YEARS,'scope':'28 states in owner order; broad evidence acquisition; not a complete payment ledger','states':states,'originals':sum(s['originals'] for s in states),'pdfs':len({x['sha256'] for x in all_documents if x['contentType']=='application/pdf'}),'sourceTables':sum(s['sourceTables'] for s in states),'numericEvidenceLines':sum(s['numericEvidenceLines'] for s in states),'reviewedFinancialFacts':0,'publication':'private_collection_only','completeCoverage':False,'completeStates':0,'statesWithBudgetCandidates':sum(s['budgetCandidates']>0 for s in states),**{key:sum(s[key] for s in states) for key in ('budgetCandidates','expenditureCandidates','projectCandidates')}})
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--state'); parser.add_argument('--all',action='store_true'); parser.add_argument('--summary',action='store_true'); parser.add_argument('--kind'); parser.add_argument('--retry-failed',action='store_true'); parser.add_argument('--refresh-indexes',action='store_true'); args=parser.parse_args()

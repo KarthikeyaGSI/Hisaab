@@ -1,6 +1,6 @@
 {
   "version": "state-development-evidence/1",
-  "updatedAt": "2026-10-12T16:45:24.354852+00:00",
+  "updatedAt": "2026-10-12T17:51:56.031528+00:00",
   "financialYears": [
     "2025-2026",
     "2026-2027"
@@ -33,7 +33,23 @@
       ],
       "budgetCandidates": 63,
       "expenditureCandidates": 28,
-      "projectCandidates": 32
+      "projectCandidates": 32,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 42,
+          "reportedExpenditureCandidates": 7,
+          "latestExpenditureCutoff": "2026-01-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 21,
+          "reportedExpenditureCandidates": 21,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 2,
@@ -59,25 +75,42 @@
         "projects_contractors_progress",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 266,
       "expenditureCandidates": 8,
-      "projectCandidates": 22
+      "projectCandidates": 22,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 165,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 101,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 3,
       "code": "18",
       "name": "Assam",
       "status": "partial_collected",
-      "originals": 11,
-      "pdfs": 6,
+      "originals": 14,
+      "pdfs": 9,
       "sourceTables": 35,
-      "numericEvidenceLines": 1251,
-      "blockedSources": 0,
+      "numericEvidenceLines": 2056,
+      "blockedSources": 3,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
       "nextAction": "Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
       "sourceKinds": [
+        "budget",
         "budget_index",
         "department_budget",
         "monthly_expenditure_index",
@@ -86,9 +119,25 @@
         "projects_contractors_progress",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 318,
       "expenditureCandidates": 55,
-      "projectCandidates": 72
+      "projectCandidates": 72,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 318,
+          "reportedExpenditureCandidates": 52,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 3,
+          "latestExpenditureCutoff": "2026-05-31",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 4,
@@ -111,9 +160,25 @@
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 11,
       "expenditureCandidates": 32,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 16,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 11,
+          "reportedExpenditureCandidates": 16,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 5,
@@ -138,9 +203,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 12,
       "expenditureCandidates": 26,
-      "projectCandidates": 1
+      "projectCandidates": 1,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 8,
+          "reportedExpenditureCandidates": 13,
+          "latestExpenditureCutoff": "2026-02-28",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 4,
+          "reportedExpenditureCandidates": 13,
+          "latestExpenditureCutoff": "2026-07-31",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 6,
@@ -164,19 +245,35 @@
         "procurement_index",
         "procurement_report"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 21,
       "expenditureCandidates": 0,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 14,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 7,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 7,
       "code": "24",
       "name": "Gujarat",
       "status": "partial_collected",
-      "originals": 11,
-      "pdfs": 5,
+      "originals": 15,
+      "pdfs": 9,
       "sourceTables": 0,
-      "numericEvidenceLines": 769,
+      "numericEvidenceLines": 3541,
       "blockedSources": 2,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
@@ -190,9 +287,25 @@
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 82,
       "expenditureCandidates": 7,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 41,
+          "reportedExpenditureCandidates": 7,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 41,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 8,
@@ -216,34 +329,67 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 44,
       "expenditureCandidates": 2,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 22,
+          "reportedExpenditureCandidates": 2,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 22,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 9,
       "code": "2",
       "name": "Himachal Pradesh",
       "status": "partial_collected",
-      "originals": 8,
-      "pdfs": 4,
+      "originals": 10,
+      "pdfs": 6,
       "sourceTables": 31,
-      "numericEvidenceLines": 1227,
+      "numericEvidenceLines": 1501,
       "blockedSources": 1,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
       "nextAction": "Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
       "sourceKinds": [
+        "budget",
         "budget_index",
         "monthly_expenditure_index",
         "procurement_index",
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 72,
       "expenditureCandidates": 21,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 48,
+          "reportedExpenditureCandidates": 14,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 24,
+          "reportedExpenditureCandidates": 7,
+          "latestExpenditureCutoff": "2026-04-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 10,
@@ -269,7 +415,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 0,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 11,
@@ -295,7 +457,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 10,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 5,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 5,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 12,
@@ -320,9 +498,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 222,
       "expenditureCandidates": 3,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 148,
+          "reportedExpenditureCandidates": 1,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 74,
+          "reportedExpenditureCandidates": 2,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 13,
@@ -346,7 +540,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 28,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 28,
+          "latestExpenditureCutoff": "2026-07-31",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 14,
@@ -370,9 +580,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 36,
       "expenditureCandidates": 15,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 24,
+          "reportedExpenditureCandidates": 3,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 12,
+          "reportedExpenditureCandidates": 12,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 15,
@@ -395,9 +621,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 36,
       "expenditureCandidates": 31,
-      "projectCandidates": 54
+      "projectCandidates": 54,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 24,
+          "reportedExpenditureCandidates": 23,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 12,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-04-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 16,
@@ -421,9 +663,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 180,
       "expenditureCandidates": 0,
-      "projectCandidates": 38
+      "projectCandidates": 38,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 180,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 17,
@@ -449,17 +707,33 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 6,
-      "projectCandidates": 21
+      "projectCandidates": 21,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 4,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 2,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 18,
       "code": "13",
       "name": "Nagaland",
       "status": "partial_collected",
-      "originals": 14,
-      "pdfs": 9,
+      "originals": 21,
+      "pdfs": 15,
       "sourceTables": 31,
-      "numericEvidenceLines": 796,
+      "numericEvidenceLines": 1131,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
@@ -474,9 +748,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 282,
       "expenditureCandidates": 14,
-      "projectCandidates": 25
+      "projectCandidates": 25,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 188,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 94,
+          "reportedExpenditureCandidates": 6,
+          "latestExpenditureCutoff": "2026-05-31",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 19,
@@ -500,9 +790,25 @@
         "monthly_expenditure_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 42,
       "expenditureCandidates": 6,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 6,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 42,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 20,
@@ -526,24 +832,42 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 8,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 2,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 6,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 21,
       "code": "8",
       "name": "Rajasthan",
       "status": "partial_collected",
-      "originals": 6,
-      "pdfs": 3,
+      "originals": 15,
+      "pdfs": 11,
       "sourceTables": 33,
-      "numericEvidenceLines": 1323,
+      "numericEvidenceLines": 12471,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
       "nextAction": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls.",
       "sourceKinds": [
+        "budget",
         "budget_context",
+        "budget_index",
         "monthly_expenditure_index",
         "procurement_index",
         "procurement_report",
@@ -552,7 +876,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 3,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 3,
+          "latestExpenditureCutoff": "2026-04-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 22,
@@ -578,7 +918,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 11,
-      "projectCandidates": 18
+      "projectCandidates": 18,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 11,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 23,
@@ -602,7 +958,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 12,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 4,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-07-31",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 24,
@@ -628,7 +1000,23 @@
       ],
       "budgetCandidates": 135,
       "expenditureCandidates": 28,
-      "projectCandidates": 0
+      "projectCandidates": 0,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 4,
+          "reportedExpenditureCandidates": 6,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 131,
+          "reportedExpenditureCandidates": 22,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 25,
@@ -652,9 +1040,25 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 295,
       "expenditureCandidates": 3,
-      "projectCandidates": 34
+      "projectCandidates": 34,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 295,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 3,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 26,
@@ -680,7 +1084,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 32,
-      "projectCandidates": 20
+      "projectCandidates": 20,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 24,
+          "latestExpenditureCutoff": "2026-06-30",
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 27,
@@ -706,7 +1126,23 @@
       ],
       "budgetCandidates": 0,
       "expenditureCandidates": 0,
-      "projectCandidates": 24
+      "projectCandidates": 24,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 0,
+          "reportedExpenditureCandidates": 0,
+          "latestExpenditureCutoff": null,
+          "completeCoverage": false
+        }
+      ]
     },
     {
       "order": 28,
@@ -731,19 +1167,37 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 430,
       "expenditureCandidates": 16,
-      "projectCandidates": 35
+      "projectCandidates": 35,
+      "financialYearCoverage": [
+        {
+          "financialYear": "2025-2026",
+          "budgetCandidates": 285,
+          "reportedExpenditureCandidates": 12,
+          "latestExpenditureCutoff": "2026-03-31",
+          "completeCoverage": false
+        },
+        {
+          "financialYear": "2026-2027",
+          "budgetCandidates": 145,
+          "reportedExpenditureCandidates": 4,
+          "latestExpenditureCutoff": "2026-04-30",
+          "completeCoverage": false
+        }
+      ]
     }
   ],
-  "originals": 444,
-  "pdfs": 324,
+  "originals": 469,
+  "pdfs": 347,
   "sourceTables": 1115,
-  "numericEvidenceLines": 161254,
+  "numericEvidenceLines": 176588,
   "reviewedFinancialFacts": 0,
   "publication": "private_collection_only",
   "completeCoverage": false,
-  "budgetCandidates": 198,
+  "completeStates": 0,
+  "statesWithBudgetCandidates": 18,
+  "budgetCandidates": 2547,
   "expenditureCandidates": 405,
   "projectCandidates": 536
 }

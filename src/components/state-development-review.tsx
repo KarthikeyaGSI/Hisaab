@@ -4,17 +4,21 @@ import {useRef,useState} from 'react';
 import {formatExactMoney} from '@/lib/money';
 
 type Counts={budgetCandidates?:number;expenditureCandidates?:number;projectCandidates?:number};
-export type StateCollection=Counts&{code:string;name:string;order:number;originals:number;pdfs:number;blockedSources:number;status:string;nextAction:string};
-export type StateDevelopmentCollection=Counts&{financialYears:string[];updatedAt:string;originals:number;pdfs:number;states:StateCollection[]};
+type FiscalCoverage={financialYear:string;budgetCandidates:number;reportedExpenditureCandidates:number;latestExpenditureCutoff:string|null};
+export type StateCollection=Counts&{code:string;name:string;order:number;originals:number;pdfs:number;blockedSources:number;status:string;nextAction:string;financialYearCoverage?:FiscalCoverage[]};
+export type StateDevelopmentCollection=Counts&{financialYears:string[];updatedAt:string;originals:number;pdfs:number;states:StateCollection[];statesWithBudgetCandidates?:number;completeStates?:number};
 type Row={
  id:string;label?:string;kind?:string;url?:string;permissionStatus?:string;editionStatus?:string;retrievedAt?:string;extractedPages?:number;completeExtraction?:boolean;
  purposeLabel?:string;financialYear?:string|null;estimate?:string;measure?:string;
  periodStart?:string;periodEnd?:string|null;amountRupees?:string;
  revenueRupees?:string;capitalRupees?:string;components?:{label:string;amountRupees:string}[];
  printedArithmeticDifferenceCrore?:string;budgetTableScope?:string;classification?:string;
+ sourceAccount?:string;sourceEdition?:string;editionConflict?:string|null;extractionBasis?:string;ocrConfidence?:number;
  reviewStatus?:string;title?:string;sourceProjectId?:string|null;contractorName?:string|null;
  stage?:string;awardDateSource?:string|null;projectCostRupees?:string|null;
  contractAmountRupees?:string|null;notes?:string;source?:{url:string;locator:string;sha256:string};
+ checkedAt?:string;identityCheck?:string;scopeWarnings?:string[];remaining?:string[];
+ tableControls?:{label:string;rows:number;status:string;differenceRupees:string|null;printedControlRupees:string;calculatedRupees:string|null}[];
 };
 type Result={state:StateCollection;section:string;page:number;pageSize:number;total:number;rows:Row[]};
 const money=(value:string|null|undefined)=>value==null?'Unavailable':formatExactMoney(value);
@@ -44,11 +48,13 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
   <h4>State-by-state development collection</h4>
   <p>FY 2025–26 and FY 2026–27 to source cutoff · {data.originals.toLocaleString('en-IN')} preserved source responses, including {data.pdfs} PDFs. First source pass; statewide coverage remains partial.</p>
   {data.budgetCandidates!==undefined&&<p>{data.budgetCandidates} budget candidates · {data.expenditureCandidates} reported-expenditure candidates · {data.projectCandidates} project/tender candidates. These are unpublished review records, with overlapping scopes.</p>}
+  {data.statesWithBudgetCandidates!==undefined&&<p>{data.statesWithBudgetCandidates} of 28 states have extracted budget candidates. {data.completeStates??0} states have complete reconciled coverage. Saved documents alone do not establish completion.</p>}
   <details>
    <summary>All 28 states in your collection order</summary>
    {data.states.map(s=><p key={s.code}>
     <strong>{s.order}. {s.name}</strong> · {s.originals} source responses · {s.blockedSources} source gaps<br/>
     {s.budgetCandidates!==undefined&&<>{s.budgetCandidates} budget · {s.expenditureCandidates} expenditure · {s.projectCandidates} project/tender candidates<br/></>}
+    {s.financialYearCoverage?.map(y=><span key={y.financialYear}>{y.financialYear}: {y.budgetCandidates} budget records · {y.reportedExpenditureCandidates} expenditure records{y.latestExpenditureCutoff&&<> · expenditure through {y.latestExpenditureCutoff}</>}<br/></span>)}
     {s.nextAction}
    </p>)}
   </details>
@@ -62,6 +68,7 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
     <option value="budget">Sector and programme budgets</option>
     <option value="expenditure">Reported expenditure</option>
     <option value="projects">Projects and contractors</option>
+    <option value="reconciliation">Extraction and reconciliation checks</option>
    </select></label>
    <button className="secondary" disabled={loading}>{loading?'Loading evidence…':'Inspect collected evidence'}</button>
   </form>
@@ -74,7 +81,15 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
     {r.editionStatus&&<p>{r.editionStatus}</p>}
     {r.retrievedAt&&<p>Retrieved: {r.retrievedAt}<br/>Text extraction attempted on {r.extractedPages} pages. Tables and source scope still require review.{r.completeExtraction===false&&<><br/>Extraction incomplete; visual/OCR review needed.</>}</p>}
     {r.reviewStatus&&<p>Review: {r.reviewStatus.replaceAll('_',' ')}</p>}
+    {r.identityCheck&&<p>Candidate identities: {r.identityCheck}. Arithmetic checks do not approve publication or establish complete coverage.</p>}
+    {r.tableControls?.map((c,i)=><p key={i}><strong>{c.label}</strong><br/>{c.rows} source rows · {c.status.replaceAll('_',' ')}<br/>Printed control: {money(c.printedControlRupees)}<br/>Extracted rows: {money(c.calculatedRupees)}<br/>Difference: {money(c.differenceRupees)}</p>)}
+    {r.scopeWarnings?.map(w=><p key={w}>{w}</p>)}
+    {r.remaining&&<p>Still required: {r.remaining.join('; ')}.</p>}
     {r.classification&&<p>Draft classification: {r.classification.replaceAll('_',' ')}</p>}
+    {r.sourceAccount&&<p>Account: {r.sourceAccount}</p>}
+    {r.sourceEdition&&<p>Source edition: {r.sourceEdition}</p>}
+    {r.editionConflict&&<p>Conflicting source editions: {r.editionConflict}</p>}
+    {r.extractionBasis&&<p>Extraction: {r.extractionBasis.replaceAll('_',' ')}. Text recognition still requires evidence review.</p>}
     {r.amountRupees&&r.measure==='reported_spent'&&<p>
      {r.financialYear} · Source-reported expenditure<br/>
      <strong>{money(r.amountRupees)}</strong><br/>
@@ -105,7 +120,7 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
     </p>}
     {r.notes&&<p>{r.notes}</p>}
     {r.source&&<p>{r.source.locator}</p>}
-    <a href={r.url??r.source?.url} target="_blank" rel="noreferrer">Open original source</a>
+    {(r.url??r.source?.url)&&<a href={r.url??r.source?.url} target="_blank" rel="noreferrer">Open original source</a>}
    </details>)}
    {result.total===0&&<p>No normalized records in this section yet. Preserved originals remain available under Original sources; absence here is not zero spending.</p>}
    <button disabled={loading||result.page===1} onClick={()=>void load(state,section,result.page-1)}>Previous</button>{' '}

@@ -2,9 +2,9 @@
 
 12 October 2026. Active financial years: **2025–26 and 2026–27 to each source cutoff**. All 28 states were assessed in the owner’s order, followed by a deeper departmental-budget pass at selected fiscal-edition indices. This is partial acquisition, not complete state spending or payment coverage.
 
-Preserved **444 source responses**, including **324 distinct PDF files** and HTML pages/redirects. They are not all financial reports. All collected originals passed checksum verification. The separate NHIDCL master and procurement source directory are also preserved privately.
+Preserved **469 source responses**, including **347 distinct PDF files** and HTML pages/redirects. They are not all financial reports. All collected originals passed checksum verification. The separate NHIDCL master and procurement source directory are also preserved privately.
 
-Prepared **198 budget candidates**, **405 reported-expenditure candidates across 24 states**, and **536 project/tender candidates**. This includes 293 latest-notice sample rows, 32 undated APCRDA winning-bidder rows and 211 official-ID NHIDCL projects active or reported completed in the requested window. Counts overlap prior holdings and must not be added as unique payments.
+Prepared **2,547 budget candidates across 18 states**, **405 reported-expenditure candidates across 24 states**, and **536 project/tender candidates**. This includes 293 latest-notice sample rows, 32 undated APCRDA winning-bidder rows and 211 official-ID NHIDCL projects active or reported completed in the requested window. Counts overlap prior holdings and must not be added as unique payments.
 
 ## Inspect inside Hisaab
 
@@ -18,13 +18,13 @@ Source response files, complete originals, extracted page/line evidence, hashes,
 |---|---|---:|---:|---:|
 | 1 | Andhra Pradesh | 31 | 26 | 0 |
 | 2 | Arunachal Pradesh | 12 | 6 | 4 |
-| 3 | Assam | 11 | 6 | 0 |
+| 3 | Assam | 14 | 9 | 3 |
 | 4 | Bihar | 9 | 5 | 0 |
 | 5 | Chhattisgarh | 37 | 30 | 14 |
 | 6 | Goa | 25 | 21 | 3 |
-| 7 | Gujarat | 11 | 5 | 2 |
+| 7 | Gujarat | 15 | 9 | 2 |
 | 8 | Haryana | 19 | 15 | 0 |
-| 9 | Himachal Pradesh | 8 | 4 | 1 |
+| 9 | Himachal Pradesh | 10 | 6 | 1 |
 | 10 | Jharkhand | 29 | 24 | 1 |
 | 11 | Karnataka | 12 | 8 | 1 |
 | 12 | Kerala | 30 | 25 | 0 |
@@ -33,10 +33,10 @@ Source response files, complete originals, extracted page/line evidence, hashes,
 | 15 | Manipur | 9 | 6 | 0 |
 | 16 | Meghalaya | 9 | 6 | 0 |
 | 17 | Mizoram | 9 | 6 | 0 |
-| 18 | Nagaland | 14 | 9 | 0 |
+| 18 | Nagaland | 21 | 15 | 0 |
 | 19 | Odisha | 24 | 21 | 0 |
 | 20 | Punjab | 7 | 4 | 1 |
-| 21 | Rajasthan | 6 | 3 | 0 |
+| 21 | Rajasthan | 15 | 11 | 0 |
 | 22 | Sikkim | 8 | 3 | 1 |
 | 23 | Tamil Nadu | 7 | 4 | 2 |
 | 24 | Telangana | 18 | 14 | 10 |
@@ -52,33 +52,33 @@ These counts describe checked source entry points and collected files; a zero fa
 | State | Budget candidates | Reported-expenditure candidates | Project/tender candidates |
 |---|---:|---:|---:|
 | Andhra Pradesh | 63 | 28 | 32 |
-| Arunachal Pradesh | 0 | 8 | 22 |
-| Assam | 0 | 55 | 72 |
-| Bihar | 0 | 32 | 0 |
-| Chhattisgarh | 0 | 26 | 1 |
-| Goa | 0 | 0 | 0 |
-| Gujarat | 0 | 7 | 0 |
-| Haryana | 0 | 2 | 0 |
-| Himachal Pradesh | 0 | 21 | 20 |
+| Arunachal Pradesh | 266 | 8 | 22 |
+| Assam | 318 | 55 | 72 |
+| Bihar | 11 | 32 | 0 |
+| Chhattisgarh | 12 | 26 | 1 |
+| Goa | 21 | 0 | 0 |
+| Gujarat | 82 | 7 | 0 |
+| Haryana | 44 | 2 | 0 |
+| Himachal Pradesh | 72 | 21 | 20 |
 | Jharkhand | 0 | 0 | 20 |
 | Karnataka | 0 | 10 | 0 |
-| Kerala | 0 | 3 | 20 |
+| Kerala | 222 | 3 | 20 |
 | Madhya Pradesh | 0 | 28 | 0 |
-| Maharashtra | 0 | 15 | 20 |
-| Manipur | 0 | 31 | 54 |
-| Meghalaya | 0 | 0 | 38 |
+| Maharashtra | 36 | 15 | 20 |
+| Manipur | 36 | 31 | 54 |
+| Meghalaya | 180 | 0 | 38 |
 | Mizoram | 0 | 6 | 21 |
-| Nagaland | 0 | 14 | 25 |
-| Odisha | 0 | 6 | 0 |
+| Nagaland | 282 | 14 | 25 |
+| Odisha | 42 | 6 | 0 |
 | Punjab | 0 | 8 | 20 |
 | Rajasthan | 0 | 3 | 20 |
 | Sikkim | 0 | 11 | 18 |
 | Tamil Nadu | 0 | 12 | 20 |
 | Telangana | 135 | 28 | 0 |
-| Tripura | 0 | 3 | 34 |
+| Tripura | 295 | 3 | 34 |
 | Uttar Pradesh | 0 | 32 | 20 |
 | Uttarakhand | 0 | 0 | 24 |
-| West Bengal | 0 | 16 | 35 |
+| West Bengal | 430 | 16 | 35 |
 
 Zero candidates means no supported normalization in that section yet; it is not zero allocation, spending or projects. Other documents remain preserved for table/OCR review. Contractor names are present in 233 project/award candidate rows; source dashes remain unknown and the original placeholder is retained. A business name is not an independently resolved party identity or proof of payment.
 
@@ -99,6 +99,17 @@ No new financial publication, outbound request, RTI filing/fee, billing change, 
 
 ## Verification
 
-98 application tests, nine acquisition/parser tests and six relevant desktop/mobile browser checks pass. Type checking and the hosted production build pass. All 76 production route traces exclude private originals, acquisition files and environment secrets. The live preview passes its health check, and the new private evidence endpoint returns 401 without owner MFA. All 444 collected state response hashes match their unchanged originals. Source fiscal/amount tables were visually checked for AP, Assam, Telangana and the additional CAG layouts. Eighteen PDFs with no text extraction are explicitly marked incomplete and need OCR/visual review.
+99 application tests and 16 acquisition/parser tests pass. The two state-evidence desktop/mobile browser checks passed after the configured preview restart; earlier relevant screen checks remain recorded in the prior checkpoint. Type checking and the hosted production build pass. All 76 production route traces exclude private originals, acquisition files and environment secrets. The live preview passes its health check, and the new private evidence endpoint returns 401 without owner MFA. All 467 distinct collected state response hashes match their unchanged originals (469 source response references). Source fiscal/amount tables were visually checked for AP, Assam, Telangana and the additional CAG layouts. Twenty-three PDFs with no text extraction are explicitly marked incomplete and need OCR/visual review.
 
-The expanded pass contains about 880 MB of distinct state source bytes. Ninety-two PDF extractions are marked incomplete, including page caps and text-empty/scanned files; the full source response is preserved. Newly discovered broken Chhattisgarh and Telangana budget links remain recorded. No failed download is represented as a zero amount. The seven existing NRIDA, eGramSwaraj, PPMS, MPLADS, Balangir, SER-2 and NCRTC threads were checked on 12 October: no new usable export or substantive response, only the previously preserved NRIDA forwarding. No message was sent.
+The earlier expanded pass contained about 880 MB of distinct state source bytes; the new originals are additional. 105 PDF extractions are marked incomplete, including page caps and text-empty/scanned files; the full source response is preserved. Newly discovered broken Chhattisgarh and Telangana budget links remain recorded. No failed download is represented as a zero amount. The seven existing NRIDA, eGramSwaraj, PPMS, MPLADS, Balangir, SER-2 and NCRTC threads were checked on 12 October: no new usable export or substantive response, only the previously preserved NRIDA forwarding. No message was sent.
+
+
+## 12 October extraction and reconciliation checkpoint
+
+Budget candidates now cover 18 states; none is claimed complete. Source-specific adapters preserve fiscal edition, measure, unit, source account, head/demand and page/row. Named same-line heads are partial where labels wrap; no adjacent number or older actual is guessed into a current-year allocation. Explicit source development/programme classifications remain pending maintenance separation and publication rights.
+
+Added a partial Maharashtra Rural Development department table (36 fiscal/edition entries). Added private tables for Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Kerala, Manipur, Meghalaya, Nagaland, Odisha, Tripura and West Bengal. Existing AP and Telangana candidates remain. Assam 2026–27 viewer links returned 404; 2025–26 facts retain the test-host confirmation gap. Nagaland budget links were collected explicitly after its index yielded unrelated staff circulars. Gujarat rotated tables and Odisha scanned tables have local OCR with inspected source layouts. Tripura’s 67 demand summaries were read across the full 859-page original; only 295 explicitly named same-line major-head entries are normalized, not every underlying programme.
+
+Owner-only **Extraction and reconciliation checks** now exposes identity checks and 33 arithmetic controls. Three differences remain: AP 2025–26 original sectors −₹0.02 crore, Telangana 2026–27 rounded departments −₹1 crore, Odisha 2026–27 department programme ceilings +₹0.01 crore. Manipur’s missing capital component remains unknown in two editions. A matching control is not development classification, complete coverage, settlement or publication approval. The 28-state audit retains zero complete states.
+
+No financial facts from this collection have been published. Existing reviewed funding and historical map locations remain unchanged. Originals/candidate histories stay private; no new correspondence, filing, deployment or automation restart occurred.

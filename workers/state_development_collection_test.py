@@ -8,8 +8,42 @@ from decimal import Decimal
 import state_development_collection as collection
 from state_development_collection import DocumentHTML, blocked
 from state_development_normalize import rupees, source_projects,monthly_accounts,assam_sector_expenditure,telangana_budget
+from state_development_budget_tables import goa_glance,manipur_glance,haryana_sectors,nagaland_major_heads,assam_major_heads,maharashtra_rural_heads
+from state_development_reconcile import table_check
 
 class StateEvidenceRules(unittest.TestCase):
+    def test_nagaland_accounts_are_not_current_budget_and_receipts_not_imported(self):
+        doc={'sha256':'fixture','stateCode':'13','sourceId':'nagaland-afs-2026',
+             'url':'https://finance.nagaland.gov.in/example.pdf','retrievedAt':'2026-10-12'}
+        header='DISBURSEMENT Lakhs of Rupees Accounts 2024-2025 Budget 2025-2026 Revised 2025-2026 Budget 2026-2027'
+        pages=[{'page':n,'lines':[{'line':1,'text':header}]} for n in range(6,12)]
+        pages[0]['lines'].extend([{'line':2,'text':'2202 General Education    1.00 2.00 3.00 4.00'},
+                                  {'line':3,'text':'0202 Receipt tax context    50.00 60.00 70.00 80.00'}])
+        rows=nagaland_major_heads(doc,{'pages':pages})
+        self.assertEqual([(r['financialYear'],r['estimate'],r['amountRupees']) for r in rows],
+                         [('2025-2026','original','200000.00'),('2025-2026','revised','300000.00'),
+                          ('2026-2027','original','400000.00')])
+        self.assertTrue(all(r['reviewStatus']=='awaiting_review' for r in rows))
+        pages[0]['lines'].append({'line':4,'text':'2202 General Education    1.00 2.00 3.00 4.00'})
+        with self.assertRaisesRegex(ValueError,'duplicate'):
+            nagaland_major_heads(doc,{'pages':pages})
+
+    def test_maharashtra_thousand_unit_and_dots_remain_unknown(self):
+        doc={'sha256':'fixture','stateCode':'27','sourceId':'mh-rural-budget-linked-1',
+             'url':'https://rdd.maharashtra.gov.in/example.pdf','retrievedAt':'2026-10-12'}
+        header='Rural Development Department Rs. in Thousands 2024-2025 2025-2026 2026-2027 Revised Estimates'
+        pages=[{'page':p,'lines':[{'line':1,'text':header}]} for p in [3,4]]
+        pages[0]['lines'].append({'line':2,'text':'2810, New and Renewable Energy    Voted .. 1,00 1 .. other language'})
+        rows=maharashtra_rural_heads(doc,{'pages':pages})
+        self.assertEqual(rows[0]['amountRupees'],'100000.00')
+        self.assertEqual(rows[1]['amountRupees'],'1000.00')
+        self.assertIsNone(rows[2]['amountRupees'])
+        self.assertEqual(rows[2]['sourceTotal'],'--')
+
+    def test_assam_wrong_fiscal_edition_is_rejected(self):
+        with self.assertRaisesRegex(ValueError,'edition/unit'):
+            assam_major_heads({}, {'pages':[{'page':1,'lines':[{'line':1,'text':'STATEMENT OF EXPENDITURE 2024-25 Rupees in Lakhs'}]}]})
+
     def test_explicit_index_refresh_preserves_both_originals_and_earlier_receipt(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);base=root/'data/acquisition/state-development'
@@ -35,12 +69,66 @@ class StateEvidenceRules(unittest.TestCase):
                 self.assertEqual((root/current['original']).read_bytes(),b'<p>Revised official edition</p>')
                 self.assertFalse(cp['completeCoverage'])
 
+    def test_html_soft_error_at_pdf_url_is_not_accepted_as_financial_evidence(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);base=root/'data/acquisition/state-development'
+            def download(command,**kwargs):
+                Path(command[command.index('--dump-header')+1]).write_text('HTTP/1.1 200 OK\n')
+                Path(command[command.index('-o')+1]).write_text('<html>Budget homepage; requested file not found</html>')
+                return SimpleNamespace(returncode=0,stderr='')
+            with patch.object(collection,'ROOT',root),patch.object(collection,'BASE',base),patch.object(collection.subprocess,'run',side_effect=download):
+                with self.assertRaisesRegex(ValueError,'Expected original PDF'):
+                    collection.fetch({'id':'budget','kind':'budget','label':'Original','url':'https://example.invalid/budget.pdf'}, {'code':'28','name':'Andhra Pradesh'})
+                self.assertFalse((root/'data/originals/state-development').exists())
+
     def test_exact_amounts_and_missing_not_zero(self):
         self.assertEqual(rupees('34,978.14','crore'),'349781400000.00')
         self.assertEqual(rupees('-0.01','crore'),'-100000.00')
         self.assertIsNone(rupees('-','crore'))
         self.assertEqual(rupees('0.00','lakh'),'0.00')
         with self.assertRaises(ValueError): rupees('0.001','rupee')
+        self.assertEqual(rupees('29,662,705','thousand'),'29662705000.00')
+
+    def test_goa_lakhs_and_debt_context_do_not_become_development_or_payments(self):
+        labels={6:'Revenue Expenditure (7 to 8)',7:'Interest Payment',8:'Other Revenue Spending',
+                15:'Capital Expenditure',16:'Capital Spending',17:'Repayment of Debt',18:'Lending'}
+        lines=[{'line':1,'text':'FIGURES AT A GLANCE Rs. in lakhs 2024-2025 2025-2026 2026-2027 Revised Estimates'}]
+        lines += [{'line':n+1,'text':f'{n} {labels.get(n,"Context receipt")}    10.00 20.00 30.00 40.00'} for n in range(1,22)]
+        doc={'stateCode':'30','sha256':'c'*64,'url':'https://example.invalid/budget','retrievedAt':'2026-10-12T00:00:00Z'}
+        rows=goa_glance(doc,{'pages':[{'page':2,'lines':lines}]})
+        self.assertEqual(len(rows),21)
+        latest=next(r for r in rows if r['sourceRow']==16 and r['financialYear']=='2026-2027')
+        self.assertEqual(latest['amountRupees'],'4000000.00')
+        self.assertEqual(latest['parentSourceRow'],15)
+        self.assertEqual(next(r for r in rows if r['sourceRow']==17)['classification'],'debt_servicing_context')
+        lines[0]['text']=lines[0]['text'].replace('lakhs','crores')
+        with self.assertRaises(ValueError):goa_glance(doc,{'pages':[{'page':2,'lines':lines}]})
+
+    def test_manipur_rejects_previous_year_actual_and_later_repeated_row_number(self):
+        lines=[{'line':1,'text':'CONSOLIDATED STATEMENT Rs in crore 2024-25 2025-26 2026-27 Actual BE RE'}]
+        for group,label in [('2','REVENUE EXPENDITURE'),('5','CAPITAL EXPENDITURE')]:
+            lines.append({'line':len(lines)+1,'text':f'{group}. {label}    1.00 2.00 30.00 40.00 50.00'})
+            lines += [{'line':len(lines)+n,'text':f'{group}.{n} Subcategory    1.00 2.00 3.00 4.00 5.00'} for n in range(1,6)]
+            if group=='2':lines.append({'line':20,'text':'3. CAPITAL RECEIPTS'})
+        lines += [{'line':30,'text':'A. TOTAL RECEIPTS'}, {'line':31,'text':'2. Loans and Advances from GOI    1.00 2.00 900.00 999.00 1000.00'}]
+        doc={'stateCode':'14','sha256':'d'*64,'url':'https://example.invalid/budget','retrievedAt':'2026-10-12T00:00:00Z'}
+        rows=manipur_glance(doc,{'pages':[{'page':3,'lines':lines}]})
+        self.assertEqual(len(rows),36)
+        self.assertEqual(len({r['id'] for r in rows}),36)
+        first=next(r for r in rows if r['sourceRow']=='2.' and r['financialYear']=='2025-2026' and r['estimate']=='original')
+        self.assertEqual(first['amountRupees'],'300000000.00')
+        self.assertFalse(any('GOI' in r['purposeLabel'] for r in rows))
+
+    def test_arithmetic_matches_and_differences_do_not_approve_publication(self):
+        rows=[{'amountRupees':'100.00'},{'amountRupees':'200.00'}]
+        matched=table_check(rows,'300.00','rupee','Scoped control')
+        self.assertEqual(matched['status'],'matched')
+        self.assertFalse(matched['publicationApproved'])
+        self.assertFalse(matched['isDevelopmentTotal'])
+        conflict=table_check(rows,'301.00','rupee','Scoped control')
+        self.assertEqual(conflict['differenceRupees'],'-1.00')
+        self.assertEqual(conflict['status'],'difference_requires_review')
+        self.assertIsNone(table_check([{'amountRupees':None}],'0','rupee','Missing')['calculatedRupees'])
 
     def test_awarded_work_is_not_assigned_a_payment_or_year(self):
         doc={'sha256':'a'*64,'stateCode':'28','url':'https://example.invalid/awards','retrievedAt':'2026-10-12T00:00:00Z'}

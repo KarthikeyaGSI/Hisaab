@@ -7,6 +7,13 @@ import {GET} from '../src/app/api/v1/admin/state-development/route';
 import {GET as publicProgress} from '../src/app/api/v1/evidence-progress/route';
 beforeEach(()=>{vi.resetAllMocks();});
 describe('private two-year state evidence',()=>{
+ it('keeps reconciliation behind MFA and does not turn matched arithmetic into approval',async()=>{
+  vi.mocked(requireAdmin).mockResolvedValue({} as Awaited<ReturnType<typeof requireAdmin>>);
+  vi.mocked(readFile).mockResolvedValueOnce(JSON.stringify({states:[{code:'28',name:'Andhra Pradesh'}]})).mockResolvedValueOnce(JSON.stringify({checkedAt:'2026-10-12',identityCheck:'unique',completeCoverage:true,publicationApproved:true,original:'private/original',tableControls:[{status:'matched',differenceRupees:'0.00'}]}));
+  const r=await GET(new Request('http://localhost/api?state=28&section=reconciliation'));const b=await r.json();
+  expect(b.rows[0].completeCoverage).toBe(false);expect(b.rows[0].publicationApproved).toBe(false);
+  expect(b.approved).toBe(false);expect(JSON.stringify(b)).not.toContain('private/original');
+ });
  it('rejects an unauthenticated request before reading private files',async()=>{vi.mocked(requireAdmin).mockRejectedValue(new Error('MFA required'));const r=await GET(new Request('http://localhost/api?state=28'));expect(r.status).toBe(401);expect(readFile).not.toHaveBeenCalled();expect(r.headers.get('cache-control')).toBe('private, no-store');});
  it('rejects path traversal, repeated and unknown query fields',async()=>{vi.mocked(requireAdmin).mockResolvedValue({} as Awaited<ReturnType<typeof requireAdmin>>);for(const q of ['state=../28','state=28&state=12','state=28&section=raw','state=28&page=-1','state=28&bank=all']){const r=await GET(new Request('http://localhost/api?'+q));expect(r.status).toBe(400);}expect(readFile).not.toHaveBeenCalled();});
  it('paginates private sources without exposing local paths or originals',async()=>{vi.mocked(requireAdmin).mockResolvedValue({} as Awaited<ReturnType<typeof requireAdmin>>);const docs=Array.from({length:27},(_,i)=>({sourceId:String(i),url:'https://example.invalid/report',original:'private/original',extraction:'private/data',sha256:'a'.repeat(64)}));vi.mocked(readFile).mockResolvedValueOnce(JSON.stringify({states:[{code:'28',name:'Andhra Pradesh'}]})).mockResolvedValueOnce(JSON.stringify({documents:docs}));const r=await GET(new Request('http://localhost/api?state=28&page=2'));const b=await r.json();expect(b.total).toBe(27);expect(b.rows).toHaveLength(2);expect(b.approved).toBe(false);expect(JSON.stringify(b)).not.toContain('private/original');expect(JSON.stringify(b)).not.toContain('private/data');});

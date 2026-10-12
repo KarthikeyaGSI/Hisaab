@@ -169,6 +169,66 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://assamtenders.gov.in/",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "assam-observed-38-afs",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2025-2026: AFS; test-labelled host; FY2025–26 original edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/AFS/38/AB.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "assam-observed-38-memorandum",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2025-2026: Memorandum; test-labelled host; FY2025–26 original edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/Memorandum/38/MB.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "assam-observed-38-summary-statements",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2025-2026: Summary Statements; test-labelled host; FY2025–26 original edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/Summary%20Statements/38/Summary%20Statements.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "assam-observed-48-afs",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2026-2027: AFS; test-labelled host, 2026–27 VoA edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/AFS/48/AB.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "assam-observed-48-memorandum",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2026-2027: Memorandum; test-labelled host, 2026–27 VoA edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/Memorandum/48/MB.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "assam-observed-48-summary-statements",
+          "kind": "budget",
+          "label": "Official public Assam viewer 2026-2027: Summary Statements; test-labelled host, 2026–27 VoA edition",
+          "url": "https://fintest2.assam.gov.in/budget_documents/budget_document/Summary%20Statements/48/Summary%20Statements.pdf",
+          "contextUrl": "https://fintest2.assam.gov.in/budget_documents/",
+          "years": [
+            "2026-2027"
+          ]
         }
       ]
     },
@@ -368,6 +428,50 @@
           "kind": "procurement_index",
           "label": "Official Gujarat eProcurement source scope and nProcure link",
           "url": "https://gil.gujarat.gov.in/eprocurement"
+        },
+        {
+          "id": "gujarat-budget-observed-1",
+          "kind": "budget",
+          "label": "01 – Annual Financial Statement —",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1523_2026-2-18_234.pdf",
+          "contextUrl": "https://deshgujarat.com/2026/02/18/gujarat-budget-2026-27-full-speech-of-finance-minister-kanubhai-desai-and-budget-documents/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "gujarat-budget-observed-2",
+          "kind": "budget",
+          "label": "40 – Budget in Brief (English)",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1565_2026-2-18_688.pdf",
+          "contextUrl": "https://deshgujarat.com/2026/02/18/gujarat-budget-2026-27-full-speech-of-finance-minister-kanubhai-desai-and-budget-documents/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "gujarat-budget-observed-3",
+          "kind": "budget",
+          "label": "42 – Development Programme Pub No – 35 – English",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1567_2026-2-18_526.pdf",
+          "contextUrl": "https://deshgujarat.com/2026/02/18/gujarat-budget-2026-27-full-speech-of-finance-minister-kanubhai-desai-and-budget-documents/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "gujarat-budget-observed-4",
+          "kind": "budget",
+          "label": "Pub No – 56 – Outcome Budget – English",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1596_2026-2-18_626.pdf",
+          "contextUrl": "https://deshgujarat.com/2026/02/18/gujarat-budget-2026-27-full-speech-of-finance-minister-kanubhai-desai-and-budget-documents/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ]
     },
@@ -434,6 +538,28 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://hptenders.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "hp-budget-brief-official-2026",
+          "kind": "budget",
+          "label": "Official HP Budget in Brief 2026–27",
+          "url": "https://ebudget.hp.nic.in/ASPX/Anonymous/Pdf/BIB.pdf",
+          "contextUrl": "https://ebudget.hp.nic.in/budhome.aspx",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "hp-budget-speech-english-2026",
+          "kind": "budget",
+          "label": "Official English budget speech and summary 2026–27",
+          "url": "https://ebudget.hp.nic.in/Aspx/Anonymous/pdf/FS_Eng_2026.pdf",
+          "contextUrl": "https://ebudget.hp.nic.in/budhome.aspx",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ]
     },
@@ -776,6 +902,37 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://nagalandtenders.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "nagaland-budget-official-index",
+          "kind": "budget_index",
+          "label": "Dedicated official 2026–27 budget document listing",
+          "url": "https://finance.nagaland.gov.in/subpage.aspx?Sel=3",
+          "maxLinkedReports": 8,
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "nagaland-afs-2026",
+          "kind": "budget",
+          "label": "Annual Financial Statement 2026–27; 2025–26 original/revised comparators",
+          "url": "https://finance.nagaland.gov.in/Content/Files/0A27EEA8-38BD-4791-B45B-C7D76CE4FE11.pdf",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "nagaland-introduction-2026",
+          "kind": "budget",
+          "label": "Official budget introduction 2026–27",
+          "url": "https://finance.nagaland.gov.in/Content/Files/0A82401D-C139-458C-BE32-35B07CB03620.pdf",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
       "nextAction": "Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers."
@@ -866,6 +1023,17 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://eproc.rajasthan.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "rajasthan-budget-2026-official-index",
+          "kind": "budget_index",
+          "label": "Official budget books 2026–27, including summaries and works",
+          "url": "https://finance.rajasthan.gov.in/Website/StateBudget2627.aspx",
+          "maxLinkedReports": 8,
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
       "nextAction": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls."

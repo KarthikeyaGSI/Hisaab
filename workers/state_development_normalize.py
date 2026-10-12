@@ -3,18 +3,12 @@ import json
 import re
 from datetime import datetime
 import calendar
+import hashlib
 from decimal import Decimal
 from pathlib import Path
 from state_development_collection import ROOT, BASE, write, now, STATES
-
-def rupees(value, unit):
-    if not re.fullmatch(r'-?\d[\d,]*(?:\.\d+)?',value.strip()): return None
-    amount=Decimal(value.replace(',',''))*{'crore':Decimal('10000000'),'lakh':Decimal('100000'),'rupee':Decimal(1)}[unit]
-    if amount!=amount.quantize(Decimal('.01')): raise ValueError('Sub-paise amount needs review')
-    return format(amount,'.2f')
-
-def reference(doc, locator):
-    return {'url':doc['url'],'sha256':doc['sha256'],'retrievedAt':doc['retrievedAt'],'locator':locator}
+from state_development_amounts import rupees, reference
+from state_development_budget_tables import additional_budget_records
 
 def contractor_name(value):
     name=' '.join((value or '').split())
@@ -229,6 +223,7 @@ def main():
             extraction=json.loads((ROOT/doc['extraction']).read_text())
             if doc['sourceId']=='ap-budget-2026-glance': facts+=ap_budget(doc,extraction)
             if doc['sourceId']=='telangana-budget-2026-linked-1': facts+=telangana_budget(doc,extraction)
+            facts+=additional_budget_records(doc,extraction)
             if doc['sourceKind']=='reported_expenditure': expenditure+=monthly_accounts(doc,extraction)
             if doc['sourceId']=='assam-expenditure-2025': expenditure+=assam_sector_expenditure(doc,extraction)
             if doc['sourceKind'] in ('projects_tenders_awards','projects_contractors_progress','procurement_report'): projects+=source_projects(doc,extraction)
@@ -236,7 +231,18 @@ def main():
         # suggestions for this private view; both unchanged originals remain.
         if data['code'] in nhidcl:
             projects=[p for p in projects if p['projectIdBasis']!='source_row_only']+nhidcl[data['code']]
-        write(checkpoint.parent/'candidates.json',{'version':'state-development-candidates/1','updatedAt':now(),'stateCode':data['code'],'financialYears':['2025-2026','2026-2027'],'budgetCandidates':facts,'expenditureCandidates':expenditure,'projectCandidates':projects,'publication':'private_only','approved':False})
+        candidate_path=checkpoint.parent/'candidates.json'
+        if candidate_path.exists():
+            previous=candidate_path.read_bytes()
+            previous_hash=hashlib.sha256(previous).hexdigest()
+            archive=checkpoint.parent/'candidate-editions'/f'{previous_hash}.json'
+            if not archive.exists():
+                archive.parent.mkdir(parents=True,exist_ok=True)
+                archive.write_bytes(previous);archive.chmod(0o600)
+        identities=[r['id'] for r in facts+expenditure+projects]
+        if len(identities)!=len(set(identities)):
+            raise ValueError(f'{data["state"]}: duplicate normalized identities')
+        write(candidate_path,{'version':'state-development-candidates/1','updatedAt':now(),'stateCode':data['code'],'financialYears':['2025-2026','2026-2027'],'budgetCandidates':facts,'expenditureCandidates':expenditure,'projectCandidates':projects,'publication':'private_only','approved':False})
         total['budgetCandidates']+=len(facts); total['projectCandidates']+=len(projects)
         total['expenditureCandidates']+=len(expenditure)
     print(json.dumps(total))
