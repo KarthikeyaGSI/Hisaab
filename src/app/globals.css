@@ -78,3 +78,14 @@
 @media(prefers-contrast:more){.map-layer-trigger,.map-layer-options{background:#fff;border:2px solid #294868}.map-layer-options button small,.map-layer-hint{color:#294868}}
 @media(prefers-reduced-motion:reduce){.map-layer-trigger:active,.map-layer-options button:active{transform:none}}
 .funding-coverage-summary{padding:12px;margin:15px 0;background:#edf3ff;border:1px solid #d8e5fa;border-radius:12px;line-height:1.55}.funding-coverage-summary strong,.funding-coverage-summary span,.funding-coverage-summary small{display:block}.funding-coverage-summary strong{font-size:11px;color:#204f9d}.funding-coverage-summary span{font-size:11px;margin-top:5px}.funding-coverage-summary small{font-size:10px;color:#526981;margin-top:5px}.map-layer-options .layer-locations{color:#527929}
+
+.state-development-review{margin-top:16px;padding:18px;border:1px solid #dce5ef;border-radius:16px;background:#fff}
+.state-development-review h4{margin:0;font-size:16px;letter-spacing:-.02em}
+.state-development-review p{margin:12px 0;font-size:14px;line-height:1.55;overflow-wrap:anywhere}
+.state-development-review form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:16px 0}
+.state-development-review label{display:grid;gap:6px;font-size:13px;font-weight:600;color:#53677e}
+.state-development-review select{width:100%;min-width:0;min-height:44px;padding:10px;border:1px solid #dce5ef;border-radius:10px;background:#f8fafc;color:#17304f;font:inherit}
+.state-development-review form button{grid-column:1/-1;justify-self:start;min-height:44px}
+.state-development-review details{margin-top:10px;padding:12px;border:1px solid #e2e8f0;border-radius:12px}
+.state-development-review summary{font-size:14px;font-weight:600;line-height:1.5;overflow-wrap:anywhere}
+@media(max-width:600px){.state-development-review{padding:14px}.state-development-review form{grid-template-columns:minmax(0,1fr)}}

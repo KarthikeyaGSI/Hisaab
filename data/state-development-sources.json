@@ -1,0 +1,1119 @@
+{
+  "version": "state-development-evidence/1",
+  "states": [
+    {
+      "code": "28",
+      "name": "Andhra Pradesh",
+      "nextAction": "Review original Budget at a Glance sector columns; collect the observed departmental and awarded-work links; seek to-date expenditure separately.",
+      "sources": [
+        {
+          "id": "ap-budget-2026-index",
+          "kind": "budget_index",
+          "label": "AP Finance Budget 2026–27 index; stale dashboard values retained separately",
+          "url": "https://apfinance.gov.in/...Bud@et26-27/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "ap-budget-2026-glance",
+          "kind": "budget",
+          "label": "AP Budget at a Glance 2026–27 with 2025–26 estimates",
+          "url": "https://apfinance.gov.in/...Bud@et26-27/documents/Volume-VI.pdf",
+          "contextUrl": "https://apfinance.gov.in/...Bud@et26-27/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "ap-supplementary-2025",
+          "kind": "supplementary_budget",
+          "label": "AP Supplementary estimates 2025–26",
+          "url": "https://apfinance.gov.in/images/Suppl2025-26Book.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "ap-crda-tenders-awards",
+          "kind": "projects_tenders_awards",
+          "label": "APCRDA notices and successful bidders; award-year attribution requires review",
+          "url": "https://crda.ap.gov.in/apcrdav2/views/NotificationsView.aspx",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "ap-health-equipment",
+          "kind": "departmental_procurement",
+          "label": "APMSIDC equipment tenders and notices",
+          "url": "https://www.apmsidc.ap.nic.in/wingshtml/equipmentwing.html",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "cag-monthly-28",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Andhra Pradesh monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=64"
+        },
+        {
+          "id": "state-procurement-28",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://tender.apeprocurement.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name": "Arunachal Pradesh",
+      "nextAction": "Review budget column units (thousand), preserve NHIDCL named contractor/progress rows and collect dated classroom/health tenders; establish expenditure cutoffs separately.",
+      "sources": [
+        {
+          "id": "arunachal-afs-2026",
+          "kind": "budget",
+          "label": "Annual Financial Statement 2026–27; publisher authenticity and units review",
+          "url": "https://arunachalbudget.in/docs/AFS-2026-27.pdf"
+        },
+        {
+          "id": "arunachal-budget-glance",
+          "kind": "budget",
+          "label": "Budget at a Glance; filename and internal year headings need comparison",
+          "url": "https://www.arunachalbudget.in/docs/glance.pdf"
+        },
+        {
+          "id": "arunachal-nhidcl",
+          "kind": "projects_contractors_progress",
+          "label": "NHIDCL Arunachal project status, cost, dates and contractors",
+          "url": "https://www.nhidcl.com/en/current-status/arunachal-pradesh"
+        },
+        {
+          "id": "arunachal-ipr-tenders",
+          "kind": "departmental_procurement",
+          "label": "Official classroom, health and road tender notices",
+          "url": "https://www.arunachalipr.gov.in/tenders"
+        },
+        {
+          "id": "arunachal-budget-2025-index",
+          "kind": "budget_index",
+          "label": "Economics and Statistics official budget-in-brief publications",
+          "url": "https://ecostatistics.arunachal.gov.in/state_publication.php"
+        },
+        {
+          "id": "cag-monthly-12",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Arunachal Pradesh monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=65"
+        },
+        {
+          "id": "state-procurement-12",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://arunachaltenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Assam",
+      "nextAction": "Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
+      "sources": [
+        {
+          "id": "assam-budget-index",
+          "kind": "budget_index",
+          "label": "Assam official budget documents (test-labelled government hostname; edition review required)",
+          "url": "https://fintest2.assam.gov.in/budget_documents/"
+        },
+        {
+          "id": "assam-expenditure-2025",
+          "kind": "reported_expenditure",
+          "label": "Published abstract report of state expenditure; report generation cutoff controls actual coverage",
+          "url": "https://testfin.assam.gov.in/assamfinance/downloadAbstractReportOfStateExpenditure?finYear=2025-26&fromDateStr=2025-04-01&toDateStr=2026-03-31",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "assam-nhidcl",
+          "kind": "projects_contractors_progress",
+          "label": "NHIDCL Assam named projects and contractor/progress rows",
+          "url": "https://www.nhidcl.com/en/current-status/assam"
+        },
+        {
+          "id": "assam-soil-budget-2025",
+          "kind": "department_budget",
+          "label": "Soil Conservation department budget abstract 2025–26",
+          "url": "https://soildirectorate.assam.gov.in/sites/default/files/swf_utility_folder/departments/dsc_medhassu_in_oid_4/menu/document/budget_abstract_2025-26.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "cag-monthly-18",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Assam monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=66"
+        },
+        {
+          "id": "state-procurement-18",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://assamtenders.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "Bihar",
+      "nextAction": "Extract the full-year preliminary/supplementary March 2026 and latest 2026–27 accounts with their exact cutoffs; compare budget sector allocations and road tender purposes.",
+      "sources": [
+        {
+          "id": "bihar-budget-2026",
+          "kind": "budget",
+          "label": "Official Budget Highlights 2026–27",
+          "url": "https://state.bihar.gov.in/cache/12/Budget/Budget/Budget%20Highlights%202026-27%20Book%20FInal.pdf"
+        },
+        {
+          "id": "bihar-monthly",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Bihar monthly expenditure 2025–26 and 2026–27",
+          "url": "https://cag.gov.in/ae/bihar/en/state-accounts-report?defuat_account_report_type=360"
+        },
+        {
+          "id": "bihar-roads",
+          "kind": "departmental_procurement",
+          "label": "Bihar State Road Development Corporation tenders",
+          "url": "https://bsrdcl.bihar.gov.in/tenders.aspx"
+        },
+        {
+          "id": "state-procurement-10",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://www.bihartenders.com/Aboutus.aspx",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "procurement-current-10",
+          "kind": "procurement_index",
+          "label": "Current Bihar government eProcurement 2.0; legacy CPPP link is not used as statewide coverage",
+          "url": "https://eproc2.bihar.gov.in/EPSV2Web/"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "Chhattisgarh",
+      "nextAction": "Read official English budget/major-head reports and retained legacy-font Hindi figures visually; collect March/current-year accounts and PWD road/building notices separately.",
+      "sources": [
+        {
+          "id": "cg-budget-2026",
+          "kind": "budget_index",
+          "label": "Main Budget 2026–27 with sector/development heads",
+          "url": "https://finance.cg.gov.in/budget_doc/main_budget.asp?year1=2026",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "cg-budget-2025",
+          "kind": "budget_index",
+          "label": "Main Budget 2025–26",
+          "url": "https://finance.cg.gov.in/budget_doc/main_budget.asp?year1=2025",
+          "years": [
+            "2025-2026"
+          ],
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "cg-monthly",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Chhattisgarh monthly actuals",
+          "url": "https://cag.gov.in/ae/chhattisgarh/en/state-accounts-report?defuat_account_report_type=360"
+        },
+        {
+          "id": "cg-pwd-road",
+          "kind": "departmental_procurement",
+          "label": "PWD road tender estimates in lakh",
+          "url": "https://pwd.cg.nic.in/TenderNIT/NitRoad.aspx"
+        },
+        {
+          "id": "cg-pwd-building",
+          "kind": "departmental_procurement",
+          "label": "PWD building tender estimates in lakh",
+          "url": "https://www.pwd.cg.nic.in/TenderNIT/NitBuilding.aspx"
+        },
+        {
+          "id": "procurement-current-22",
+          "kind": "procurement_index",
+          "label": "Official Chhattisgarh eProcurement",
+          "url": "https://cgeproc.cgstate.gov.in/"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "name": "Goa",
+      "nextAction": "Normalize observed major-head summary and gender-budget scheme expenditure (explicit February 2026 cutoff); assess procurement contract rows independently.",
+      "sources": [
+        {
+          "id": "goa-budget-index",
+          "kind": "budget_index",
+          "label": "Goa Budget official 2026–27 documents",
+          "url": "https://goabudget.gov.in/"
+        },
+        {
+          "id": "goa-budget-summary-2026",
+          "kind": "budget",
+          "label": "All demands summary 2026–27 (source lakh)",
+          "url": "https://goabudget.gov.in/assets/documents/2026-27/Vol-I/Summary_Vol-I.pdf"
+        },
+        {
+          "id": "goa-programme-expenditure",
+          "kind": "programme_expenditure",
+          "label": "Gender Budget 2026–27 with expenditure till February 2026; gender-attributed scope",
+          "url": "https://goabudget.gov.in/assets/documents/2026-27/GenderBudget202627.pdf"
+        },
+        {
+          "id": "goa-monthly-index",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Goa accounts availability and monthly indicators",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=70"
+        },
+        {
+          "id": "state-procurement-30",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://eprocure.goa.gov.in/nicgep/app",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "goa-budget-alternative",
+          "kind": "budget_index",
+          "label": "Official Goa government budget host as an alternative to timed-out goabudget.gov.in",
+          "url": "https://budget.goa.gov.in/Goabudget/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "goa-performance-2025",
+          "kind": "department_budget",
+          "label": "Planning Statistics and Evaluation Performance Budget 2025–26",
+          "url": "https://dpse.goa.gov.in/Performance-Budget-2025-26.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "name": "Gujarat",
+      "nextAction": "Obtain current finance budget originals through official legislative/finance links; preserve CAG monthly expenditure and isolate current-year figures from older audit editions.",
+      "sources": [
+        {
+          "id": "gujarat-monthly",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Gujarat monthly expenditure",
+          "url": "https://cag.gov.in/ae/gujarat/en/state-accounts-report?defuat_account_report_type=360"
+        },
+        {
+          "id": "gujarat-legislative-budget",
+          "kind": "budget_index",
+          "label": "Gujarat Legislative Assembly budget documents",
+          "url": "https://www.gujarat.neva.gov.in/Home/MiscellaneousData?menuname=Budget"
+        },
+        {
+          "id": "gujarat-finance",
+          "kind": "budget_index",
+          "label": "Finance Department official portal; current original links require assessment",
+          "url": "https://financedepartment.gujarat.gov.in/"
+        },
+        {
+          "id": "gujarat-cmo-2025",
+          "kind": "budget_context",
+          "label": "Official Gujarat Budget 2025–26 policy summary",
+          "url": "https://cmogujarat.gov.in/en/gujarat-budget-2025-2026",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "gujarat-budget-books",
+          "url": "https://financedepartment.gujarat.gov.in/Budget.html",
+          "kind": "budget_index",
+          "label": "Observed official Finance budget publication page"
+        },
+        {
+          "id": "gujarat-budget-brief",
+          "url": "https://financedepartment.gujarat.gov.in/Budget-in-brief.html",
+          "kind": "budget_index",
+          "label": "Observed official Finance budget publication page"
+        },
+        {
+          "id": "state-procurement-24",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://jmc.nprocure.com/asp/home/new_home_tenders.asp",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "procurement-current-24",
+          "kind": "procurement_index",
+          "label": "Official Gujarat eProcurement source scope and nProcure link",
+          "url": "https://gil.gujarat.gov.in/eprocurement"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "Haryana",
+      "nextAction": "Extract budget sector/department columns and monthly actual cutoffs; collect HEWP work/contract exports only through public supported routes.",
+      "sources": [
+        {
+          "id": "haryana-budget-2026",
+          "kind": "budget_index",
+          "label": "Haryana Budget 2026–27 official documents",
+          "url": "https://finhry.gov.in/budget-2026-27/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "haryana-budget-glance",
+          "kind": "budget",
+          "label": "Haryana Budget at a Glance 2026–27",
+          "url": "https://cdnbbsr.s3waas.gov.in/s386e78499eeb33fb9cac16b7555b50767/uploads/2026/03/202603201709480455.pdf",
+          "contextUrl": "https://finhry.gov.in/budget-2026-27/"
+        },
+        {
+          "id": "haryana-monthly",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Haryana monthly expenditure",
+          "url": "https://cag.gov.in/ae/haryana/en/state-accounts-report?defuat_account_report_type=360"
+        },
+        {
+          "id": "state-procurement-6",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://etenders.hry.nic.in/nicgep/app",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": "Himachal Pradesh",
+      "nextAction": "Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
+      "sources": [
+        {
+          "id": "hp-budget-2026",
+          "kind": "budget",
+          "label": "Himachal Budget in Brief 2026–27",
+          "url": "https://himachalservices.nic.in/economics/pdf/BUDGET_IN_BRIEF_2026-27.pdf"
+        },
+        {
+          "id": "hp-budget-index",
+          "kind": "budget_index",
+          "label": "Official eBudget document portal",
+          "url": "https://ebudget.hp.nic.in/BudHome.aspx"
+        },
+        {
+          "id": "hp-monthly",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Himachal accounts and monthly indicators",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=73"
+        },
+        {
+          "id": "state-procurement-2",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://hptenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "Jharkhand",
+      "nextAction": "Review original budget summaries and public TreasuryMIS budget/allotment/expenditure; validate actual filter cutoffs and agency-level joins.",
+      "sources": [
+        {
+          "id": "jharkhand-budget-index",
+          "kind": "budget_index",
+          "label": "Official Budget Books 2026–27",
+          "url": "https://finance.jharkhand.gov.in/budget2026.aspx",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "jharkhand-budget-glance",
+          "kind": "budget",
+          "label": "Budget at a Glance 2026–27",
+          "url": "https://finance.jharkhand.gov.in/pdf/Budget_2026_27/Budget_Budget_at_a_Glance.pdf"
+        },
+        {
+          "id": "jharkhand-budget-summary",
+          "kind": "budget",
+          "label": "Budget Summary 2026–27",
+          "url": "https://finance.jharkhand.gov.in/pdf/Budget_2026_27/Budget_Saar.pdf"
+        },
+        {
+          "id": "jharkhand-expenditure",
+          "kind": "reported_expenditure",
+          "label": "TreasuryMIS Budget Allotment Expenditure public report",
+          "url": "https://jkuber.jharkhand.gov.in/treasurymis/rptBudAlloExp.aspx"
+        },
+        {
+          "id": "cag-monthly-20",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Jharkhand monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=75"
+        },
+        {
+          "id": "state-procurement-20",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://jharkhandtenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name": "Karnataka",
+      "sources": [
+        {
+          "id": "cag-monthly-29",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Karnataka monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=76"
+        },
+        {
+          "id": "ka-finance",
+          "kind": "budget_index",
+          "label": "Karnataka Finance Department budget document discovery",
+          "url": "https://finance.karnataka.gov.in/"
+        },
+        {
+          "id": "ka-budget-legislature",
+          "kind": "budget_context",
+          "label": "Official legislature proceedings including Budget 2026–27",
+          "url": "https://kla.kar.nic.in/council/houseproceedings/158/debates06032026.pdf"
+        },
+        {
+          "id": "state-procurement-29",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://eproc.karnataka.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Resolve the finance portal access gap; use legislature originals and CAG monthly actuals while locating department/municipal contract registers."
+    },
+    {
+      "code": "32",
+      "name": "Kerala",
+      "sources": [
+        {
+          "id": "cag-monthly-32",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Kerala monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=77"
+        },
+        {
+          "id": "kerala-budget-index",
+          "kind": "budget_index",
+          "label": "Kerala budget portal current and previous editions",
+          "url": "https://www.budget.kerala.gov.in/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "kerala-budget-speech",
+          "kind": "budget_context",
+          "label": "Finance Department Budget Speech 2026–27; check later revised edition",
+          "url": "https://www.finance.kerala.gov.in/includeWeb/fileViewer.jsp?dId=d6wd6wa9zh2sg3t"
+        },
+        {
+          "id": "kerala-afs-2025",
+          "kind": "budget",
+          "label": "Annual Financial Statement 2025–26",
+          "url": "https://www.budget.kerala.gov.in/keralabudgetdoc/2025_26/AFS.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "state-procurement-32",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://etenders.kerala.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Preserve original versus revised 2026 budgets separately; obtain KIIFB/department capital-work registers without adding their transfers twice."
+    },
+    {
+      "code": "23",
+      "name": "Madhya Pradesh",
+      "sources": [
+        {
+          "id": "cag-monthly-23",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Madhya Pradesh monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=78"
+        },
+        {
+          "id": "mp-budget-2026",
+          "kind": "budget_context",
+          "label": "Official Madhya Pradesh legislature Budget 2026–27",
+          "url": "https://mpvidhansabha.nic.in/budget2026.pdf"
+        },
+        {
+          "id": "mp-budget-proceeding",
+          "kind": "budget_context",
+          "label": "Official budget presentation record",
+          "url": "https://mpvidhansabha.nic.in/pr/pr180226.htm"
+        },
+        {
+          "id": "state-procurement-23",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://mptenders.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Locate detailed finance budget and department scheme/work registers; retain legislature speech figures as proposed allocations, separate from CAG actuals."
+    },
+    {
+      "code": "27",
+      "name": "Maharashtra",
+      "sources": [
+        {
+          "id": "cag-monthly-27",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Maharashtra monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=79"
+        },
+        {
+          "id": "mh-budget-programme",
+          "kind": "budget_index",
+          "label": "Programme Budget 2026–27 Part 1",
+          "url": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "mh-rural-budget",
+          "kind": "budget_index",
+          "label": "Rural Development Budget 2026–27 (URL contains older year; inspect original)",
+          "url": "https://rdd.maharashtra.gov.in/en/publication/budget-year-2025-2026-2/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "mh-performance-2025",
+          "kind": "budget_index",
+          "label": "Performance Budget 2025–26",
+          "url": "https://finance.maharashtra.gov.in/en/performance-budget-2/",
+          "years": [
+            "2025-2026"
+          ],
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "mh-monthly-civil",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Maharashtra monthly civil accounts",
+          "url": "https://cag.gov.in/ae/mumbai/en/ae-state-accounts?cat=792"
+        },
+        {
+          "id": "state-procurement-27",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://mahatenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Collect civil accounts and department development/works programme volumes; interpret Marathi legacy fonts before normalizing money."
+    },
+    {
+      "code": "14",
+      "name": "Manipur",
+      "sources": [
+        {
+          "id": "cag-monthly-14",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Manipur monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=80"
+        },
+        {
+          "id": "manipur-budget-2026",
+          "kind": "budget",
+          "label": "Manipur Budget at a Glance 2026–27",
+          "url": "https://manipur.gov.in/wp-content/uploads/2026/03/Budget-At-A-Glance-2026-27.pdf"
+        },
+        {
+          "id": "manipur-budget-2025",
+          "kind": "budget",
+          "label": "2025–26 full regular budget preserved by Union DEA",
+          "url": "https://dea.gov.in/files/budget_division_documents/Manipur%20Budget%202025-26%20%28FullRegular%29.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "state-procurement-14",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://manipurtenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Compare regular/interim editions and exact expenditure heads; collect implementing authority work and tender registers."
+    },
+    {
+      "code": "17",
+      "name": "Meghalaya",
+      "sources": [
+        {
+          "id": "cag-monthly-17",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Meghalaya monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=81"
+        },
+        {
+          "id": "meghalaya-budget-2026",
+          "kind": "budget_context",
+          "label": "Meghalaya official Budget Speech 2026–27",
+          "url": "https://megfinance.gov.in/budget_documents/2026-2027/others/budget_speech.pdf"
+        },
+        {
+          "id": "meghalaya-budget-2025",
+          "kind": "budget",
+          "label": "Meghalaya budget memorandum 2025–26; inspect printed fiscal columns",
+          "url": "https://megfinance.gov.in/budget_documents/2025-2026/others/memorandum.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "state-procurement-17",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://meghalayatenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Collect full AFS/demand originals and exact state NHIDCL project cost/contractor rows; separate climate/youth/gender overlapping subsets."
+    },
+    {
+      "code": "15",
+      "name": "Mizoram",
+      "sources": [
+        {
+          "id": "cag-monthly-15",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Mizoram monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=82"
+        },
+        {
+          "id": "mizoram-budget-2026",
+          "kind": "budget_context",
+          "label": "Official legislature Budget Speech 2026–27",
+          "url": "https://www.mizoramassembly.in/storage/budget-speeches/February2026/BS-01KJCAQ2SZ2441Q8D8M4FNHX63.pdf"
+        },
+        {
+          "id": "mizoram-frbm-2025",
+          "kind": "fiscal_context",
+          "label": "2025–26 FRBM statements; later projections are not approved current budgets",
+          "url": "https://finance.mizoram.gov.in/uploads/attachments/2025/03/2567b6b621035435c948564c22fb205f/posts-139-statements-under-frbm-act-20052025-26.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "procurement-current-15",
+          "kind": "procurement_index",
+          "label": "Official Mizoram tenders",
+          "url": "https://mizoramtenders.gov.in/"
+        }
+      ],
+      "nextAction": "Locate current AFS/demand tables and department work registers; keep projections separate from actuals."
+    },
+    {
+      "code": "13",
+      "name": "Nagaland",
+      "sources": [
+        {
+          "id": "cag-monthly-13",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Nagaland monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=83"
+        },
+        {
+          "id": "nagaland-finance",
+          "kind": "budget_index",
+          "label": "Nagaland official finance budget portal",
+          "url": "https://finance.nagaland.gov.in/"
+        },
+        {
+          "id": "nagaland-gender-2026",
+          "kind": "budget",
+          "label": "Nagaland Gender Budget Statement 2026–27; subset not an extra total",
+          "url": "https://finance.nagaland.gov.in/Content/Files/8F0ED51A-779B-46E3-8976-60D2F8E037F3.pdf"
+        },
+        {
+          "id": "nagaland-budget-announcement",
+          "kind": "budget_context",
+          "label": "Official Budget 2026–27 announcement and departmental outcome scope",
+          "url": "https://ipr.nagaland.gov.in/node/20107"
+        },
+        {
+          "id": "state-procurement-13",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://nagalandtenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers."
+    },
+    {
+      "code": "21",
+      "name": "Odisha",
+      "sources": [
+        {
+          "id": "cag-monthly-21",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Odisha monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=84"
+        },
+        {
+          "id": "odisha-budget-index",
+          "kind": "budget_index",
+          "label": "Odisha Finance budget editions and departmental outcome budgets",
+          "url": "https://finance.odisha.gov.in/en/publication/finance-budget",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "odisha-budget-speech-2026",
+          "kind": "budget_context",
+          "label": "Budget Speech English Part II; inspect original edition versus URL upload date",
+          "url": "https://finance.odisha.gov.in/sites/default/files/2025-08/04-BUDGET_SPEECH_ENGLISH-PART-2.pdf"
+        },
+        {
+          "id": "odisha-allotment-orders",
+          "kind": "departmental_allotment_context",
+          "label": "Budget expenditure-control and reconciliation orders",
+          "url": "https://finance.odisha.gov.in/en/notification/budget-and-expenditure-control"
+        }
+      ],
+      "nextAction": "Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection."
+    },
+    {
+      "code": "3",
+      "name": "Punjab",
+      "sources": [
+        {
+          "id": "cag-monthly-3",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Punjab monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=85"
+        },
+        {
+          "id": "punjab-budget-index",
+          "kind": "budget_index",
+          "label": "Punjab official state budget portal",
+          "url": "https://finance.punjab.gov.in/state-budget"
+        },
+        {
+          "id": "state-procurement-3",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://eproc.punjab.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Resolve official budget-download availability and collect CAG provisional expenditure; inspect PWD/municipal tender awards and document exact year filters."
+    },
+    {
+      "code": "8",
+      "name": "Rajasthan",
+      "sources": [
+        {
+          "id": "cag-monthly-8",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Rajasthan monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=86"
+        },
+        {
+          "id": "rajasthan-budget-2026",
+          "kind": "budget_context",
+          "label": "Official 2026–27 development-purpose budget features",
+          "url": "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/pressnoteng2026-27.pdf"
+        },
+        {
+          "id": "rajasthan-outcome-2026",
+          "kind": "programme_budget",
+          "label": "Output Outcome Budget 2026–27",
+          "url": "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/OUTPUT-OUTCOME-BUDGET-2026-27.pdf"
+        },
+        {
+          "id": "state-procurement-8",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://eproc.rajasthan.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls."
+    },
+    {
+      "code": "11",
+      "name": "Sikkim",
+      "sources": [
+        {
+          "id": "cag-monthly-11",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Sikkim monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87"
+        },
+        {
+          "id": "sikkim-budget-2026",
+          "kind": "budget_context",
+          "label": "Official full-budget passage and separate department demands",
+          "url": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+2026-27+Concludes%3B+House+Passes+Key+Bill+and+Separate+Demands+for+Grants"
+        },
+        {
+          "id": "sikkim-food-budget",
+          "kind": "department_budget",
+          "label": "Food department Revenue and Capital Budget 2026–27",
+          "url": "https://sikkimfcs.sikkim.gov.in/Public/FinanceAccountSection/RevenueCapitalDetailsView/53"
+        },
+        {
+          "id": "sikkim-finance-reports",
+          "kind": "budget_index",
+          "label": "State Finance Commission published financial reports",
+          "url": "https://www.sfc.sikkim.gov.in/visitor/allreport"
+        },
+        {
+          "id": "state-procurement-11",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://sikkimtender.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Preserve March vote-on-account and July regular budget separately; obtain full department grant/expenditure originals and project records."
+    },
+    {
+      "code": "33",
+      "name": "Tamil Nadu",
+      "sources": [
+        {
+          "id": "cag-monthly-33",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Tamil Nadu monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=88"
+        },
+        {
+          "id": "tn-budget-index",
+          "kind": "budget_index",
+          "label": "Official Tamil Nadu budget portal; interim/regular 2026 edition review",
+          "url": "https://www.tnbudget.tn.gov.in/"
+        },
+        {
+          "id": "tn-budget-2025",
+          "kind": "budget_context",
+          "label": "Official English Budget Speech 2025–26",
+          "url": "https://www.tnbudget.tn.gov.in/tnweb_files/BS_2025_26_ENG_FINAL.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "state-procurement-33",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://tntenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Collect the actual 2026–27 edition and monthly expenditure; projections printed in 2025 books do not establish current-year allocations."
+    },
+    {
+      "code": "36",
+      "name": "Telangana",
+      "sources": [
+        {
+          "id": "cag-monthly-36",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Telangana monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=93"
+        },
+        {
+          "id": "telangana-budget-2026",
+          "kind": "budget_index",
+          "label": "Official Telangana Budget 2026–27 departmental volumes",
+          "url": "https://www.telangana.gov.in/budget-2026-2027/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "telangana-ifmis-context",
+          "kind": "portal_access_context",
+          "label": "IFMIS public landing page with official budget link; login records excluded",
+          "url": "https://ifmis.telangana.gov.in/login?module_type=budget-cadre"
+        },
+        {
+          "id": "state-procurement-36",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://eprocurement.telangana.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Preserve current department demands and budget figures; obtain CAG actuals and inspect public procurement awards without treating IFMIS login as accessible payment data."
+    },
+    {
+      "code": "16",
+      "name": "Tripura",
+      "sources": [
+        {
+          "id": "cag-monthly-16",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Tripura monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=89"
+        },
+        {
+          "id": "tripura-finance",
+          "kind": "budget_index",
+          "label": "Official Tripura Finance current budget documents",
+          "url": "https://finance.tripura.gov.in/"
+        },
+        {
+          "id": "tripura-budget-2025",
+          "kind": "budget",
+          "label": "Expenditure Budget Volume I 2025–26",
+          "url": "https://finance.tripura.gov.in/sites/default/files/Expenditure%20Budget%202025-26%20Volume%201%20-%20Abstracts%20of%20Accounts_0.pdf",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "state-procurement-16",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://tripuratenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Locate current 2026–27 original department budgets and NHIDCL work costs/contractors; preserve full-year and to-date expenditure scope."
+    },
+    {
+      "code": "9",
+      "name": "Uttar Pradesh",
+      "sources": [
+        {
+          "id": "cag-monthly-9",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Uttar Pradesh monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=90"
+        },
+        {
+          "id": "up-budget-index",
+          "kind": "budget_index",
+          "label": "Official UP budget current-year volumes",
+          "url": "https://budget.up.nic.in/"
+        },
+        {
+          "id": "up-demands-2026",
+          "kind": "budget",
+          "label": "2026–27 grant-wise expenditure demands",
+          "url": "https://budget.up.nic.in/khand2part2/khand2part2_2026_2027.pdf"
+        },
+        {
+          "id": "state-procurement-9",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://etender.up.nic.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Normalize current budget grant/purpose allocations; collect departmental/UPEIDA contracts and actual expenditure separately from proposed announcements."
+    },
+    {
+      "code": "5",
+      "name": "Uttarakhand",
+      "sources": [
+        {
+          "id": "cag-monthly-5",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG Uttarakhand monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=91"
+        },
+        {
+          "id": "uk-budget-index",
+          "kind": "budget_index",
+          "label": "Official Uttarakhand Budget Directorate 2026–27 volumes",
+          "url": "https://budget.uk.gov.in/budget-2026-27/",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "state-procurement-5",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://uktenders.gov.in",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Read current and previous-year allocations and CAG actuals; inspect state PWD/health procurement and NHIDCL state projects."
+    },
+    {
+      "code": "19",
+      "name": "West Bengal",
+      "sources": [
+        {
+          "id": "cag-monthly-19",
+          "kind": "monthly_expenditure_index",
+          "label": "CAG West Bengal monthly expenditure and annual account availability",
+          "url": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=92"
+        },
+        {
+          "id": "wb-budget-index",
+          "kind": "budget_index",
+          "label": "Official WB budget publications and department demands 2026–27",
+          "url": "https://finance.wb.gov.in/Fin_New/Pages/Budget_Publication.aspx",
+          "maxLinkedReports": 20
+        },
+        {
+          "id": "wb-budget-afs",
+          "kind": "budget",
+          "label": "2026 Civil Budget Estimate; interim/regular edition attribution pending",
+          "url": "https://finance.wb.gov.in/writereaddata/Budget_Publication/2026_bp1-1_I.pdf"
+        },
+        {
+          "id": "wb-finance-orders",
+          "kind": "departmental_allotment_context",
+          "label": "Official releases and procurement orders with issue dates",
+          "url": "https://finance.wb.gov.in/Fin_New/Pages/Publication.aspx"
+        },
+        {
+          "id": "state-procurement-19",
+          "kind": "procurement_index",
+          "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
+          "url": "https://wbtenders.gov.in/",
+          "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        }
+      ],
+      "nextAction": "Keep interim/regular budget editions distinct; reuse 9,337 JJM schemes and add CAG actuals/department grants without assigning aggregate spend to historical dots."
+    }
+  ],
+  "financialYears": [
+    "2025-2026",
+    "2026-2027"
+  ],
+  "collectionOrder": "owner_28_states",
+  "sourceStatus": "observed_sources_require_document_and_reuse_review"
+}

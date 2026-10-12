@@ -816,7 +816,7 @@
       "Source reuse review and explicit owner publication decisions"
     ]
   },
-  "updatedOn": "2026-10-11",
+  "updatedOn": "2026-10-12",
   "lanes": [
     {
       "id": "public",
@@ -1275,6 +1275,314 @@
       "nextAction": "Return checksum-preserved hisaab-intake/1 packages for the existing pilots; stage privately, reconcile documentary joins and complete explicit owner evidence review.",
       "followUpOn": null,
       "supportingRecord": "Clean India/state/asset screens; 812,976 hosted historical locations audited without point loss; 86 existing PIB funding facts preserved; zero new project/payment approvals. Strict intake contract and 36 prepared state/UT handoffs; source revocation, encrypted videos and documentary complaint acknowledgement safeguards. Design/status/collector instructions saved in docs. Acquisition automation remains paused."
+    },
+    {
+      "id": "state-development-28",
+      "lane": "public",
+      "title": "01. Andhra Pradesh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "31 source responses / 26 distinct PDFs preserved; 63 budget, 28 expenditure and 32 project/tender candidates. Review original Budget at a Glance sector columns; collect the observed departmental and awarded-work links; seek to-date expenditure separately.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 15 preserved source responses, including 10 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-12",
+      "lane": "public",
+      "title": "02. Arunachal Pradesh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 4 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "12 source responses / 6 distinct PDFs preserved; 0 budget, 8 expenditure and 22 project/tender candidates. Review budget column units (thousand), preserve NHIDCL named contractor/progress rows and collect dated classroom/health tenders; establish expenditure cutoffs separately.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 12 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-18",
+      "lane": "public",
+      "title": "03. Assam · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "11 source responses / 6 distinct PDFs preserved; 0 budget, 55 expenditure and 72 project/tender candidates. Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 11 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-10",
+      "lane": "public",
+      "title": "04. Bihar · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "9 source responses / 5 distinct PDFs preserved; 0 budget, 32 expenditure and 0 project/tender candidates. Extract the full-year preliminary/supplementary March 2026 and latest 2026–27 accounts with their exact cutoffs; compare budget sector allocations and road tender purposes.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 5 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-22",
+      "lane": "public",
+      "title": "05. Chhattisgarh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 14 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "37 source responses / 30 distinct PDFs preserved; 0 budget, 26 expenditure and 1 project/tender candidates. Read official English budget/major-head reports and retained legacy-font Hindi figures visually; collect March/current-year accounts and PWD road/building notices separately.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 19 preserved source responses, including 12 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-30",
+      "lane": "public",
+      "title": "06. Goa · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 3 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "25 source responses / 21 distinct PDFs preserved; 0 budget, 0 expenditure and 0 project/tender candidates. Normalize observed major-head summary and gender-budget scheme expenditure (explicit February 2026 cutoff); assess procurement contract rows independently.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 5 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-24",
+      "lane": "public",
+      "title": "07. Gujarat · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 2 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "11 source responses / 5 distinct PDFs preserved; 0 budget, 7 expenditure and 0 project/tender candidates. Obtain current finance budget originals through official legislative/finance links; preserve CAG monthly expenditure and isolate current-year figures from older audit editions.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 11 preserved source responses, including 5 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-6",
+      "lane": "public",
+      "title": "08. Haryana · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "19 source responses / 15 distinct PDFs preserved; 0 budget, 2 expenditure and 0 project/tender candidates. Extract budget sector/department columns and monthly actual cutoffs; collect HEWP work/contract exports only through public supported routes.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 12 preserved source responses, including 8 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-2",
+      "lane": "public",
+      "title": "09. Himachal Pradesh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "8 source responses / 4 distinct PDFs preserved; 0 budget, 21 expenditure and 20 project/tender candidates. Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 8 preserved source responses, including 4 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-20",
+      "lane": "public",
+      "title": "10. Jharkhand · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "29 source responses / 24 distinct PDFs preserved; 0 budget, 0 expenditure and 20 project/tender candidates. Review original budget summaries and public TreasuryMIS budget/allotment/expenditure; validate actual filter cutoffs and agency-level joins.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 13 preserved source responses, including 8 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-29",
+      "lane": "public",
+      "title": "11. Karnataka · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "12 source responses / 8 distinct PDFs preserved; 0 budget, 10 expenditure and 0 project/tender candidates. Resolve the finance portal access gap; use legislature originals and CAG monthly actuals while locating department/municipal contract registers.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 12 preserved source responses, including 8 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-32",
+      "lane": "public",
+      "title": "12. Kerala · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "30 source responses / 25 distinct PDFs preserved; 0 budget, 3 expenditure and 20 project/tender candidates. Preserve original versus revised 2026 budgets separately; obtain KIIFB/department capital-work registers without adding their transfers twice.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 14 preserved source responses, including 10 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-23",
+      "lane": "public",
+      "title": "13. Madhya Pradesh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "8 source responses / 5 distinct PDFs preserved; 0 budget, 28 expenditure and 0 project/tender candidates. Locate detailed finance budget and department scheme/work registers; retain legislature speech figures as proposed allocations, separate from CAG actuals.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 8 preserved source responses, including 5 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-27",
+      "lane": "public",
+      "title": "14. Maharashtra · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "21 source responses / 15 distinct PDFs preserved; 0 budget, 15 expenditure and 20 project/tender candidates. Collect civil accounts and department development/works programme volumes; interpret Marathi legacy fonts before normalizing money.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 19 preserved source responses, including 13 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-14",
+      "lane": "public",
+      "title": "15. Manipur · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "9 source responses / 6 distinct PDFs preserved; 0 budget, 31 expenditure and 54 project/tender candidates. Compare regular/interim editions and exact expenditure heads; collect implementing authority work and tender registers.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-17",
+      "lane": "public",
+      "title": "16. Meghalaya · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "9 source responses / 6 distinct PDFs preserved; 0 budget, 0 expenditure and 38 project/tender candidates. Collect full AFS/demand originals and exact state NHIDCL project cost/contractor rows; separate climate/youth/gender overlapping subsets.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-15",
+      "lane": "public",
+      "title": "17. Mizoram · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "9 source responses / 6 distinct PDFs preserved; 0 budget, 6 expenditure and 21 project/tender candidates. Locate current AFS/demand tables and department work registers; keep projections separate from actuals.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-13",
+      "lane": "public",
+      "title": "18. Nagaland · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "14 source responses / 9 distinct PDFs preserved; 0 budget, 14 expenditure and 25 project/tender candidates. Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 14 preserved source responses, including 9 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-21",
+      "lane": "public",
+      "title": "19. Odisha · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "24 source responses / 21 distinct PDFs preserved; 0 budget, 6 expenditure and 0 project/tender candidates. Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 6 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-3",
+      "lane": "public",
+      "title": "20. Punjab · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "7 source responses / 4 distinct PDFs preserved; 0 budget, 8 expenditure and 20 project/tender candidates. Resolve official budget-download availability and collect CAG provisional expenditure; inspect PWD/municipal tender awards and document exact year filters.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 7 preserved source responses, including 4 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-8",
+      "lane": "public",
+      "title": "21. Rajasthan · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "6 source responses / 3 distinct PDFs preserved; 0 budget, 3 expenditure and 20 project/tender candidates. Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 6 preserved source responses, including 3 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-11",
+      "lane": "public",
+      "title": "22. Sikkim · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "8 source responses / 3 distinct PDFs preserved; 0 budget, 11 expenditure and 18 project/tender candidates. Preserve March vote-on-account and July regular budget separately; obtain full department grant/expenditure originals and project records.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 8 preserved source responses, including 3 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-33",
+      "lane": "public",
+      "title": "23. Tamil Nadu · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 2 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "7 source responses / 4 distinct PDFs preserved; 0 budget, 12 expenditure and 20 project/tender candidates. Collect the actual 2026–27 edition and monthly expenditure; projections printed in 2025 books do not establish current-year allocations.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 7 preserved source responses, including 4 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-36",
+      "lane": "public",
+      "title": "24. Telangana · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 10 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "18 source responses / 14 distinct PDFs preserved; 135 budget, 28 expenditure and 0 project/tender candidates. Preserve current department demands and budget figures; obtain CAG actuals and inspect public procurement awards without treating IFMIS login as accessible payment data.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 12 preserved source responses, including 8 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-16",
+      "lane": "public",
+      "title": "25. Tripura · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "9 source responses / 5 distinct PDFs preserved; 0 budget, 3 expenditure and 34 project/tender candidates. Locate current 2026–27 original department budgets and NHIDCL work costs/contractors; preserve full-year and to-date expenditure scope.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 9 preserved source responses, including 5 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-9",
+      "lane": "public",
+      "title": "26. Uttar Pradesh · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "11 source responses / 7 distinct PDFs preserved; 0 budget, 32 expenditure and 20 project/tender candidates. Normalize current budget grant/purpose allocations; collect departmental/UPEIDA contracts and actual expenditure separately from proposed announcements.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 11 preserved source responses, including 7 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-5",
+      "lane": "public",
+      "title": "27. Uttarakhand · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 0 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "21 source responses / 17 distinct PDFs preserved; 0 budget, 0 expenditure and 24 project/tender candidates. Read current and previous-year allocations and CAG actuals; inspect state PWD/health procurement and NHIDCL state projects.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 11 preserved source responses, including 7 PDFs. Unpublished; not verified complete coverage."
+    },
+    {
+      "id": "state-development-19",
+      "lane": "public",
+      "title": "28. West Bengal · two-year development evidence",
+      "owner": "Hisaab",
+      "status": "In progress",
+      "blocker": "Partial evidence; 1 recorded source failures. Classification, table/OCR review, source reuse and complete register denominators remain pending.",
+      "nextAction": "29 source responses / 24 distinct PDFs preserved; 0 budget, 16 expenditure and 35 project/tender candidates. Keep interim/regular budget editions distinct; reuse 9,337 JJM schemes and add CAG actuals/department grants without assigning aggregate spend to historical dots.",
+      "followUpOn": null,
+      "supportingRecord": "FY 2025–26 / FY 2026–27 · 14 preserved source responses, including 9 PDFs. Unpublished; not verified complete coverage."
     }
   ],
   "projects": [
@@ -1471,6 +1779,10 @@
     "Follow-up dates count Monday–Friday only; check office holidays before sending.",
     "No automatic emails are scheduled. Background acquisition is paused for owner review; the 9 October active research does not resume it.",
     "One panchayat sample assessed: Chandanbhati. Two local work references found; exact geography and official activity mapping remain unverified.",
-    "Funding Atlas covers Union funding separately from contractor payments. Interface completion and complete programme/year evidence coverage are separate gates."
+    "Funding Atlas covers Union funding separately from contractor payments. Interface completion and complete programme/year evidence coverage are separate gates.",
+    "The owner narrowed active collection to FY 2025–26 and FY 2026–27 to source cutoff, in the 28-state order. Prior holdings are preserved. Complete payment cards are not a prerequisite for collecting useful separate facts.",
+    "12 October: first source pass assessed all 28 states. Budgets, recorded expenditure, project cost, award values, source progress and tender notices remain distinct; no new financial facts were publicly approved.",
+    "Assam public active-tender register requires CAPTCHA; current homepage rows are only a sample. Public finance exports on test-labelled hosts require production provenance and control-total checks.",
+    "12 October: completed the ordered 28-state source pass and a deeper departmental-budget pass. 444 source responses / 324 distinct PDF files preserved; new candidate records stay private. Seven existing request threads checked: no new usable export or substantive response."
   ]
 }

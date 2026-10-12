@@ -2,19 +2,766 @@
   "version": "hisaab-collector-jobs/1",
   "status": "prepared_not_dispatched",
   "years": [
-    "2026-2027",
     "2025-2026",
-    "2024-2025",
-    "2023-2024",
-    "2022-2023",
-    "2021-2022",
-    "2020-2021",
-    "2019-2020",
-    "2018-2019",
-    "2017-2018",
-    "2016-2017"
+    "2026-2027"
   ],
   "jobs": [
+    {
+      "jurisdiction": "28",
+      "name": "Andhra Pradesh",
+      "status": "unassigned",
+      "priority": "Review original Budget at a Glance sector columns; collect the observed departmental and awarded-work links; seek to-date expenditure separately.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 1,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/28/checkpoint.json"
+    },
+    {
+      "jurisdiction": "12",
+      "name": "Arunachal Pradesh",
+      "status": "unassigned",
+      "priority": "Review budget column units (thousand), preserve NHIDCL named contractor/progress rows and collect dated classroom/health tenders; establish expenditure cutoffs separately.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 2,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/12/checkpoint.json"
+    },
+    {
+      "jurisdiction": "18",
+      "name": "Assam",
+      "status": "unassigned",
+      "priority": "Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 3,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/18/checkpoint.json"
+    },
+    {
+      "jurisdiction": "10",
+      "name": "Bihar",
+      "status": "unassigned",
+      "priority": "Extract the full-year preliminary/supplementary March 2026 and latest 2026–27 accounts with their exact cutoffs; compare budget sector allocations and road tender purposes.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 4,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/10/checkpoint.json"
+    },
+    {
+      "jurisdiction": "22",
+      "name": "Chhattisgarh",
+      "status": "unassigned",
+      "priority": "Read official English budget/major-head reports and retained legacy-font Hindi figures visually; collect March/current-year accounts and PWD road/building notices separately.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 5,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/22/checkpoint.json"
+    },
+    {
+      "jurisdiction": "30",
+      "name": "Goa",
+      "status": "unassigned",
+      "priority": "Normalize observed major-head summary and gender-budget scheme expenditure (explicit February 2026 cutoff); assess procurement contract rows independently.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 6,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/30/checkpoint.json"
+    },
+    {
+      "jurisdiction": "24",
+      "name": "Gujarat",
+      "status": "unassigned",
+      "priority": "Obtain current finance budget originals through official legislative/finance links; preserve CAG monthly expenditure and isolate current-year figures from older audit editions.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 7,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/24/checkpoint.json"
+    },
+    {
+      "jurisdiction": "6",
+      "name": "Haryana",
+      "status": "unassigned",
+      "priority": "Extract budget sector/department columns and monthly actual cutoffs; collect HEWP work/contract exports only through public supported routes.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 8,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/6/checkpoint.json"
+    },
+    {
+      "jurisdiction": "2",
+      "name": "Himachal Pradesh",
+      "status": "unassigned",
+      "priority": "Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 9,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/2/checkpoint.json"
+    },
+    {
+      "jurisdiction": "20",
+      "name": "Jharkhand",
+      "status": "unassigned",
+      "priority": "Review original budget summaries and public TreasuryMIS budget/allotment/expenditure; validate actual filter cutoffs and agency-level joins.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 10,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/20/checkpoint.json"
+    },
+    {
+      "jurisdiction": "29",
+      "name": "Karnataka",
+      "status": "unassigned",
+      "priority": "Resolve the finance portal access gap; use legislature originals and CAG monthly actuals while locating department/municipal contract registers.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 11,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/29/checkpoint.json"
+    },
+    {
+      "jurisdiction": "32",
+      "name": "Kerala",
+      "status": "unassigned",
+      "priority": "Preserve original versus revised 2026 budgets separately; obtain KIIFB/department capital-work registers without adding their transfers twice.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 12,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/32/checkpoint.json"
+    },
+    {
+      "jurisdiction": "23",
+      "name": "Madhya Pradesh",
+      "status": "unassigned",
+      "priority": "Locate detailed finance budget and department scheme/work registers; retain legislature speech figures as proposed allocations, separate from CAG actuals.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 13,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/23/checkpoint.json"
+    },
+    {
+      "jurisdiction": "27",
+      "name": "Maharashtra",
+      "status": "unassigned",
+      "priority": "Collect civil accounts and department development/works programme volumes; interpret Marathi legacy fonts before normalizing money.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 14,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/27/checkpoint.json"
+    },
+    {
+      "jurisdiction": "14",
+      "name": "Manipur",
+      "status": "unassigned",
+      "priority": "Compare regular/interim editions and exact expenditure heads; collect implementing authority work and tender registers.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 15,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/14/checkpoint.json"
+    },
+    {
+      "jurisdiction": "17",
+      "name": "Meghalaya",
+      "status": "unassigned",
+      "priority": "Collect full AFS/demand originals and exact state NHIDCL project cost/contractor rows; separate climate/youth/gender overlapping subsets.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 16,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/17/checkpoint.json"
+    },
+    {
+      "jurisdiction": "15",
+      "name": "Mizoram",
+      "status": "unassigned",
+      "priority": "Locate current AFS/demand tables and department work registers; keep projections separate from actuals.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 17,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/15/checkpoint.json"
+    },
+    {
+      "jurisdiction": "13",
+      "name": "Nagaland",
+      "status": "unassigned",
+      "priority": "Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 18,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/13/checkpoint.json"
+    },
+    {
+      "jurisdiction": "21",
+      "name": "Odisha",
+      "status": "unassigned",
+      "priority": "Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 19,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/21/checkpoint.json"
+    },
+    {
+      "jurisdiction": "3",
+      "name": "Punjab",
+      "status": "unassigned",
+      "priority": "Resolve official budget-download availability and collect CAG provisional expenditure; inspect PWD/municipal tender awards and document exact year filters.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 20,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/3/checkpoint.json"
+    },
+    {
+      "jurisdiction": "8",
+      "name": "Rajasthan",
+      "status": "unassigned",
+      "priority": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 21,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/8/checkpoint.json"
+    },
+    {
+      "jurisdiction": "11",
+      "name": "Sikkim",
+      "status": "unassigned",
+      "priority": "Preserve March vote-on-account and July regular budget separately; obtain full department grant/expenditure originals and project records.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 22,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/11/checkpoint.json"
+    },
+    {
+      "jurisdiction": "33",
+      "name": "Tamil Nadu",
+      "status": "unassigned",
+      "priority": "Collect the actual 2026–27 edition and monthly expenditure; projections printed in 2025 books do not establish current-year allocations.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 23,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/33/checkpoint.json"
+    },
+    {
+      "jurisdiction": "36",
+      "name": "Telangana",
+      "status": "unassigned",
+      "priority": "Preserve current department demands and budget figures; obtain CAG actuals and inspect public procurement awards without treating IFMIS login as accessible payment data.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 24,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/36/checkpoint.json"
+    },
+    {
+      "jurisdiction": "16",
+      "name": "Tripura",
+      "status": "unassigned",
+      "priority": "Locate current 2026–27 original department budgets and NHIDCL work costs/contractors; preserve full-year and to-date expenditure scope.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 25,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/16/checkpoint.json"
+    },
+    {
+      "jurisdiction": "9",
+      "name": "Uttar Pradesh",
+      "status": "unassigned",
+      "priority": "Normalize current budget grant/purpose allocations; collect departmental/UPEIDA contracts and actual expenditure separately from proposed announcements.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 26,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/9/checkpoint.json"
+    },
+    {
+      "jurisdiction": "5",
+      "name": "Uttarakhand",
+      "status": "unassigned",
+      "priority": "Read current and previous-year allocations and CAG actuals; inspect state PWD/health procurement and NHIDCL state projects.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 27,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/5/checkpoint.json"
+    },
+    {
+      "jurisdiction": "19",
+      "name": "West Bengal",
+      "status": "unassigned",
+      "priority": "Keep interim/regular budget editions distinct; reuse 9,337 JJM schemes and add CAG actuals/department grants without assigning aggregate spend to historical dots.",
+      "method": "docs/data-acquisition-contract.md",
+      "routes": [
+        "official_public_reports",
+        "authorized_export_or_api",
+        "targeted_rti_draft",
+        "agency_pilot_draft"
+      ],
+      "deliverables": [
+        "preserved originals",
+        "hisaab-intake/1 batches",
+        "explicit gaps",
+        "source rights",
+        "checkpoint"
+      ],
+      "newOutboundAuthorization": false,
+      "paidAccessAuthorization": false,
+      "publication": "private_pending_review",
+      "activeScope": true,
+      "collectionOrder": 28,
+      "currentSourceMethod": "docs/state-development-source-methods.md",
+      "collectionCheckpoint": "data/acquisition/state-development/19/checkpoint.json"
+    },
     {
       "jurisdiction": "35",
       "name": "Andaman and Nicobar Islands",
@@ -36,99 +783,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "28",
-      "name": "Andhra Pradesh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "12",
-      "name": "Arunachal Pradesh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "18",
-      "name": "Assam",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "10",
-      "name": "Bihar",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "4",
@@ -151,30 +808,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "22",
-      "name": "Chhattisgarh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "38",
@@ -197,7 +833,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "7",
@@ -220,99 +858,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "30",
-      "name": "Goa",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "24",
-      "name": "Gujarat",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "6",
-      "name": "Haryana",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "2",
-      "name": "Himachal Pradesh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "1",
@@ -335,76 +883,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "20",
-      "name": "Jharkhand",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "29",
-      "name": "Karnataka",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "32",
-      "name": "Kerala",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "37",
@@ -427,7 +908,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "31",
@@ -450,168 +933,9 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "23",
-      "name": "Madhya Pradesh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "27",
-      "name": "Maharashtra",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "14",
-      "name": "Manipur",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "17",
-      "name": "Meghalaya",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "15",
-      "name": "Mizoram",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "13",
-      "name": "Nagaland",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "21",
-      "name": "Odisha",
-      "status": "unassigned",
-      "priority": "Existing road and panchayat pilots",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     },
     {
       "jurisdiction": "34",
@@ -634,214 +958,11 @@
       ],
       "newOutboundAuthorization": false,
       "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "3",
-      "name": "Punjab",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "8",
-      "name": "Rajasthan",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "11",
-      "name": "Sikkim",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "33",
-      "name": "Tamil Nadu",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "36",
-      "name": "Telangana",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "16",
-      "name": "Tripura",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "9",
-      "name": "Uttar Pradesh",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "5",
-      "name": "Uttarakhand",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
-    },
-    {
-      "jurisdiction": "19",
-      "name": "West Bengal",
-      "status": "unassigned",
-      "priority": "Establish strongest complete pilot chain",
-      "method": "docs/data-acquisition-contract.md",
-      "routes": [
-        "official_public_reports",
-        "authorized_export_or_api",
-        "targeted_rti_draft",
-        "agency_pilot_draft"
-      ],
-      "deliverables": [
-        "preserved originals",
-        "hisaab-intake/1 batches",
-        "explicit gaps",
-        "source rights",
-        "checkpoint"
-      ],
-      "newOutboundAuthorization": false,
-      "paidAccessAuthorization": false,
-      "publication": "private_pending_review"
+      "publication": "private_pending_review",
+      "activeScope": false,
+      "scopeReason": "Preserved UT handoff; outside the current owner-ordered 28-state pass"
     }
-  ]
+  ],
+  "activeScope": "28 states in owner order; two fiscal years; complete cards not a collection prerequisite",
+  "updatedOn": "2026-10-12"
 }
