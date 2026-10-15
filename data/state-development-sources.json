@@ -4,7 +4,7 @@
     {
       "code": "28",
       "name": "Andhra Pradesh",
-      "nextAction": "Review original Budget at a Glance sector columns; collect the observed departmental and awarded-work links; seek to-date expenditure separately.",
+      "nextAction": "Reconcile the printed AP sector rounding difference; extract departmental programme tables and dated project/bill allocations.",
       "sources": [
         {
           "id": "ap-budget-2026-index",
@@ -75,7 +75,7 @@
     {
       "code": "12",
       "name": "Arunachal Pradesh",
-      "nextAction": "Review budget column units (thousand), preserve NHIDCL named contractor/progress rows and collect dated classroom/health tenders; establish expenditure cutoffs separately.",
+      "nextAction": "Review wrapped bilingual heads and blank charge/capital cells; expand schemes and link actual expenditure to official project IDs.",
       "sources": [
         {
           "id": "arunachal-afs-2026",
@@ -125,7 +125,7 @@
     {
       "code": "18",
       "name": "Assam",
-      "nextAction": "Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
+      "nextAction": "Obtain usable FY2026–27 budget originals and confirm the test-labelled FY2025–26 expenditure report against production records.",
       "sources": [
         {
           "id": "assam-budget-index",
@@ -235,7 +235,7 @@
     {
       "code": "10",
       "name": "Bihar",
-      "nextAction": "Extract the full-year preliminary/supplementary March 2026 and latest 2026–27 accounts with their exact cutoffs; compare budget sector allocations and road tender purposes.",
+      "nextAction": "Review scanned AFS monetary cells against originals; expand beyond scheme-group totals and obtain project-linked expenditure.",
       "sources": [
         {
           "id": "bihar-budget-2026",
@@ -267,13 +267,24 @@
           "kind": "procurement_index",
           "label": "Current Bihar government eProcurement 2.0; legacy CPPP link is not used as statewide coverage",
           "url": "https://eproc2.bihar.gov.in/EPSV2Web/"
+        },
+        {
+          "id": "bihar-afs-observed-2026",
+          "url": "https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/26-Feb-2026/5/DyPage/Annual%20Financial%20Statement_Report_2026-27.pdf",
+          "kind": "budget",
+          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ]
     },
     {
       "code": "22",
       "name": "Chhattisgarh",
-      "nextAction": "Read official English budget/major-head reports and retained legacy-font Hindi figures visually; collect March/current-year accounts and PWD road/building notices separately.",
+      "nextAction": "Read detailed Hindi/legacy-font demands for both years; distinguish editions and programme/subhead amounts from overview totals.",
       "sources": [
         {
           "id": "cg-budget-2026",
@@ -321,7 +332,7 @@
     {
       "code": "30",
       "name": "Goa",
-      "nextAction": "Normalize observed major-head summary and gender-budget scheme expenditure (explicit February 2026 cutoff); assess procurement contract rows independently.",
+      "nextAction": "Recover the official AFS and demand volumes after download failures; obtain current expenditure and named development programmes.",
       "sources": [
         {
           "id": "goa-budget-index",
@@ -369,13 +380,24 @@
           "years": [
             "2025-2026"
           ]
+        },
+        {
+          "id": "goa-afs-observed-2026",
+          "kind": "budget",
+          "label": "Official Goa Annual Financial Statement FY2026–27",
+          "url": "https://goabudget.gov.in/assets/documents/2026-27/AFS/AFS.pdf",
+          "contextUrl": "https://goabudget.gov.in/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ]
     },
     {
       "code": "24",
       "name": "Gujarat",
-      "nextAction": "Obtain current finance budget originals through official legislative/finance links; preserve CAG monthly expenditure and isolate current-year figures from older audit editions.",
+      "nextAction": "Review outcome-budget scheme subdivisions, missing merged labels and overlapping budget heads; reconcile with development/department totals.",
       "sources": [
         {
           "id": "gujarat-monthly",
@@ -478,7 +500,7 @@
     {
       "code": "6",
       "name": "Haryana",
-      "nextAction": "Extract budget sector/department columns and monthly actual cutoffs; collect HEWP work/contract exports only through public supported routes.",
+      "nextAction": "Expand sectors into named programmes; distinguish local-body salary/pension transfers from development and actual utilisation.",
       "sources": [
         {
           "id": "haryana-budget-2026",
@@ -512,7 +534,7 @@
     {
       "code": "2",
       "name": "Himachal Pradesh",
-      "nextAction": "Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
+      "nextAction": "Acquire full AFS/capital and demand tables beyond budget-brief revenue summaries; preserve scheme and expenditure evidence.",
       "sources": [
         {
           "id": "hp-budget-2026",
@@ -566,7 +588,7 @@
     {
       "code": "20",
       "name": "Jharkhand",
-      "nextAction": "Review original budget summaries and public TreasuryMIS budget/allotment/expenditure; validate actual filter cutoffs and agency-level joins.",
+      "nextAction": "Review wrapped AFS names and scheme/Union components; extract remaining acquired departmental tables and project-linked expenditure.",
       "sources": [
         {
           "id": "jharkhand-budget-index",
@@ -636,9 +658,20 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://eproc.karnataka.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "ka-budget-volumes-observed-2026",
+          "kind": "budget_index",
+          "label": "Observed official FY2026–27 budget volume listing",
+          "url": "https://finance.karnataka.gov.in/192/budget-volumes-2026-27/en",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 20
         }
       ],
-      "nextAction": "Resolve the finance portal access gap; use legislature originals and CAG monthly actuals while locating department/municipal contract registers."
+      "nextAction": "Expand the acquired FY2026–27 volumes into programmes and scheme heads; retain financial statement/department overlap and procure FY2025–26 detail."
     },
     {
       "code": "32",
@@ -680,7 +713,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Preserve original versus revised 2026 budgets separately; obtain KIIFB/department capital-work registers without adding their transfers twice."
+      "nextAction": "Reconcile revised and original budget/plan editions and parent/child overlaps; extract named schemes and project accounts."
     },
     {
       "code": "23",
@@ -710,9 +743,31 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://mptenders.gov.in/",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "mp-mera-budget-observed-2026",
+          "kind": "budget",
+          "label": "Official English Mera Budget FY2026–27; observed publication reference",
+          "url": "https://finance.mp.gov.in/uploads/files/Mera_Budget_2026-27_ENGLISH.pdf",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 4
+        },
+        {
+          "id": "mp-grants-observed-2025",
+          "kind": "budget",
+          "label": "Official FY2025–26 Volume 6 Gender Budget; subset, not full grant demands",
+          "url": "https://finance.mp.gov.in/uploads/budget/Budget_Volume-6-2025-26.pdf",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 4
         }
       ],
-      "nextAction": "Locate detailed finance budget and department scheme/work registers; retain legislature speech figures as proposed allocations, separate from CAG actuals."
+      "nextAction": "Review scanned 127-scheme provisions; acquire FY2025–26 detailed grants/AFS and preserve maintenance/administrative exclusions."
     },
     {
       "code": "27",
@@ -762,7 +817,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Collect civil accounts and department development/works programme volumes; interpret Marathi legacy fonts before normalizing money."
+      "nextAction": "Expand beyond Rural Development to other departmental demands; separate programme budgets from performance reports and transfers."
     },
     {
       "code": "14",
@@ -797,7 +852,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Compare regular/interim editions and exact expenditure heads; collect implementing authority work and tender registers."
+      "nextAction": "Resolve missing capital components from original tables; extract detailed programmes and actual expenditure links."
     },
     {
       "code": "17",
@@ -830,9 +885,20 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://meghalayatenders.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "meghalaya-afs-observed-2026",
+          "kind": "budget",
+          "label": "Official annual financial statement FY2026–27; verify unit and expenditure headings",
+          "url": "https://megfinance.gov.in/budget_documents/2026-2027/others/financial_statement.pdf",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Collect full AFS/demand originals and exact state NHIDCL project cost/contractor rows; separate climate/youth/gender overlapping subsets."
+      "nextAction": "Review FY2026–27 named-head rows, omitted vote/charge continuations and earlier scheme-channel overlaps; read scanned monthly actuals."
     },
     {
       "code": "15",
@@ -864,9 +930,31 @@
           "kind": "procurement_index",
           "label": "Official Mizoram tenders",
           "url": "https://mizoramtenders.gov.in/"
+        },
+        {
+          "id": "mizoram-demands-observed-2025",
+          "kind": "budget",
+          "label": "Official FY2025–26 demand for grants",
+          "url": "https://finance.mizoram.gov.in/uploads/attachments/2025/03/8f29cd4eabcb6fa43f18f865a65483e6/posts-139-demand-for-grants-2025-26.pdf",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 4
+        },
+        {
+          "id": "mizoram-afs-observed-2026",
+          "url": "https://finance.mizoram.gov.in/uploads/attachments/2026/02/2267c19ad725d4218fd36e87ef6cb167/afs-2026-27-final.pdf",
+          "kind": "budget",
+          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Locate current AFS/demand tables and department work registers; keep projections separate from actuals."
+      "nextAction": "Reconcile FY2025–26 demand charge/vote rows with FY2026–27 AFS; expand named schemes and preserve CSS/other share uncertainty."
     },
     {
       "code": "13",
@@ -935,7 +1023,7 @@
           ]
         }
       ],
-      "nextAction": "Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers."
+      "nextAction": "Expand AFS major heads into schemes and demands; review scanned introduction/summary sources and reported-expenditure scope."
     },
     {
       "code": "21",
@@ -967,7 +1055,7 @@
           "url": "https://finance.odisha.gov.in/en/notification/budget-and-expenditure-control"
         }
       ],
-      "nextAction": "Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection."
+      "nextAction": "Reconcile programme-ceiling rounding; extract FY2025–26 and scheme-level volumes, retaining gender/child/department overlaps."
     },
     {
       "code": "3",
@@ -991,9 +1079,20 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://eproc.punjab.gov.in/",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "punjab-afs-observed-2026",
+          "url": "https://finance.punjab.gov.in/uploads/3b52d7c4-e9f3-44fc-acf1-e02255025854_Annual%20Financial%20Statement%20FY%202026-27.pdf",
+          "kind": "budget",
+          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Resolve official budget-download availability and collect CAG provisional expenditure; inspect PWD/municipal tender awards and document exact year filters."
+      "nextAction": "Expand recovered AFS heads into detailed grants/programmes; review wrapped/missing labels and obtain actual expenditure/project registers."
     },
     {
       "code": "8",
@@ -1036,7 +1135,7 @@
           ]
         }
       ],
-      "nextAction": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls."
+      "nextAction": "Review full outcome-budget scheme/BFC repeats and state/central components; acquire FY2025–26 detailed programmes and expenditure."
     },
     {
       "code": "11",
@@ -1072,9 +1171,20 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://sikkimtender.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "sikkim-afs-observed-2026",
+          "url": "https://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS2026-27/Annual%20Financial%20Statement%202026-27.pdf",
+          "kind": "budget",
+          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Preserve March vote-on-account and July regular budget separately; obtain full department grant/expenditure originals and project records."
+      "nextAction": "Recover detailed statewide AFS through a working official route; existing CAG broad context is not a complete budget or programme register."
     },
     {
       "code": "33",
@@ -1107,9 +1217,31 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://tntenders.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "tn-agriculture-budget-index",
+          "kind": "budget_index",
+          "label": "Official agriculture budget speeches for FY2025–26 and FY2026–27",
+          "url": "https://tnhorticulture.tn.gov.in/budget-speech",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ],
+          "maxLinkedReports": 4
+        },
+        {
+          "id": "tn-home-demand-observed-2026",
+          "url": "https://financedept.tn.gov.in/ta/my-documents/2020/07/DemandBook_22-2.pdf",
+          "kind": "budget",
+          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Collect the actual 2026–27 edition and monthly expenditure; projections printed in 2025 books do not establish current-year allocations."
+      "nextAction": "Acquire whole-state AFS/demand volumes; existing agriculture/allied tables cover a subset and FY2026–27 is revised, not original."
     },
     {
       "code": "36",
@@ -1142,7 +1274,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Preserve current department demands and budget figures; obtain CAG actuals and inspect public procurement awards without treating IFMIS login as accessible payment data."
+      "nextAction": "Retain rounding discrepancies; expand FY2025–26 schemes and check scheme/department/capital overlap and failed source links."
     },
     {
       "code": "16",
@@ -1175,9 +1307,20 @@
           "label": "CPPP-listed procurement source; verify current coverage and portal restrictions",
           "url": "https://tripuratenders.gov.in",
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
+        },
+        {
+          "id": "tripura-afs-observed-2026",
+          "kind": "budget",
+          "label": "Official annual financial statement FY2026–27; verify unit and expenditure headings",
+          "url": "https://tripura.gov.in/sites/default/files/Annual%20Financial%20Statement%202026-27.pdf",
+          "contextUrl": "https://datalibertarian.in/sources",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Locate current 2026–27 original department budgets and NHIDCL work costs/contractors; preserve full-year and to-date expenditure scope."
+      "nextAction": "Reconcile FY2026–27 gross major heads with recovery/net rows; expand full demands and link expenditure to named projects."
     },
     {
       "code": "9",
@@ -1209,7 +1352,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Normalize current budget grant/purpose allocations; collect departmental/UPEIDA contracts and actual expenditure separately from proposed announcements."
+      "nextAction": "Expand beyond gross/net statewide object summaries into grant/programme heads; review Hindi labels and preserve maintenance exclusions."
     },
     {
       "code": "5",
@@ -1236,7 +1379,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Read current and previous-year allocations and CAG actuals; inspect state PWD/health procurement and NHIDCL state projects."
+      "nextAction": "Expand beyond 31 grant totals into scanned major/programme heads; read monthly actuals and keep debt/administration outside development totals."
     },
     {
       "code": "19",
@@ -1275,7 +1418,7 @@
           "contextUrl": "https://eprocure.gov.in/cppp/relatedlinks"
         }
       ],
-      "nextAction": "Keep interim/regular budget editions distinct; reuse 9,337 JJM schemes and add CAG actuals/department grants without assigning aggregate spend to historical dots."
+      "nextAction": "Confirm interim/original/revised budget editions and acquire remaining scheme tables; reconcile department and head overlaps."
     }
   ],
   "financialYears": [

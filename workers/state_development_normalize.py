@@ -1,3 +1,4 @@
+from state_development_inspected_accounts import inspected_accounts
 """Source-specific candidates from preserved originals; no approvals/public totals."""
 import json
 import re
@@ -9,6 +10,7 @@ from pathlib import Path
 from state_development_collection import ROOT, BASE, write, now, STATES
 from state_development_amounts import rupees, reference
 from state_development_budget_tables import additional_budget_records
+from state_development_remaining_tables import remaining_budget_records
 
 def contractor_name(value):
     name=' '.join((value or '').split())
@@ -193,6 +195,29 @@ def telangana_budget(doc, extraction):
     if len(irrigation)!=4: raise ValueError('Telangana irrigation row count changed')
     return facts
 
+def monthly_budget_context(doc, extraction):
+    # Reuse only the verified overview field order, fiscal scope and crore unit.
+    # The source heading says Budget Estimates; original/revised status is not
+    # inferred from the month. Each report is an overlapping alternative.
+    result=[]
+    for actual in monthly_accounts(doc,extraction):
+        budget=actual.get('sourceBudget')
+        if budget is None:continue
+        result.append({**actual,'id':actual['id']+':budget-column','measure':'allocated',
+                       'estimate':'source_reported_budget_edition_unspecified',
+                       'amountRupees':rupees(budget,'crore'),'sourceTotal':budget,
+                       'budgetTableScope':'cag_overview_budget_context',
+                       'aggregation':'overview_parent','classification':'broad_financial_context',
+                       'budgetEditionStatus':'original_revised_or_amended_not_stated',
+                       'periodEnd':actual['financialYear'][5:]+'-03-31',
+                       'periodBasis':'annual_budget_estimate_in_report',
+                       'sourceReportCutoff':actual['periodEnd'],
+                       'source':{**actual['source'],'locator':actual['source']['locator'].split(';')[0]+'; Budget Estimates column; source crore; original/revised edition not stated'},
+                       'overlapGroup':f'{doc["stateCode"]}:{actual["financialYear"]}:{actual["purposeLabel"].lower()}:cag_budget_context',
+                       'notes':'Explicit budget-estimate column in a provisional accounts overview. Not development-only or a programme ledger. Different months and original state-budget tables overlap; do not add. The report cutoff is not a payment date.'})
+    return result
+
+
 def main():
     total={'budgetCandidates':0,'projectCandidates':0,'expenditureCandidates':0}
     nhidcl={}; master=BASE/'nhidcl-tables.json'
@@ -224,7 +249,12 @@ def main():
             if doc['sourceId']=='ap-budget-2026-glance': facts+=ap_budget(doc,extraction)
             if doc['sourceId']=='telangana-budget-2026-linked-1': facts+=telangana_budget(doc,extraction)
             facts+=additional_budget_records(doc,extraction)
-            if doc['sourceKind']=='reported_expenditure': expenditure+=monthly_accounts(doc,extraction)
+            facts+=remaining_budget_records(doc,extraction)
+            inspected_budget,inspected_actual=inspected_accounts(doc)
+            facts+=inspected_budget;expenditure+=inspected_actual
+            if doc['sourceKind']=='reported_expenditure':
+                expenditure+=monthly_accounts(doc,extraction)
+                facts+=monthly_budget_context(doc,extraction)
             if doc['sourceId']=='assam-expenditure-2025': expenditure+=assam_sector_expenditure(doc,extraction)
             if doc['sourceKind'] in ('projects_tenders_awards','projects_contractors_progress','procurement_report'): projects+=source_projects(doc,extraction)
         # A dated official-ID master edition supersedes the undated HTML row

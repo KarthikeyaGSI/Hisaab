@@ -31,6 +31,9 @@ def checks(code, rows, documents):
     def doc(source):
         receipt = next(d for d in documents if d['sourceId']==source)
         return json.loads((ROOT/receipt['extraction']).read_text())
+    if code=='5':
+        selected=group('2026-2027','original','uttarakhand_grant_total')
+        if selected:result.append(table_check(selected,'1117032109','thousand','Uttarakhand 31-grant printed control, includes debt and non-development'))
     if code=='28':
         extraction=doc('ap-budget-2026-glance')
         for page,fy,estimate,column in [(14,'2025-2026','original',5),
@@ -51,9 +54,11 @@ def checks(code, rows, documents):
             values=re.findall(r'\d[\d,]*',total)
             result.append(table_check(group('2026-2027','original',scope),values[-1],
                                       'crore',f'2026–27 {label}; overlapping tables kept separate'))
-    if code=='10' and rows:
-        expected=rows[0]['controlTotalRupees']
-        result.append(table_check(rows,expected,'rupee','Bihar eleven annual scheme-outlay groups'))
+    if code=='10':
+        scheme_rows=[r for r in rows if r.get('budgetTableScope')=='bihar_department_scheme_outlay']
+        if scheme_rows:
+            expected=scheme_rows[0]['controlTotalRupees']
+            result.append(table_check(scheme_rows,expected,'rupee','Bihar eleven annual scheme-outlay groups'))
     if code=='6':
         extraction=doc('haryana-budget-glance');lines=next(p['lines'] for p in extraction['pages'] if p['page']==7)
         total=next(r['text'] for r in lines if re.match(r'^\s*Total\s',r['text']))
@@ -110,8 +115,12 @@ def main():
                             'reportedExpenditureCandidates':len(expenditure),
                             'latestExpenditureCutoff':max((r['periodEnd'] for r in expenditure),default=None),
                             'reconciledCompleteStateRegister':False})
+        overlapping={}
+        for row in data['budgetCandidates']:
+            if row.get('overlapGroup'):overlapping.setdefault(row['overlapGroup'],[]).append(row)
         report={'version':'state-reconciliation/1','stateCode':code,'state':name,'checkedAt':now(),
                 'identityCheck':'unique','financialYears':periods,'tableControls':controls,
+                'overlapGroups':[{'key':key,'records':len(group),'status':'requires_explicit_edition_or_component_review','publicationApproved':False} for key,group in overlapping.items() if len(group)>1],
                 'classificationCounts':dict(Counter(r.get('classification','unclassified') for r in all_rows)),
                 'scopeWarnings':['Budget editions are alternatives, not additive.',
                                  'Programme, department and capital-work tables overlap.',

@@ -7,11 +7,97 @@ from types import SimpleNamespace
 from decimal import Decimal
 import state_development_collection as collection
 from state_development_collection import DocumentHTML, blocked
-from state_development_normalize import rupees, source_projects,monthly_accounts,assam_sector_expenditure,telangana_budget
+from state_development_normalize import rupees, source_projects,monthly_accounts,assam_sector_expenditure,telangana_budget,monthly_budget_context
 from state_development_budget_tables import goa_glance,manipur_glance,haryana_sectors,nagaland_major_heads,assam_major_heads,maharashtra_rural_heads
 from state_development_reconcile import table_check
 
+from state_development_inspected_accounts import inspected_accounts,SOURCES
+from state_development_classification import suggest
+from state_development_remaining_tables import meghalaya_current_heads,gujarat_outcome_schemes
+
 class StateEvidenceRules(unittest.TestCase):
+    def test_gujarat_outcome_keeps_targets_out_of_money_and_skips_merged_names(self):
+        doc={'sha256':'fixture','stateCode':'24','sourceId':'fixture','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        source={'sourceSha256':'fixture','completeInspection':True,'pages':[{'page':10,'tables':[
+            [['Type of Scheme','Name of Scheme','Financial Provision 2026-27 Crore','Physical Target',None,None,None],
+             [None,None,None,'Unit','2026-27','2027-28','2028-29'],
+             ['General','002 2401 00 105 44 School construction','1.25','Schools','10','20','30'],
+             ['SCSP',None,'2.00','Schools','1','2','3']]]}]}
+        with patch.object(Path,'read_text',return_value=json.dumps(source)):
+            rows=gujarat_outcome_schemes(doc,{})
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['amountRupees'],'12500000.00')
+        self.assertEqual(rows[0]['sourcePhysicalTargetNextYear'],'20')
+        self.assertEqual(rows[0]['sourceBudgetHeads'],['002 2401 00 105 44'])
+        self.assertEqual(rows[0]['measure'],'allocated')
+        self.assertEqual(rows[0]['reviewStatus'],'awaiting_review')
+        source['completeInspection']=False
+        with patch.object(Path,'read_text',return_value=json.dumps(source)):
+            with self.assertRaisesRegex(ValueError,'incomplete'):gujarat_outcome_schemes(doc,{})
+
+    def test_inspected_monthly_accounts_keep_actual_cutoff_and_explicit_zero(self):
+        for ident,(code,sha,_) in SOURCES.items():
+            doc={'sourceId':ident,'stateCode':code,'sha256':sha,'url':'https://example.invalid','retrievedAt':'2026-10-15'}
+            budgets,actuals=inspected_accounts(doc)
+            self.assertEqual(len(budgets),8);self.assertEqual(len(actuals),8)
+            self.assertTrue(all(r['periodEnd']=='2026-06-30' and r['measure']=='reported_spent' for r in actuals))
+            self.assertTrue(all(r['periodEnd']=='2027-03-31' and r['measure']=='allocated' for r in budgets))
+            self.assertTrue(all(not r['publicationApproved'] for r in budgets+actuals))
+            if code=='17':self.assertEqual(actuals[-1]['amountRupees'],'0.00')
+            else:self.assertEqual(budgets[0]['estimate'],'original')
+            with self.assertRaisesRegex(ValueError,'edition changed'):inspected_accounts({**doc,'sha256':'new edition'})
+
+    def test_meghalaya_named_cells_preserve_thousands_and_missing_not_charge_guess(self):
+        import sys
+        header='thousand 2024-2025 2025-2026 2026-2027'
+        class Page:
+            def extract_text(self):return header
+            def extract_tables(self):return [[['Actuals','BE25','RE25','Head','BE26'],
+                ['10','20','30','2210-Medical and Public Health','40'],
+                ['','1','2','(Charged)','3'],['1','','4','2211-Family Welfare','5']]]
+        class PDF:
+            pages=[Page() for _ in range(36)]
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+        doc={'sha256':'fixture','stateCode':'17','sourceId':'fixture','original':'example','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        with patch.dict(sys.modules,{'pdfplumber':SimpleNamespace(open=lambda _:PDF())}):
+            result=meghalaya_current_heads(doc,{})
+        self.assertEqual(len(result),120)
+        self.assertEqual(result[0]['amountRupees'],'20000.00')
+        self.assertEqual(result[2]['amountRupees'],'40000.00')
+        self.assertIsNone(result[3]['amountRupees'])
+        self.assertTrue(all(r['sourceMajorHead'] in ['2210','2211'] for r in result))
+
+    def test_budget_column_is_not_monthly_actual_and_missing_is_not_zero(self):
+        doc={'sha256':'a'*64,'stateCode':'10','url':'https://example.invalid/accounts','retrievedAt':'2026-10-12'}
+        extraction={'pages':[{'lines':[{'line':1,'text':'ACCOUNTS AT A GLANCE At the end of April 2026 (in crore) Budget Estimates 2026-27'},
+                   {'line':2,'text':'5. Capital Expenditure (a+b)      100.00 20.00 20.00 15.00'}]}]}
+        row=monthly_budget_context(doc,extraction)[0]
+        self.assertEqual(row['amountRupees'],'1000000000.00')
+        self.assertEqual(row['estimate'],'source_reported_budget_edition_unspecified')
+        self.assertEqual(row['periodEnd'],'2027-03-31')
+        self.assertEqual(row['sourceReportCutoff'],'2026-04-30')
+        self.assertIn('Budget Estimates column',row['source']['locator'])
+        self.assertEqual(row['measure'],'allocated')
+
+    def test_private_classification_never_approves_or_confuses_medical_college(self):
+        def candidate(label,classification='mixed_or_unresolved',amount='100.00'):
+            return {'id':'test','financialYear':'2026-2027','purposeLabel':label,'classification':classification,'amountRupees':amount}
+        medical=suggest(candidate('Medical college construction'))
+        self.assertEqual(medical['suggestedPurpose'],'health')
+        self.assertEqual(medical['decision'],'included_candidate')
+        mixed=suggest(candidate('Road construction and maintenance'))
+        self.assertEqual(mixed['decision'],'mixed_unresolved')
+        social=suggest(candidate('Old age pension scheme'))
+        self.assertEqual(social['decision'],'mixed_unresolved')
+        debt=suggest(candidate('Debt repayment','debt_servicing_context',None))
+        self.assertEqual(debt['decision'],'excluded_context')
+        self.assertTrue(debt['amountMissing'])
+        for row in [medical,mixed,social,debt]:
+            self.assertFalse(row['publicationApproved'])
+            self.assertFalse(row['sourceRightsApproved'])
+            self.assertFalse(row['overlapResolved'])
+
     def test_nagaland_accounts_are_not_current_budget_and_receipts_not_imported(self):
         doc={'sha256':'fixture','stateCode':'13','sourceId':'nagaland-afs-2026',
              'url':'https://finance.nagaland.gov.in/example.pdf','retrievedAt':'2026-10-12'}

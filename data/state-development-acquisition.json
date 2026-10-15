@@ -1,6 +1,6 @@
 {
   "version": "state-development-evidence/1",
-  "updatedAt": "2026-10-12T17:51:56.031528+00:00",
+  "updatedAt": "2026-10-15T05:58:12.064173+00:00",
   "financialYears": [
     "2025-2026",
     "2026-2027"
@@ -20,7 +20,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review original Budget at a Glance sector columns; collect the observed departmental and awarded-work links; seek to-date expenditure separately.",
+      "nextAction": "Reconcile the printed AP sector rounding difference; extract departmental programme tables and dated project/bill allocations.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -31,25 +31,27 @@
         "reported_expenditure",
         "supplementary_budget"
       ],
-      "budgetCandidates": 63,
+      "budgetCandidates": 91,
       "expenditureCandidates": 28,
       "projectCandidates": 32,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 42,
+          "budgetCandidates": 49,
           "reportedExpenditureCandidates": 7,
           "latestExpenditureCutoff": "2026-01-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 21,
+          "budgetCandidates": 42,
           "reportedExpenditureCandidates": 21,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 28,
+      "namedBudgetCandidates": 63
     },
     {
       "order": 2,
@@ -64,7 +66,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review budget column units (thousand), preserve NHIDCL named contractor/progress rows and collect dated classroom/health tenders; establish expenditure cutoffs separately.",
+      "nextAction": "Review wrapped bilingual heads and blank charge/capital cells; expand schemes and link actual expenditure to official project IDs.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -75,13 +77,13 @@
         "projects_contractors_progress",
         "reported_expenditure"
       ],
-      "budgetCandidates": 266,
+      "budgetCandidates": 274,
       "expenditureCandidates": 8,
       "projectCandidates": 22,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 165,
+          "budgetCandidates": 173,
           "reportedExpenditureCandidates": 8,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
@@ -93,7 +95,9 @@
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 8,
+      "namedBudgetCandidates": 266
     },
     {
       "order": 3,
@@ -108,7 +112,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Resolve the official regular 2026 budget edition versus interim/projection documents; inspect the expenditure report generation cutoff and state attribution of NHIDCL works.",
+      "nextAction": "Obtain usable FY2026–27 budget originals and confirm the test-labelled FY2025–26 expenditure report against production records.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -119,40 +123,42 @@
         "projects_contractors_progress",
         "reported_expenditure"
       ],
-      "budgetCandidates": 318,
+      "budgetCandidates": 333,
       "expenditureCandidates": 55,
       "projectCandidates": 72,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 318,
+          "budgetCandidates": 330,
           "reportedExpenditureCandidates": 52,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 3,
           "reportedExpenditureCandidates": 3,
           "latestExpenditureCutoff": "2026-05-31",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 15,
+      "namedBudgetCandidates": 318
     },
     {
       "order": 4,
       "code": "10",
       "name": "Bihar",
       "status": "partial_collected",
-      "originals": 9,
-      "pdfs": 5,
+      "originals": 10,
+      "pdfs": 6,
       "sourceTables": 240,
       "numericEvidenceLines": 1680,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Extract the full-year preliminary/supplementary March 2026 and latest 2026–27 accounts with their exact cutoffs; compare budget sector allocations and road tender purposes.",
+      "nextAction": "Review scanned AFS monetary cells against originals; expand beyond scheme-group totals and obtain project-linked expenditure.",
       "sourceKinds": [
         "budget",
         "departmental_procurement",
@@ -160,25 +166,27 @@
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 11,
+      "budgetCandidates": 403,
       "expenditureCandidates": 32,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 256,
           "reportedExpenditureCandidates": 16,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 11,
+          "budgetCandidates": 147,
           "reportedExpenditureCandidates": 16,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 32,
+      "namedBudgetCandidates": 371
     },
     {
       "order": 5,
@@ -193,7 +201,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Read official English budget/major-head reports and retained legacy-font Hindi figures visually; collect March/current-year accounts and PWD road/building notices separately.",
+      "nextAction": "Read detailed Hindi/legacy-font demands for both years; distinguish editions and programme/subhead amounts from overview totals.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -203,25 +211,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 12,
+      "budgetCandidates": 38,
       "expenditureCandidates": 26,
       "projectCandidates": 1,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 8,
+          "budgetCandidates": 21,
           "reportedExpenditureCandidates": 13,
           "latestExpenditureCutoff": "2026-02-28",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 4,
+          "budgetCandidates": 17,
           "reportedExpenditureCandidates": 13,
           "latestExpenditureCutoff": "2026-07-31",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 26,
+      "namedBudgetCandidates": 12
     },
     {
       "order": 6,
@@ -232,11 +242,11 @@
       "pdfs": 21,
       "sourceTables": 35,
       "numericEvidenceLines": 1481,
-      "blockedSources": 3,
+      "blockedSources": 4,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Normalize observed major-head summary and gender-budget scheme expenditure (explicit February 2026 cutoff); assess procurement contract rows independently.",
+      "nextAction": "Recover the official AFS and demand volumes after download failures; obtain current expenditure and named development programmes.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -263,7 +273,9 @@
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 0,
+      "namedBudgetCandidates": 21
     },
     {
       "order": 7,
@@ -278,7 +290,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Obtain current finance budget originals through official legislative/finance links; preserve CAG monthly expenditure and isolate current-year figures from older audit editions.",
+      "nextAction": "Review outcome-budget scheme subdivisions, missing merged labels and overlapping budget heads; reconcile with development/department totals.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -287,25 +299,27 @@
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 82,
+      "budgetCandidates": 1235,
       "expenditureCandidates": 7,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 41,
+          "budgetCandidates": 48,
           "reportedExpenditureCandidates": 7,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 41,
+          "budgetCandidates": 1187,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 7,
+      "namedBudgetCandidates": 1228
     },
     {
       "order": 8,
@@ -320,7 +334,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Extract budget sector/department columns and monthly actual cutoffs; collect HEWP work/contract exports only through public supported routes.",
+      "nextAction": "Expand sectors into named programmes; distinguish local-body salary/pension transfers from development and actual utilisation.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -329,13 +343,13 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 44,
+      "budgetCandidates": 46,
       "expenditureCandidates": 2,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 22,
+          "budgetCandidates": 24,
           "reportedExpenditureCandidates": 2,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
@@ -347,7 +361,9 @@
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 2,
+      "namedBudgetCandidates": 44
     },
     {
       "order": 9,
@@ -362,7 +378,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review Budget in Brief sector heads and full-year/current monthly figures; reuse existing PWD/PMGSY source assessment.",
+      "nextAction": "Acquire full AFS/capital and demand tables beyond budget-brief revenue summaries; preserve scheme and expenditure evidence.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -371,40 +387,42 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 72,
+      "budgetCandidates": 93,
       "expenditureCandidates": 21,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 48,
+          "budgetCandidates": 62,
           "reportedExpenditureCandidates": 14,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 24,
+          "budgetCandidates": 31,
           "reportedExpenditureCandidates": 7,
           "latestExpenditureCutoff": "2026-04-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 21,
+      "namedBudgetCandidates": 72
     },
     {
       "order": 10,
       "code": "20",
       "name": "Jharkhand",
       "status": "partial_collected",
-      "originals": 29,
-      "pdfs": 24,
+      "originals": 30,
+      "pdfs": 25,
       "sourceTables": 32,
-      "numericEvidenceLines": 11992,
-      "blockedSources": 1,
+      "numericEvidenceLines": 13963,
+      "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review original budget summaries and public TreasuryMIS budget/allotment/expenditure; validate actual filter cutoffs and agency-level joins.",
+      "nextAction": "Review wrapped AFS names and scheme/Union components; extract remaining acquired departmental tables and project-linked expenditure.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -413,40 +431,42 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 345,
       "expenditureCandidates": 0,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 230,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 115,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 0,
+      "namedBudgetCandidates": 345
     },
     {
       "order": 11,
       "code": "29",
       "name": "Karnataka",
       "status": "partial_collected",
-      "originals": 12,
-      "pdfs": 8,
-      "sourceTables": 3,
-      "numericEvidenceLines": 833,
+      "originals": 33,
+      "pdfs": 28,
+      "sourceTables": 7,
+      "numericEvidenceLines": 24695,
       "blockedSources": 1,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Resolve the finance portal access gap; use legislature originals and CAG monthly actuals while locating department/municipal contract registers.",
+      "nextAction": "Expand the acquired FY2026–27 volumes into programmes and scheme heads; retain financial statement/department overlap and procure FY2025–26 detail.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -455,25 +475,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 325,
       "expenditureCandidates": 10,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 215,
           "reportedExpenditureCandidates": 5,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 110,
           "reportedExpenditureCandidates": 5,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 10,
+      "namedBudgetCandidates": 315
     },
     {
       "order": 12,
@@ -488,7 +510,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Preserve original versus revised 2026 budgets separately; obtain KIIFB/department capital-work registers without adding their transfers twice.",
+      "nextAction": "Reconcile revised and original budget/plan editions and parent/child overlaps; extract named schemes and project accounts.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -498,47 +520,50 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 222,
+      "budgetCandidates": 225,
       "expenditureCandidates": 3,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 148,
+          "budgetCandidates": 149,
           "reportedExpenditureCandidates": 1,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 74,
+          "budgetCandidates": 76,
           "reportedExpenditureCandidates": 2,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 3,
+      "namedBudgetCandidates": 222
     },
     {
       "order": 13,
       "code": "23",
       "name": "Madhya Pradesh",
       "status": "partial_collected",
-      "originals": 8,
-      "pdfs": 5,
+      "originals": 10,
+      "pdfs": 7,
       "sourceTables": 0,
-      "numericEvidenceLines": 956,
+      "numericEvidenceLines": 1447,
       "blockedSources": 1,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Locate detailed finance budget and department scheme/work registers; retain legislature speech figures as proposed allocations, separate from CAG actuals.",
+      "nextAction": "Review scanned 127-scheme provisions; acquire FY2025–26 detailed grants/AFS and preserve maintenance/administrative exclusions.",
       "sourceKinds": [
+        "budget",
         "budget_context",
         "monthly_expenditure_index",
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 155,
       "expenditureCandidates": 28,
       "projectCandidates": 0,
       "financialYearCoverage": [
@@ -551,12 +576,14 @@
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 155,
           "reportedExpenditureCandidates": 28,
           "latestExpenditureCutoff": "2026-07-31",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 28,
+      "namedBudgetCandidates": 127
     },
     {
       "order": 14,
@@ -571,7 +598,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Collect civil accounts and department development/works programme volumes; interpret Marathi legacy fonts before normalizing money.",
+      "nextAction": "Expand beyond Rural Development to other departmental demands; separate programme budgets from performance reports and transfers.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -580,25 +607,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 36,
+      "budgetCandidates": 51,
       "expenditureCandidates": 15,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 24,
+          "budgetCandidates": 27,
           "reportedExpenditureCandidates": 3,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 12,
+          "budgetCandidates": 24,
           "reportedExpenditureCandidates": 12,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 15,
+      "namedBudgetCandidates": 36
     },
     {
       "order": 15,
@@ -613,7 +642,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Compare regular/interim editions and exact expenditure heads; collect implementing authority work and tender registers.",
+      "nextAction": "Resolve missing capital components from original tables; extract detailed programmes and actual expenditure links.",
       "sourceKinds": [
         "budget",
         "monthly_expenditure_index",
@@ -621,40 +650,42 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 36,
+      "budgetCandidates": 67,
       "expenditureCandidates": 31,
       "projectCandidates": 54,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 24,
+          "budgetCandidates": 47,
           "reportedExpenditureCandidates": 23,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 12,
+          "budgetCandidates": 20,
           "reportedExpenditureCandidates": 8,
           "latestExpenditureCutoff": "2026-04-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 31,
+      "namedBudgetCandidates": 36
     },
     {
       "order": 16,
       "code": "17",
       "name": "Meghalaya",
       "status": "partial_collected",
-      "originals": 9,
-      "pdfs": 6,
+      "originals": 10,
+      "pdfs": 7,
       "sourceTables": 31,
-      "numericEvidenceLines": 1093,
+      "numericEvidenceLines": 1707,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Collect full AFS/demand originals and exact state NHIDCL project cost/contractor rows; separate climate/youth/gender overlapping subsets.",
+      "nextAction": "Review FY2026–27 named-head rows, omitted vote/charge continuations and earlier scheme-channel overlaps; read scanned monthly actuals.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -663,41 +694,44 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 180,
-      "expenditureCandidates": 0,
+      "budgetCandidates": 827,
+      "expenditureCandidates": 8,
       "projectCandidates": 38,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 180,
+          "budgetCandidates": 606,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
-          "reportedExpenditureCandidates": 0,
-          "latestExpenditureCutoff": null,
+          "budgetCandidates": 221,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 8,
+      "namedBudgetCandidates": 819
     },
     {
       "order": 17,
       "code": "15",
       "name": "Mizoram",
       "status": "partial_collected",
-      "originals": 9,
-      "pdfs": 6,
+      "originals": 11,
+      "pdfs": 8,
       "sourceTables": 31,
-      "numericEvidenceLines": 890,
+      "numericEvidenceLines": 4742,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Locate current AFS/demand tables and department work registers; keep projections separate from actuals.",
+      "nextAction": "Reconcile FY2025–26 demand charge/vote rows with FY2026–27 AFS; expand named schemes and preserve CSS/other share uncertainty.",
       "sourceKinds": [
+        "budget",
         "budget_context",
         "fiscal_context",
         "monthly_expenditure_index",
@@ -705,25 +739,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 334,
       "expenditureCandidates": 6,
       "projectCandidates": 21,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 240,
           "reportedExpenditureCandidates": 4,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 94,
           "reportedExpenditureCandidates": 2,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 6,
+      "namedBudgetCandidates": 328
     },
     {
       "order": 18,
@@ -738,7 +774,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review current outcome/SDG budget documents and named projects; retain Finance Commission transfers as transfers.",
+      "nextAction": "Expand AFS major heads into schemes and demands; review scanned introduction/summary sources and reported-expenditure scope.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -748,25 +784,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 282,
+      "budgetCandidates": 296,
       "expenditureCandidates": 14,
       "projectCandidates": 25,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 188,
+          "budgetCandidates": 196,
           "reportedExpenditureCandidates": 8,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 94,
+          "budgetCandidates": 100,
           "reportedExpenditureCandidates": 6,
           "latestExpenditureCutoff": "2026-05-31",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 14,
+      "namedBudgetCandidates": 282
     },
     {
       "order": 19,
@@ -781,7 +819,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.",
+      "nextAction": "Reconcile programme-ceiling rounding; extract FY2025–26 and scheme-level volumes, retaining gender/child/department overlaps.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -790,13 +828,13 @@
         "monthly_expenditure_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 42,
+      "budgetCandidates": 48,
       "expenditureCandidates": 6,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 6,
           "reportedExpenditureCandidates": 6,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
@@ -808,47 +846,52 @@
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 6,
+      "namedBudgetCandidates": 42
     },
     {
       "order": 20,
       "code": "3",
       "name": "Punjab",
       "status": "partial_collected",
-      "originals": 7,
-      "pdfs": 4,
+      "originals": 8,
+      "pdfs": 5,
       "sourceTables": 33,
-      "numericEvidenceLines": 556,
+      "numericEvidenceLines": 1992,
       "blockedSources": 1,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Resolve official budget-download availability and collect CAG provisional expenditure; inspect PWD/municipal tender awards and document exact year filters.",
+      "nextAction": "Expand recovered AFS heads into detailed grants/programmes; review wrapped/missing labels and obtain actual expenditure/project registers.",
       "sourceKinds": [
+        "budget",
         "monthly_expenditure_index",
         "procurement_index",
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 338,
       "expenditureCandidates": 8,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 222,
           "reportedExpenditureCandidates": 2,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 116,
           "reportedExpenditureCandidates": 6,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 8,
+      "namedBudgetCandidates": 330
     },
     {
       "order": 21,
@@ -863,7 +906,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Extract named programmes/locations and proposed amounts; inspect Jan Soochna/SSO public reports for activity-wise expenditure without crossing login controls.",
+      "nextAction": "Review full outcome-budget scheme/BFC repeats and state/central components; acquire FY2025–26 detailed programmes and expenditure.",
       "sourceKinds": [
         "budget",
         "budget_context",
@@ -874,7 +917,7 @@
         "programme_budget",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 759,
       "expenditureCandidates": 3,
       "projectCandidates": 20,
       "financialYearCoverage": [
@@ -887,12 +930,14 @@
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 759,
           "reportedExpenditureCandidates": 3,
           "latestExpenditureCutoff": "2026-04-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 3,
+      "namedBudgetCandidates": 756
     },
     {
       "order": 22,
@@ -903,11 +948,11 @@
       "pdfs": 3,
       "sourceTables": 31,
       "numericEvidenceLines": 634,
-      "blockedSources": 1,
+      "blockedSources": 2,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Preserve March vote-on-account and July regular budget separately; obtain full department grant/expenditure originals and project records.",
+      "nextAction": "Recover detailed statewide AFS through a working official route; existing CAG broad context is not a complete budget or programme register.",
       "sourceKinds": [
         "budget_context",
         "department_budget",
@@ -916,13 +961,13 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 11,
       "expenditureCandidates": 11,
       "projectCandidates": 18,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 11,
           "reportedExpenditureCandidates": 11,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
@@ -934,47 +979,53 @@
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 11,
+      "namedBudgetCandidates": 0
     },
     {
       "order": 23,
       "code": "33",
       "name": "Tamil Nadu",
       "status": "partial_collected",
-      "originals": 7,
-      "pdfs": 4,
-      "sourceTables": 32,
-      "numericEvidenceLines": 1888,
+      "originals": 13,
+      "pdfs": 9,
+      "sourceTables": 33,
+      "numericEvidenceLines": 2470,
       "blockedSources": 2,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Collect the actual 2026–27 edition and monthly expenditure; projections printed in 2025 books do not establish current-year allocations.",
+      "nextAction": "Acquire whole-state AFS/demand volumes; existing agriculture/allied tables cover a subset and FY2026–27 is revised, not original.",
       "sourceKinds": [
+        "budget",
+        "budget_index",
         "monthly_expenditure_index",
         "procurement_index",
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 52,
       "expenditureCandidates": 12,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 24,
           "reportedExpenditureCandidates": 4,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 28,
           "reportedExpenditureCandidates": 8,
           "latestExpenditureCutoff": "2026-07-31",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 12,
+      "namedBudgetCandidates": 40
     },
     {
       "order": 24,
@@ -989,7 +1040,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Preserve current department demands and budget figures; obtain CAG actuals and inspect public procurement awards without treating IFMIS login as accessible payment data.",
+      "nextAction": "Retain rounding discrepancies; expand FY2025–26 schemes and check scheme/department/capital overlap and failed source links.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -998,40 +1049,42 @@
         "procurement_index",
         "reported_expenditure"
       ],
-      "budgetCandidates": 135,
+      "budgetCandidates": 163,
       "expenditureCandidates": 28,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 4,
+          "budgetCandidates": 10,
           "reportedExpenditureCandidates": 6,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 131,
+          "budgetCandidates": 153,
           "reportedExpenditureCandidates": 22,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 28,
+      "namedBudgetCandidates": 135
     },
     {
       "order": 25,
       "code": "16",
       "name": "Tripura",
       "status": "partial_collected",
-      "originals": 9,
-      "pdfs": 5,
+      "originals": 10,
+      "pdfs": 6,
       "sourceTables": 31,
-      "numericEvidenceLines": 3768,
+      "numericEvidenceLines": 4549,
       "blockedSources": 0,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Locate current 2026–27 original department budgets and NHIDCL work costs/contractors; preserve full-year and to-date expenditure scope.",
+      "nextAction": "Reconcile FY2026–27 gross major heads with recovery/net rows; expand full demands and link expenditure to named projects.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -1040,25 +1093,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 295,
+      "budgetCandidates": 643,
       "expenditureCandidates": 3,
       "projectCandidates": 34,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 295,
+          "budgetCandidates": 525,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 118,
           "reportedExpenditureCandidates": 3,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 3,
+      "namedBudgetCandidates": 640
     },
     {
       "order": 26,
@@ -1073,7 +1128,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Normalize current budget grant/purpose allocations; collect departmental/UPEIDA contracts and actual expenditure separately from proposed announcements.",
+      "nextAction": "Expand beyond gross/net statewide object summaries into grant/programme heads; review Hindi labels and preserve maintenance exclusions.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -1082,25 +1137,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
+      "budgetCandidates": 356,
       "expenditureCandidates": 32,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 0,
+          "budgetCandidates": 224,
           "reportedExpenditureCandidates": 8,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 132,
           "reportedExpenditureCandidates": 24,
           "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 32,
+      "namedBudgetCandidates": 324
     },
     {
       "order": 27,
@@ -1115,7 +1172,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Read current and previous-year allocations and CAG actuals; inspect state PWD/health procurement and NHIDCL state projects.",
+      "nextAction": "Expand beyond 31 grant totals into scanned major/programme heads; read monthly actuals and keep debt/administration outside development totals.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -1124,8 +1181,8 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 0,
-      "expenditureCandidates": 0,
+      "budgetCandidates": 39,
+      "expenditureCandidates": 8,
       "projectCandidates": 24,
       "financialYearCoverage": [
         {
@@ -1137,12 +1194,14 @@
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
-          "reportedExpenditureCandidates": 0,
-          "latestExpenditureCutoff": null,
+          "budgetCandidates": 39,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 8,
+      "namedBudgetCandidates": 31
     },
     {
       "order": 28,
@@ -1157,7 +1216,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Keep interim/regular budget editions distinct; reuse 9,337 JJM schemes and add CAG actuals/department grants without assigning aggregate spend to historical dots.",
+      "nextAction": "Confirm interim/original/revised budget editions and acquire remaining scheme tables; reconcile department and head overlaps.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -1167,37 +1226,40 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 430,
+      "budgetCandidates": 446,
       "expenditureCandidates": 16,
       "projectCandidates": 35,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 285,
+          "budgetCandidates": 297,
           "reportedExpenditureCandidates": 12,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 145,
+          "budgetCandidates": 149,
           "reportedExpenditureCandidates": 4,
           "latestExpenditureCutoff": "2026-04-30",
           "completeCoverage": false
         }
-      ]
+      ],
+      "budgetContextCandidates": 16,
+      "namedBudgetCandidates": 430
     }
   ],
-  "originals": 469,
-  "pdfs": 347,
-  "sourceTables": 1115,
-  "numericEvidenceLines": 176588,
+  "originals": 505,
+  "pdfs": 381,
+  "sourceTables": 1120,
+  "numericEvidenceLines": 210177,
   "reviewedFinancialFacts": 0,
   "publication": "private_collection_only",
   "completeCoverage": false,
   "completeStates": 0,
-  "statesWithBudgetCandidates": 18,
-  "budgetCandidates": 2547,
-  "expenditureCandidates": 405,
+  "statesWithNamedBudgetCandidates": 27,
+  "statesWithBudgetCandidates": 28,
+  "budgetCandidates": 8014,
+  "expenditureCandidates": 421,
   "projectCandidates": 536
 }

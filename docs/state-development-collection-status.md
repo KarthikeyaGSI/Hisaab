@@ -1,3 +1,5 @@
+> Latest checkpoint: [15 October state-by-state status](state-development-current-status.md). The counts below describe earlier 12 October checkpoints.
+
 # Two-year state development collection — acquisition checkpoint
 
 12 October 2026. Active financial years: **2025–26 and 2026–27 to each source cutoff**. All 28 states were assessed in the owner’s order, followed by a deeper departmental-budget pass at selected fiscal-edition indices. This is partial acquisition, not complete state spending or payment coverage.

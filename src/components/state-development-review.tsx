@@ -3,10 +3,10 @@
 import {useRef,useState} from 'react';
 import {formatExactMoney} from '@/lib/money';
 
-type Counts={budgetCandidates?:number;expenditureCandidates?:number;projectCandidates?:number};
+type Counts={namedBudgetCandidates?:number;budgetContextCandidates?:number;budgetCandidates?:number;expenditureCandidates?:number;projectCandidates?:number};
 type FiscalCoverage={financialYear:string;budgetCandidates:number;reportedExpenditureCandidates:number;latestExpenditureCutoff:string|null};
 export type StateCollection=Counts&{code:string;name:string;order:number;originals:number;pdfs:number;blockedSources:number;status:string;nextAction:string;financialYearCoverage?:FiscalCoverage[]};
-export type StateDevelopmentCollection=Counts&{financialYears:string[];updatedAt:string;originals:number;pdfs:number;states:StateCollection[];statesWithBudgetCandidates?:number;completeStates?:number};
+export type StateDevelopmentCollection=Counts&{financialYears:string[];updatedAt:string;originals:number;pdfs:number;states:StateCollection[];statesWithNamedBudgetCandidates?:number;statesWithBudgetCandidates?:number;completeStates?:number};
 type Row={
  id:string;label?:string;kind?:string;url?:string;permissionStatus?:string;editionStatus?:string;retrievedAt?:string;extractedPages?:number;completeExtraction?:boolean;
  purposeLabel?:string;financialYear?:string|null;estimate?:string;measure?:string;
@@ -17,6 +17,7 @@ type Row={
  reviewStatus?:string;title?:string;sourceProjectId?:string|null;contractorName?:string|null;
  stage?:string;awardDateSource?:string|null;projectCostRupees?:string|null;
  contractAmountRupees?:string|null;notes?:string;source?:{url:string;locator:string;sha256:string};
+ decision?:string;suggestedPurpose?:string;basis?:string;amountMissing?:boolean;overlapGroups?:{key:string;records:number;status:string}[];
  checkedAt?:string;identityCheck?:string;scopeWarnings?:string[];remaining?:string[];
  tableControls?:{label:string;rows:number;status:string;differenceRupees:string|null;printedControlRupees:string;calculatedRupees:string|null}[];
 };
@@ -49,11 +50,13 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
   <p>FY 2025–26 and FY 2026–27 to source cutoff · {data.originals.toLocaleString('en-IN')} preserved source responses, including {data.pdfs} PDFs. First source pass; statewide coverage remains partial.</p>
   {data.budgetCandidates!==undefined&&<p>{data.budgetCandidates} budget candidates · {data.expenditureCandidates} reported-expenditure candidates · {data.projectCandidates} project/tender candidates. These are unpublished review records, with overlapping scopes.</p>}
   {data.statesWithBudgetCandidates!==undefined&&<p>{data.statesWithBudgetCandidates} of 28 states have extracted budget candidates. {data.completeStates??0} states have complete reconciled coverage. Saved documents alone do not establish completion.</p>}
+  {data.statesWithNamedBudgetCandidates!==undefined&&<p>{data.statesWithNamedBudgetCandidates} states have named budget table entries beyond broad accounting overviews. Programme, grant and department records can overlap; they are not a count of unique projects.</p>}
   <details>
    <summary>All 28 states in your collection order</summary>
    {data.states.map(s=><p key={s.code}>
     <strong>{s.order}. {s.name}</strong> · {s.originals} source responses · {s.blockedSources} source gaps<br/>
     {s.budgetCandidates!==undefined&&<>{s.budgetCandidates} budget · {s.expenditureCandidates} expenditure · {s.projectCandidates} project/tender candidates<br/></>}
+    {s.namedBudgetCandidates!==undefined&&<>{s.namedBudgetCandidates} named budget entries · {s.budgetContextCandidates} broad budget-context entries<br/></>}
     {s.financialYearCoverage?.map(y=><span key={y.financialYear}>{y.financialYear}: {y.budgetCandidates} budget records · {y.reportedExpenditureCandidates} expenditure records{y.latestExpenditureCutoff&&<> · expenditure through {y.latestExpenditureCutoff}</>}<br/></span>)}
     {s.nextAction}
    </p>)}
@@ -68,6 +71,7 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
     <option value="budget">Sector and programme budgets</option>
     <option value="expenditure">Reported expenditure</option>
     <option value="projects">Projects and contractors</option>
+    <option value="classification">Development classification suggestions</option>
     <option value="reconciliation">Extraction and reconciliation checks</option>
    </select></label>
    <button className="secondary" disabled={loading}>{loading?'Loading evidence…':'Inspect collected evidence'}</button>
@@ -77,6 +81,8 @@ export function StateDevelopmentReview({data}:{data:StateDevelopmentCollection})
    <p>{result.state.name} · {result.total} records · Page {result.page}</p>
    {result.rows.map(r=><details key={r.id}>
     <summary>{r.label??r.purposeLabel??r.title??r.id}</summary>
+    {r.decision&&<p>{r.financialYear} · Suggested purpose: {r.suggestedPurpose}<br/>Scope: {r.decision.replaceAll('_',' ')}<br/>{r.basis}<br/>Amount: {r.amountMissing?'Unavailable':'Preserved in the budget evidence record'}<br/>Suggestion only. Source rights, overlaps and owner decisions remain pending.</p>}
+    {r.overlapGroups&&<p>{r.overlapGroups.length} overlapping source groups require review. Repeated amounts are not added together.</p>}
     {r.kind&&<p>{r.kind.replaceAll('_',' ')} · {r.permissionStatus}</p>}
     {r.editionStatus&&<p>{r.editionStatus}</p>}
     {r.retrievedAt&&<p>Retrieved: {r.retrievedAt}<br/>Text extraction attempted on {r.extractedPages} pages. Tables and source scope still require review.{r.completeExtraction===false&&<><br/>Extraction incomplete; visual/OCR review needed.</>}</p>}
