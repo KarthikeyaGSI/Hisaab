@@ -14,7 +14,7 @@ import fcntl
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, quote
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'data/acquisition/state-development'
@@ -83,6 +83,9 @@ def blocked(text):
     s=text.lower()
     return any(x in s for x in ['access denied','request rejected','enable javascript and cookies to continue','checking your browser before accessing','this request has been blocked'])
 
+def expects_pdf(url):
+    return re.search(r'\.pdf(?:$|/)',urlparse(url).path,re.I) is not None
+
 def fetch(source, state, refresh=False):
     url=source['url']; parsed=urlparse(url)
     hosts=set(source.get('allowedHosts',[])) | {parsed.hostname}
@@ -93,7 +96,7 @@ def fetch(source, state, refresh=False):
     if checkpoint.exists() and not refresh:
         receipt=json.loads(checkpoint.read_text()); raw=(ROOT/receipt['original']).read_bytes()
         if hashlib.sha256(raw).hexdigest()!=receipt['sha256']: raise ValueError('Original checksum changed')
-        if not (parsed.path.lower().endswith('.pdf') and receipt['contentType']!='application/pdf'):
+        if not (expects_pdf(url) and receipt['contentType']!='application/pdf'):
             return raw,receipt
     BASE.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(dir=BASE) as folder:
@@ -103,7 +106,7 @@ def fetch(source, state, refresh=False):
         current=url
         for _ in range(5):
             headers=Path(folder)/'headers'
-            run=subprocess.run(['curl','--silent','--show-error','--fail','--proto','=https','--max-time','35','--connect-timeout','12','--max-filesize','40000000','--dump-header',str(headers),current,'-o',str(target)],capture_output=True,text=True)
+            run=subprocess.run(['curl','--silent','--show-error','--fail','--proto','=https','--max-time','35','--connect-timeout','12','--max-filesize','40000000','--dump-header',str(headers),quote(current,safe=":/?&=%#@+!$'()*,-._~;"),'-o',str(target)],capture_output=True,text=True)
             if run.returncode: raise ValueError('Download unavailable: '+run.stderr.strip()[:160])
             hs=headers.read_text(errors='replace')
             location=re.search(r'^location:\s*(.+)$',hs,re.I|re.M)
@@ -113,7 +116,7 @@ def fetch(source, state, refresh=False):
         else: raise ValueError('Redirect limit')
         raw=target.read_bytes()
         if not raw: raise ValueError('Empty original')
-        if parsed.path.lower().endswith('.pdf') and not raw.lstrip().startswith(b'%PDF-'):
+        if expects_pdf(url) and not raw.lstrip().startswith(b'%PDF-'):
             raise ValueError('Expected original PDF; server returned an HTML/other response. Not financial evidence.')
         if not raw.lstrip().startswith(b'%PDF-') and blocked(raw.decode(errors='replace')): raise ValueError('Access restriction: retained as blocker, not evidence')
         digest=hashlib.sha256(raw).hexdigest()
@@ -156,6 +159,14 @@ def extract(raw, receipt):
         out['numericLines']=sum(bool(re.search(r'\d+[,.]\d+',t)) for t in parser.text)
     return out
 
+def linked_report_window(links, source):
+    limit=max(1,min(20,int(source.get('maxLinkedReports',4))))
+    offset=source.get('linkedReportOffset',0)
+    if isinstance(offset,bool) or not isinstance(offset,int) or not 0<=offset<=2000:
+        raise ValueError('Linked report offset must be an integer from 0 to 2000')
+    return list(enumerate(links[offset:offset+limit],start=offset))
+
+
 def collect(state, kind=None, retry=False, refresh_indexes=False):
     folder=BASE/state['code'];folder.mkdir(parents=True,exist_ok=True)
     with (folder/'.collection.lock').open('a') as lock:
@@ -170,7 +181,12 @@ def _collect(state, kind=None, retry=False, refresh_indexes=False):
     for source in queue:
         if not retry and any(f['url']==source['url'] for f in result['failures']): continue
         existing=next((d for d in result['documents'] if d['url']==source['url']),None)
-        invalid_pdf=existing is not None and urlparse(source['url']).path.lower().endswith('.pdf') and existing['contentType']!='application/pdf'
+        invalid_pdf=existing is not None and expects_pdf(source['url']) and existing['contentType']!='application/pdf'
+        if invalid_pdf:
+            rejected={**existing,'rejectionReason':'Expected original PDF but preserved server response was HTML/other content'}
+            result.setdefault('rejectedResponses',[])
+            if not any(d['sha256']==existing['sha256'] and d['url']==existing['url'] for d in result['rejectedResponses']):result['rejectedResponses'].append(rejected)
+            result['documents']=[d for d in result['documents'] if d is not existing]
         if existing and not invalid_pdf and source['kind'] not in ('budget_index','monthly_expenditure_index','procurement_index'): continue
         try:
             raw,receipt=fetch(source,state,refresh_indexes and source['kind'] in ('budget_index','monthly_expenditure_index','procurement_index'))
@@ -196,8 +212,7 @@ def _collect(state, kind=None, retry=False, refresh_indexes=False):
                 # review, especially where an index filename is stale.
                 links=sorted(links,key=priority,reverse=True)
                 if source['kind']=='monthly_expenditure_index': links=[a for a in links if '2026' in a['url']]
-                limit=max(1,min(20,int(source.get('maxLinkedReports',4))))
-                for n,link in enumerate(links[:limit]):
+                for n,link in linked_report_window(links,source):
                     if link['url'] in observed: continue
                     observed.add(link['url']); queue.append({'id':source['id']+'-linked-'+str(n+1),'kind':'budget' if source['kind']=='budget_index' else 'reported_expenditure','label':link['label'] or 'Observed official linked report','url':link['url'],'contextUrl':source['url'],'years':source.get('years',YEARS)})
         except Exception as e:

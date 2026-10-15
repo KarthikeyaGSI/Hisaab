@@ -9,13 +9,132 @@ import state_development_collection as collection
 from state_development_collection import DocumentHTML, blocked
 from state_development_normalize import rupees, source_projects,monthly_accounts,assam_sector_expenditure,telangana_budget,monthly_budget_context
 from state_development_budget_tables import goa_glance,manipur_glance,haryana_sectors,nagaland_major_heads,assam_major_heads,maharashtra_rural_heads
-from state_development_reconcile import table_check
+from state_development_reconcile import table_check,rounding_context
 
 from state_development_inspected_accounts import inspected_accounts,SOURCES
+from state_development_programme_tables import ap_programmes,hp_current_heads,assam_current_heads,cg_afs_heads,haryana_programmes,tamil_inspected_revenue_heads,karnataka_regional_programmes,goa_current_heads
+from state_development_inventory import observed_reports
 from state_development_classification import suggest
 from state_development_remaining_tables import meghalaya_current_heads,gujarat_outcome_schemes
 
 class StateEvidenceRules(unittest.TestCase):
+    def test_goa_head_budgets_exclude_prior_actuals_and_keep_negative_recoveries(self):
+        doc={'sourceId':'goa-budget-alternative-linked-17','stateCode':'30','sha256':'fixture','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        text=['DISBURSEMENT Rs. in lakhs 2024-2025 2025-2026 2026-2027',
+              '4425 Capital Outlay on Cooperation  -18.15 -17.80 -17.80 14.11']
+        rows=goa_current_heads(doc,{'pages':[{'page':1,'lines':[{'line':i,'text':t} for i,t in enumerate(text,1)]}]})
+        self.assertEqual([r['amountRupees'] for r in rows],['-1780000.00','-1780000.00','1411000.00'])
+        self.assertTrue(all(r['measure']=='allocated' for r in rows))
+
+    def test_haryana_uses_absolute_rupees_and_preserves_unknown_revised_cell(self):
+        doc={'sourceId':'haryana-budget-2026-linked-3','stateCode':'6','sha256':'fixture','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        text=['Expenditure(In ₹) 2024-25 2025-26 2026-27 Major-Head : 4059',
+              'Total : [70] Construction of Office Building  81,737 5,00,00,000 ... 1,00,00,000']
+        rows=haryana_programmes(doc,{'pages':[{'page':20,'lines':[{'line':i,'text':t} for i,t in enumerate(text,1)]}]})
+        self.assertEqual([r['amountRupees'] for r in rows],['50000000.00',None,'10000000.00'])
+        self.assertTrue(all(r['unit']=='rupee' and r['measure']=='allocated' for r in rows))
+        self.assertEqual(rows[-1]['sourceMajorHead'],'4059')
+
+    def test_tamil_transcription_uses_document_year_not_index_year(self):
+        doc={'sourceId':'tn-treasury-afs-observed-2025','stateCode':'33','sha256':'d7945e16a4f47f3e706a483ea66a33287da8866328466c487bfbd9f831ea08fa','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        rows=tamil_inspected_revenue_heads(doc,{})
+        self.assertEqual(len(rows),9)
+        self.assertEqual(rows[0]['amountRupees'],'7227411000.00')
+        self.assertTrue(all(r['financialYear']=='2025-2026' and r['unit']=='thousand' and r['reviewStatus']=='awaiting_review' for r in rows))
+        with self.assertRaises(ValueError):tamil_inspected_revenue_heads({**doc,'sha256':'new-edition'},{})
+
+    def test_karnataka_regional_subset_is_not_a_payment_or_department_total(self):
+        import sys
+        def word(t,x,y=300):return {'text':t,'x0':x,'x1':x+35,'top':y,'bottom':y+10}
+        class Page:
+            width=1000;height=1000
+            def extract_words(self):return [word('Regional Imbalance Redressal Program',0,0),word('2026-27',0,10),word('Crores',0,20),word('4210-01-110-1-01',260),word('Hospital',500),word('200.00',880)]
+        class PDF:
+            pages=[Page() for _ in range(31)]
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+        doc={'sourceId':'ka-budget-volumes-observed-2026-linked-4','stateCode':'29','sha256':'fixture','original':'unused','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        with patch.dict(sys.modules,{'pdfplumber':SimpleNamespace(open=lambda _:PDF())}):rows=karnataka_regional_programmes(doc,{})
+        self.assertEqual(len(rows),3);self.assertEqual(rows[0]['amountRupees'],'2000000000.00')
+        self.assertEqual(rows[0]['budgetTableScope'],'karnataka_regional_imbalance_programme')
+        self.assertTrue(all(r['measure']=='allocated' for r in rows))
+
+    def test_pdf_download_routes_are_not_accepted_as_html_budget_evidence(self):
+        self.assertTrue(collection.expects_pdf('https://example.invalid/documents/AFS.pdf/uuid?t=10'))
+        self.assertTrue(collection.expects_pdf('https://example.invalid/AFS.PDF?year=2026'))
+        self.assertFalse(collection.expects_pdf('https://example.invalid/financial.html'))
+
+    def test_rounding_compatibility_never_changes_or_approves_money(self):
+        check=table_check([{'amountRupees':'999800000.00'}],'100.00','crore','Printed control')
+        reviewed=rounding_context(check,'crore',2)
+        self.assertFalse(reviewed['compatibleWithDisplayRounding'])
+        self.assertEqual(reviewed['differenceRupees'],'-200000.00')
+        self.assertEqual(reviewed['status'],'difference_requires_review')
+        self.assertFalse(reviewed['publicationApproved'])
+        wider=rounding_context({**check,'rows':21},'crore',2)
+        self.assertTrue(wider['compatibleWithDisplayRounding'])
+        self.assertEqual(wider['status'],'difference_requires_review')
+
+    def test_hp_bilingual_head_follows_printed_english_line_and_uses_lakh(self):
+        doc={'sourceId':'hp-form-capital-2026','sha256':'fixture','stateCode':'2','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        lines=['Annual Financial Statement Rs. In Lacs 2024-25 2025-26 2026-27',
+          '4055 source Hindi name    10.00 20.00 30.00 40.00','CAPITAL OUTLAY ON POLICE']
+        rows=hp_current_heads(doc,{'pages':[{'page':1,'lines':[{'line':n,'text':t} for n,t in enumerate(lines,1)]}]})
+        self.assertEqual(len(rows),3);self.assertEqual(rows[2]['amountRupees'],'4000000.00')
+        self.assertEqual(rows[2]['purposeLabel'],'CAPITAL OUTLAY ON POLICE')
+        self.assertEqual(rows[2]['financialYear'],'2026-2027')
+        self.assertTrue(all(r['measure']=='allocated' for r in rows))
+
+    def test_assam_fourteen_columns_use_total_not_general_or_prior_actual(self):
+        import sys
+        def word(t,x,top=300):return {'text':t,'x0':x,'x1':x+20,'top':top,'bottom':top+10}
+        class Page:
+            width=1122.72
+            def extract_words(self):return [word('2011',711),word('Legislature',741),word('1',680),word('1.00',100),word('5.00',440),word('6.00',640),word('7.00',1000)]
+        class PDF:
+            pages=[Page()]
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+        doc={'sourceId':'assam-afs-observed-54-2026','stateCode':'18','sha256':'fixture','original':'unused','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        extraction={'pages':[{'lines':[{'text':'STATEMENT OF EXPENDITURE 2026-27 2024-25 Rupees in Lakhs'}]}]}
+        with patch.dict(sys.modules,{'pdfplumber':SimpleNamespace(open=lambda _:PDF())}):rows=assam_current_heads(doc,extraction)
+        self.assertEqual([r['amountRupees'] for r in rows],['500000.00','600000.00','700000.00'])
+        self.assertIsNone(rows[-1]['sourceSixthScheduleComponent'])
+        self.assertEqual(rows[-1]['sourceGrant'],'1')
+
+    def test_ap_subheads_keep_editions_unknowns_and_do_not_carry_labels_across_groups(self):
+        doc={'stateCode':'28','sha256':'fixture','url':'https://example.invalid/Volume-III-7.pdf','retrievedAt':'2026-10-15'}
+        lines=['XII DEMAND SCHOOL EDUCATION Rupees in Lakhs 2024-25 2025-26 2026-27',
+               'M.J.H. 2202 S.M.J.H 01','M.H. 112 PROGRAMME',
+               'G.H. 12 CENTRALLY ASSISTED','S.H. (19) School nutrition',
+               '310 Grants-in-Aid','Total S.H. (19)    1.00 2.00 3.00 4.00',
+               'G.H. 27 DIFFERENT GROUP','Total S.H. (19)    .. .. .. 0.01']
+        rows=ap_programmes(doc,{'pages':[{'page':1,'lines':[{'line':n,'text':t} for n,t in enumerate(lines,1)]}]})
+        self.assertEqual(len(rows),6)
+        self.assertEqual([r['amountRupees'] for r in rows[:3]],['200000.00','300000.00','400000.00'])
+        self.assertIsNone(rows[3]['amountRupees'])
+        self.assertEqual(rows[5]['amountRupees'],'1000.00')
+        self.assertNotEqual(rows[0]['overlapGroup'],rows[3]['overlapGroup'])
+        self.assertEqual(rows[3]['purposeLabel'],'Source subhead (19)')
+        self.assertTrue(all(r['measure']=='allocated' for r in rows))
+
+    def test_source_inventory_preserves_failure_and_unknown_fiscal_membership(self):
+        rows=observed_reports({'effectiveUrl':'https://example.invalid/index'},
+           {'links':[{'url':'https://example.invalid/a.pdf','label':'A'}, {'url':'https://example.invalid/b.pdf','label':'B'}, {'url':'https://example.invalid/c.pdf','label':'C'}]},
+           [{'url':'https://example.invalid/a.pdf','contentType':'application/pdf','sha256':'a'}],
+           [{'url':'https://example.invalid/b.pdf','error':'Unavailable'}])
+        self.assertEqual([r['status'] for r in rows],['original_preserved','source_failed','awaiting_collection'])
+        self.assertTrue(all(not r['completePaymentCoverage'] for r in rows))
+        self.assertTrue(all(r['fiscalEditionStatus']=='requires_original_heading_review' for r in rows))
+
+    def test_linked_windows_preserve_source_ordinals_without_repeating_first_batch(self):
+        links=list(range(45))
+        self.assertEqual(collection.linked_report_window(links,{'maxLinkedReports':20,'linkedReportOffset':20}),list(enumerate(range(20,40),20)))
+        self.assertEqual(collection.linked_report_window(links,{'maxLinkedReports':20,'linkedReportOffset':40}),list(enumerate(range(40,45),40)))
+        self.assertEqual(collection.linked_report_window(links,{'maxLinkedReports':100}),list(enumerate(range(20))))
+        for offset in [-1,True,'20',2001]:
+            with self.assertRaises(ValueError):collection.linked_report_window(links,{'linkedReportOffset':offset})
+
     def test_gujarat_outcome_keeps_targets_out_of_money_and_skips_merged_names(self):
         doc={'sha256':'fixture','stateCode':'24','sourceId':'fixture','url':'https://example.invalid','retrievedAt':'2026-10-15'}
         source={'sourceSha256':'fixture','completeInspection':True,'pages':[{'page':10,'tables':[

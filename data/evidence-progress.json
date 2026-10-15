@@ -1282,10 +1282,10 @@
       "title": "01. Andhra Pradesh · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Reconcile the printed AP sector rounding difference; extract departmental programme tables and dated project/bill allocations.",
+      "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "nextAction": "Review 9,108 extracted programme/subhead fiscal entries and incomplete English/accounting-path labels; retain printed sector rounding discrepancy; obtain dated official project/bill allocations.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 31 source responses; 63 named budget-table entries and 28 broad budget-context entries; 28 reported-expenditure and 32 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 45 source responses; 9,171 budget-table fiscal entries beyond broad context and 28 broad budget-context entries; 28 reported-expenditure and 32 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-12",
@@ -1296,7 +1296,7 @@
       "blocker": "Partial coverage; 4 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Review wrapped bilingual heads and blank charge/capital cells; expand schemes and link actual expenditure to official project IDs.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 12 source responses; 266 named budget-table entries and 8 broad budget-context entries; 8 reported-expenditure and 22 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 12 source responses; 266 budget-table fiscal entries beyond broad context and 8 broad budget-context entries; 8 reported-expenditure and 22 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-18",
@@ -1305,9 +1305,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 3 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Obtain usable FY2026–27 budget originals and confirm the test-labelled FY2025–26 expenditure report against production records.",
+      "nextAction": "Review recovered production FY2026–27 AFS grant/head entries; confirm the separate test-labelled FY2025–26 expenditure export against production; expand named schemes and payment joins.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 14 source responses; 318 named budget-table entries and 15 broad budget-context entries; 55 reported-expenditure and 72 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 1,554 budget-table fiscal entries beyond broad context and 15 broad budget-context entries; 55 reported-expenditure and 72 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-10",
@@ -1318,7 +1318,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Review scanned AFS monetary cells against originals; expand beyond scheme-group totals and obtain project-linked expenditure.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 371 named budget-table entries and 32 broad budget-context entries; 32 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 371 budget-table fiscal entries beyond broad context and 32 broad budget-context entries; 32 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-22",
@@ -1327,9 +1327,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 14 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Read detailed Hindi/legacy-font demands for both years; distinguish editions and programme/subhead amounts from overview totals.",
+      "nextAction": "Review extracted revenue/capital AFS heads from both editions; translate preserved legacy-font Hindi labels; detailed demands/programmes and actual project spending remain incomplete.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 37 source responses; 12 named budget-table entries and 26 broad budget-context entries; 26 reported-expenditure and 1 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 37 source responses; 494 budget-table fiscal entries beyond broad context and 26 broad budget-context entries; 26 reported-expenditure and 1 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-30",
@@ -1337,10 +1337,10 @@
       "title": "06. Goa · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 4 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Recover the official AFS and demand volumes after download failures; obtain current expenditure and named development programmes.",
+      "blocker": "Partial coverage; 6 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "nextAction": "Review recovered FY2026–27 AFS revenue/capital disbursement heads and original/revised alternatives; acquire programme detail and in-window actual expenditure. Additional direct source failures remain recorded.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 25 source responses; 21 named budget-table entries and 0 broad budget-context entries; 0 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 25 source responses; 411 budget-table fiscal entries beyond broad context and 0 broad budget-context entries; 0 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-24",
@@ -1351,7 +1351,7 @@
       "blocker": "Partial coverage; 2 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Review outcome-budget scheme subdivisions, missing merged labels and overlapping budget heads; reconcile with development/department totals.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 1228 named budget-table entries and 7 broad budget-context entries; 7 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 1,228 budget-table fiscal entries beyond broad context and 7 broad budget-context entries; 7 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-6",
@@ -1360,9 +1360,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Expand sectors into named programmes; distinguish local-body salary/pension transfers from development and actual utilisation.",
+      "nextAction": "Review programme/subhead totals extracted from all 1,999 demand-book pages; recover full wrapped titles/accounting paths and distinguish salary/pension/maintenance transfers from development and utilisation.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 19 source responses; 44 named budget-table entries and 2 broad budget-context entries; 2 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 19 source responses; 5,180 budget-table fiscal entries beyond broad context and 2 broad budget-context entries; 2 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-2",
@@ -1370,10 +1370,10 @@
       "title": "09. Himachal Pradesh · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Acquire full AFS/capital and demand tables beyond budget-brief revenue summaries; preserve scheme and expenditure evidence.",
+      "blocker": "Partial coverage; 2 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "nextAction": "Review recovered revenue/capital/loan AFS heads and demand summary; full schemes and project-linked actuals remain pending. Public Union/state-share report failed and remains unavailable.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 72 named budget-table entries and 21 broad budget-context entries; 21 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 14 source responses; 438 budget-table fiscal entries beyond broad context and 21 broad budget-context entries; 21 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-20",
@@ -1382,9 +1382,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Review wrapped AFS names and scheme/Union components; extract remaining acquired departmental tables and project-linked expenditure.",
+      "nextAction": "Review remaining departmental tables and wrapped head labels; June 2026 monthly report does not establish a monetary unit, so do not normalize its figures without an official unit definition; obtain project-linked expenditure.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 30 source responses; 345 named budget-table entries and 0 broad budget-context entries; 0 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 30 source responses; 345 budget-table fiscal entries beyond broad context and 0 broad budget-context entries; 0 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-29",
@@ -1393,9 +1393,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Expand the acquired FY2026–27 volumes into programmes and scheme heads; retain financial statement/department overlap and procure FY2025–26 detail.",
+      "nextAction": "Review regional-programme subset and broader AFS heads; preserve department/statement overlap; extract remaining saved demands and obtain FY2025–26 detail.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 33 source responses; 315 named budget-table entries and 10 broad budget-context entries; 10 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 38 source responses; 348 budget-table fiscal entries beyond broad context and 10 broad budget-context entries; 10 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-32",
@@ -1403,10 +1403,10 @@
       "title": "12. Kerala · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Reconcile revised and original budget/plan editions and parent/child overlaps; extract named schemes and project accounts.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 30 source responses; 222 named budget-table entries and 3 broad budget-context entries; 3 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 39 source responses; 222 budget-table fiscal entries beyond broad context and 3 broad budget-context entries; 3 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-23",
@@ -1417,7 +1417,7 @@
       "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Review scanned 127-scheme provisions; acquire FY2025–26 detailed grants/AFS and preserve maintenance/administrative exclusions.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 127 named budget-table entries and 28 broad budget-context entries; 28 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 127 budget-table fiscal entries beyond broad context and 28 broad budget-context entries; 28 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-27",
@@ -1425,10 +1425,10 @@
       "title": "14. Maharashtra · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Expand beyond Rural Development to other departmental demands; separate programme budgets from performance reports and transfers.",
+      "blocker": "Partial coverage; 21 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "nextAction": "Review recovered gender/child targeted programme outlays, distinct from beneficiary counts and full programme budgets; recover broken observed departmental PDF links through another official route and obtain project accounts.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 21 source responses; 36 named budget-table entries and 15 broad budget-context entries; 15 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 24 source responses; 638 budget-table fiscal entries beyond broad context and 15 broad budget-context entries; 15 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-14",
@@ -1437,9 +1437,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Resolve missing capital components from original tables; extract detailed programmes and actual expenditure links.",
+      "nextAction": "Review recovered FY2026–27 revenue/capital/debt/loan heads. Missing capital component splits in the separate overview remain unresolved; expand programmes and actual-expenditure links.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 9 source responses; 36 named budget-table entries and 31 broad budget-context entries; 31 reported-expenditure and 54 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 408 budget-table fiscal entries beyond broad context and 31 broad budget-context entries; 31 reported-expenditure and 54 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-17",
@@ -1448,9 +1448,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Review FY2026–27 named-head rows, omitted vote/charge continuations and earlier scheme-channel overlaps; read scanned monthly actuals.",
+      "nextAction": "Review current named heads and directly anchored voted/charged children; no unfunded parent or unanchored continuation is counted. Reconcile earlier scheme-channel overlaps and scanned monthly actuals.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 819 named budget-table entries and 8 broad budget-context entries; 8 reported-expenditure and 38 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 783 budget-table fiscal entries beyond broad context and 8 broad budget-context entries; 8 reported-expenditure and 38 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-15",
@@ -1461,7 +1461,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Reconcile FY2025–26 demand charge/vote rows with FY2026–27 AFS; expand named schemes and preserve CSS/other share uncertainty.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 11 source responses; 328 named budget-table entries and 6 broad budget-context entries; 6 reported-expenditure and 21 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 11 source responses; 328 budget-table fiscal entries beyond broad context and 6 broad budget-context entries; 6 reported-expenditure and 21 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-13",
@@ -1472,7 +1472,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Expand AFS major heads into schemes and demands; review scanned introduction/summary sources and reported-expenditure scope.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 21 source responses; 282 named budget-table entries and 14 broad budget-context entries; 14 reported-expenditure and 25 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 21 source responses; 282 budget-table fiscal entries beyond broad context and 14 broad budget-context entries; 14 reported-expenditure and 25 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-21",
@@ -1481,9 +1481,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Reconcile programme-ceiling rounding; extract FY2025–26 and scheme-level volumes, retaining gender/child/department overlaps.",
+      "nextAction": "All 68 observed budget-index PDF links attempted; extract scanned FY2025–26/scheme demand books with visual checks, preserve gender/child/department overlap and the ceiling rounding discrepancy.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 24 source responses; 42 named budget-table entries and 6 broad budget-context entries; 6 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 72 source responses; 42 budget-table fiscal entries beyond broad context and 6 broad budget-context entries; 6 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-3",
@@ -1494,7 +1494,7 @@
       "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Expand recovered AFS heads into detailed grants/programmes; review wrapped/missing labels and obtain actual expenditure/project registers.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 8 source responses; 330 named budget-table entries and 8 broad budget-context entries; 8 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 8 source responses; 330 budget-table fiscal entries beyond broad context and 8 broad budget-context entries; 8 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-8",
@@ -1505,7 +1505,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Review full outcome-budget scheme/BFC repeats and state/central components; acquire FY2025–26 detailed programmes and expenditure.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 756 named budget-table entries and 3 broad budget-context entries; 3 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 756 budget-table fiscal entries beyond broad context and 3 broad budget-context entries; 3 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-11",
@@ -1513,10 +1513,10 @@
       "title": "22. Sikkim · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 2 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Recover detailed statewide AFS through a working official route; existing CAG broad context is not a complete budget or programme register.",
+      "blocker": "Partial coverage; 6 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "nextAction": "Detailed statewide AFS and observed FY2025–26 demand/MTFP/CAG appropriation routes remain unavailable after bounded official-source attempts. Broad CAG context is not a complete budget; seek working originals.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 8 source responses; 0 named budget-table entries and 11 broad budget-context entries; 11 reported-expenditure and 18 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 8 source responses; 0 budget-table fiscal entries beyond broad context and 11 broad budget-context entries; 11 reported-expenditure and 18 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-33",
@@ -1525,9 +1525,9 @@
       "owner": "Hisaab",
       "status": "In progress",
       "blocker": "Partial coverage; 2 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
-      "nextAction": "Acquire whole-state AFS/demand volumes; existing agriculture/allied tables cover a subset and FY2026–27 is revised, not original.",
+      "nextAction": "FY2025–26 statewide AFS recovered and all 42 pages OCR-processed; nine original-page revenue heads transcribed. Review remaining scanned heads and public-works annexure; acquire correct FY2026–27 statewide edition, not a mislabeled index.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 13 source responses; 40 named budget-table entries and 12 broad budget-context entries; 12 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 15 source responses; 49 budget-table fiscal entries beyond broad context and 12 broad budget-context entries; 12 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-36",
@@ -1538,7 +1538,7 @@
       "blocker": "Partial coverage; 10 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Retain rounding discrepancies; expand FY2025–26 schemes and check scheme/department/capital overlap and failed source links.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 18 source responses; 135 named budget-table entries and 28 broad budget-context entries; 28 reported-expenditure and 0 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 18 source responses; 135 budget-table fiscal entries beyond broad context and 28 broad budget-context entries; 28 reported-expenditure and 0 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-16",
@@ -1549,7 +1549,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Reconcile FY2026–27 gross major heads with recovery/net rows; expand full demands and link expenditure to named projects.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 640 named budget-table entries and 3 broad budget-context entries; 3 reported-expenditure and 34 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 10 source responses; 640 budget-table fiscal entries beyond broad context and 3 broad budget-context entries; 3 reported-expenditure and 34 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-9",
@@ -1560,7 +1560,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Expand beyond gross/net statewide object summaries into grant/programme heads; review Hindi labels and preserve maintenance exclusions.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 11 source responses; 324 named budget-table entries and 32 broad budget-context entries; 32 reported-expenditure and 20 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 11 source responses; 324 budget-table fiscal entries beyond broad context and 32 broad budget-context entries; 32 reported-expenditure and 20 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-5",
@@ -1571,7 +1571,7 @@
       "blocker": "Partial coverage; 0 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Expand beyond 31 grant totals into scanned major/programme heads; read monthly actuals and keep debt/administration outside development totals.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 21 source responses; 31 named budget-table entries and 8 broad budget-context entries; 8 reported-expenditure and 24 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 21 source responses; 31 budget-table fiscal entries beyond broad context and 8 broad budget-context entries; 8 reported-expenditure and 24 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     },
     {
       "id": "state-development-19",
@@ -1579,10 +1579,10 @@
       "title": "28. West Bengal · two-year development evidence",
       "owner": "Hisaab",
       "status": "In progress",
-      "blocker": "Partial coverage; 1 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
+      "blocker": "Partial coverage; 3 recorded source failures. Development classification, overlapping editions, source rights and project/payment links remain unresolved.",
       "nextAction": "Confirm interim/original/revised budget editions and acquire remaining scheme tables; reconcile department and head overlaps.",
       "followUpOn": null,
-      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 29 source responses; 430 named budget-table entries and 16 broad budget-context entries; 16 reported-expenditure and 35 project/tender candidates. Private, overlapping and unapproved; not complete statewide coverage."
+      "supportingRecord": "FY2025–26 / FY2026–27 to source cutoff: 37 source responses; 430 budget-table fiscal entries beyond broad context and 16 broad budget-context entries; 16 reported-expenditure and 35 project/tender candidates. Fiscal entries overlap and may have incomplete labels; not unique schemes, payments or complete statewide coverage. Private and unapproved."
     }
   ],
   "projects": [

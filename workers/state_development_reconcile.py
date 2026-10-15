@@ -23,6 +23,14 @@ def table_check(rows, expected, unit, label):
                       'matched' if difference == 0 else 'difference_requires_review',
             'isDevelopmentTotal': False, 'publicationApproved': False}
 
+def rounding_context(control,unit,decimals):
+    quantum=Decimal(rupees('1',unit))*(Decimal(10)**-decimals)
+    bound=(Decimal(control['rows'])+1)*quantum/2
+    difference=control['differenceRupees']
+    return {**control,'printedPrecisionDecimals':decimals,'roundingEnvelopeRupees':str(bound),
+      'compatibleWithDisplayRounding':abs(Decimal(difference))<=bound if difference is not None else None,
+      'roundingStatus':'Compatibility only; unrounded source values or official correction still required. No amount changed.'}
+
 def checks(code, rows, documents):
     result = []
     def group(fy, estimate, scope):
@@ -95,6 +103,8 @@ def checks(code, rows, documents):
                 row=by_row[parent]
                 result.append(table_check([by_row[c] for c in children],row['sourceTotal'],row['unit'],
                                           f'{fy} {estimate}: {row["purposeLabel"]} component check'))
+    if code in ['28','21','36']:
+        result=[rounding_context(r,'crore',0 if code=='36' else 2) for r in result]
     return result
 
 def main():

@@ -1,3 +1,4 @@
+from state_development_programme_tables import ap_programmes,assam_current_heads,hp_current_heads,cg_afs_heads,maharashtra_targeted_programmes,manipur_current_heads,haryana_programmes,karnataka_regional_programmes,tamil_inspected_revenue_heads,goa_current_heads
 from state_development_inspected_accounts import inspected_accounts
 """Source-specific candidates from preserved originals; no approvals/public totals."""
 import json
@@ -246,10 +247,25 @@ def main():
         data=json.loads(checkpoint.read_text()); facts=[]; projects=[]; expenditure=[]
         for doc in data['documents']:
             extraction=json.loads((ROOT/doc['extraction']).read_text())
+            supplement=BASE/data['code']/'full-text'/f'{doc["sha256"]}.json'
+            if supplement.exists():
+                full=json.loads(supplement.read_text())
+                if full['sourceSha256']!=doc['sha256']:raise ValueError('Full-text supplement changed original identity')
+                extraction={**extraction,'pages':full['pages']}
             if doc['sourceId']=='ap-budget-2026-glance': facts+=ap_budget(doc,extraction)
             if doc['sourceId']=='telangana-budget-2026-linked-1': facts+=telangana_budget(doc,extraction)
             facts+=additional_budget_records(doc,extraction)
             facts+=remaining_budget_records(doc,extraction)
+            facts+=ap_programmes(doc,extraction)
+            facts+=assam_current_heads(doc,extraction)
+            facts+=hp_current_heads(doc,extraction)
+            facts+=cg_afs_heads(doc,extraction)
+            facts+=maharashtra_targeted_programmes(doc,extraction)
+            facts+=manipur_current_heads(doc,extraction)
+            facts+=haryana_programmes(doc,extraction)
+            facts+=karnataka_regional_programmes(doc,extraction)
+            facts+=tamil_inspected_revenue_heads(doc,extraction)
+            facts+=goa_current_heads(doc,extraction)
             inspected_budget,inspected_actual=inspected_accounts(doc)
             facts+=inspected_budget;expenditure+=inspected_actual
             if doc['sourceKind']=='reported_expenditure':

@@ -343,18 +343,28 @@ def meghalaya_current_heads(doc, extraction):
                 raise ValueError('Meghalaya current financial columns changed')
             tables=page.extract_tables()
             if len(tables)!=1 or len(tables[0][0])!=5:raise ValueError('Meghalaya five-column geometry changed')
+            charge_parent=None
             for ordinal,r in enumerate(tables[0],1):
                 label=' '.join((r[3] or '').splitlines())
                 m=re.match(r'([234567]\d{3})\s*-\s*(.+)',label)
-                if not m:continue
+                charge=None;parent_row=None
+                if m:
+                    if not any((r[i] or '').strip() for i in [0,1,2,4]):
+                        charge_parent=(m[1],m[2],ordinal);continue
+                    charge_parent=None
+                elif label.strip() in ['(Voted)','(Charged)'] and charge_parent:
+                    code,name,parent_row=charge_parent;charge=label.strip('()')
+                    m=re.match(r'([234567]\d{3})-(.+)',code+'-'+name)
+                else:
+                    charge_parent=None;continue
                 # Named physical cells only. Separate voted/charged continuation
                 # rows are deliberately not assigned a preceding head by guess.
                 for fy,edition,column in [('2025-2026','original',1),('2025-2026','revised',2),('2026-2027','original',4)]:
                     value=(r[column] or '').strip()
                     if value and not re.fullmatch(NUMBER,value):continue
                     result.append(record(doc,n,ordinal,m[2],value or '--',fy,edition,'thousand','meghalaya_current_named_heads',
-                        sourceMajorHead=m[1],sourceAccount='revenue' if n<29 else 'capital_debt_or_loans',
-                        notes='Named expenditure-head row only. Blank original cells stay unknown. Separate charge/vote rows without a named head are not included. Department and scheme presentations overlap. Not a payment or a complete development total.'))
+                        sourceMajorHead=m[1],sourceCharge=charge,sourceParentRow=parent_row,sourceAccount='revenue' if n<29 else 'capital_debt_or_loans',
+                        notes='Named expenditure-head row, or explicit Voted/Charged row directly grouped under an unfunded named heading in the same physical table. Blank original cells stay unknown. Unanchored charge/vote continuations are not assigned a parent. Department and scheme presentations overlap. Not a payment or a complete development total.'))
     if not result:raise ValueError('Meghalaya named heads unavailable')
     return result
 
