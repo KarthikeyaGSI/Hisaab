@@ -36,7 +36,7 @@ export function JurisdictionSourceInventory({jurisdiction}:{jurisdiction:string}
   <h3>What we have collected</h3>
   <p className="atlas-caption">Snapshot {snapDate(data.auditedAt)}. This covers the tracked state/UT development acquisition streams; Odisha’s separate PPMS and Panchayat collections are listed below. Counts are not verified spending or unique project totals, sources overlap, and cutoffs vary.</p>
   <div className="atlas-source-inventory-grid">
-   <div><small>Historical map records</small><strong>{count(item.historicalMapRecords)}</strong><span>2022 archive · not a current asset count</span></div>
+   <div><small>Asset records with location + details</small><strong>{count(item.historicalMapRecords)}</strong><span>2022 archive · source-listed asset type and category; not a current asset count</span></div>
    <div><small>PMGSY work candidates</small><strong>{count(item.pmgsyWorkingWindowCandidates)}</strong><span>Saved working-window records · locations and payments need separate review</span></div>
    <div><small>MPLADS source rows</small><strong>{count(item.mpladsSourceRows)}</strong><span>Report rows · not unique projects or payments</span></div>
    <div><small>Project / tender candidates</small><strong>{count(item.projectTenderCandidates)}</strong><span>From the state/UT development collection; other pilots may add records</span></div>

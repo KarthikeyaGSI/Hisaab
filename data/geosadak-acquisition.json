@@ -4,6 +4,8 @@
   "originalArchives": 58,
   "stateFiles": 29,
   "assetRows": 812976,
+  "assetRowsWithLocationAndSourceDetails": 812976,
+  "assetDetailRule": "Rows with coordinates plus non-empty title, category and source_fields.",
   "byKind": {
     "public": 375207,
     "agriculture": 155550,
