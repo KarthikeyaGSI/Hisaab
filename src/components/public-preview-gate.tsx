@@ -5,7 +5,7 @@ import styles from './public-preview-gate.module.css';
 
 const acknowledgementKey = 'hisaab-public-preview-project-data-2026-10-26';
 
-export function PublicPreviewGate({children,assetRecordTotal=812_976,projectDataSourceRecords=254_275}: {children: ReactNode;assetRecordTotal?:number;projectDataSourceRecords?:number}) {
+export function PublicPreviewGate({children,assetRecordTotal=812_976,projectDataSourceRecords=330_080}: {children: ReactNode;assetRecordTotal?:number;projectDataSourceRecords?:number}) {
   const [acknowledged, setAcknowledged] = useState(false);
   const card = useRef<HTMLElement>(null);
   const enter = useRef<HTMLButtonElement>(null);

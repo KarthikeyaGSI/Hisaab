@@ -1,6 +1,6 @@
 {
   "auditedAt": "2026-10-26",
-  "projectDataSourceRecords": 254275,
+  "projectDataSourceRecords": 330080,
   "countingRule": "Counts source-identified project and activity records, not unique physical projects. Exact repeated identifiers are deduplicated within each collection; the same physical work may still appear in multiple agencies' collections.",
   "sources": [
     {
@@ -8,6 +8,12 @@
       "count": 210946,
       "unit": "distinct source work IDs",
       "basis": "data/nationwide-ingestion.json uniqueSourceWorks; spans the collected dashboard work records, not a complete national works ledger"
+    },
+    {
+      "name": "MPLADS",
+      "count": 75805,
+      "unit": "distinct work IDs",
+      "basis": "59,785 Lok Sabha plus 16,020 Rajya Sabha work IDs; no exact work-ID overlap between the two house-filtered collections"
     },
     {
       "name": "State project and tender collections",
@@ -50,6 +56,7 @@
     "The 67,099 PMGSY working-window candidates are included in the PMGSY source-work count.",
     "The 200 selected road records are already represented in PMGSY source records.",
     "The 155 Odisha photo-location dossiers are within Odisha's PPMS project-code collection.",
+    "The 2,195 Odisha eSAKSHI MPLADS work IDs are within the MPLADS distinct-work total.",
     "The 206 NHIDCL date-recovery records are within the state/territory project-ID collection.",
     "Budget lines, expenditure candidates, map points and repeated bill rows are not counted as additional projects."
   ]
