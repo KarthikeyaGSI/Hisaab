@@ -5,7 +5,7 @@ import styles from './public-preview-gate.module.css';
 
 const acknowledgementKey = 'hisaab-public-preview-2026-10-26';
 
-export function PublicPreviewGate({children,historicalLocationRecords,sourceReviewedProjectRecords,odishaPhotoLocationDossiers,odishaDeepSourceReviews}: {children: ReactNode;historicalLocationRecords:number;sourceReviewedProjectRecords:number;odishaPhotoLocationDossiers:number;odishaDeepSourceReviews:number}) {
+export function PublicPreviewGate({children,historicalLocationRecords=812_976,sourceReviewedProjectRecords=0,odishaPhotoLocationDossiers=155,odishaDeepSourceReviews=5}: {children: ReactNode;historicalLocationRecords?:number;sourceReviewedProjectRecords?:number;odishaPhotoLocationDossiers?:number;odishaDeepSourceReviews?:number}) {
   const [acknowledged, setAcknowledged] = useState(false);
   const card = useRef<HTMLElement>(null);
   const enter = useRef<HTMLButtonElement>(null);
