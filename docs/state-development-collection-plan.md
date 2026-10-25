@@ -16,4 +16,14 @@ Validation gates:
 2. Where available, connect work, sanction, contract, bill and payment registers using official IDs. Missing connections do not block collecting or showing separately reviewed facts at their actual scope.
 3. Establish an official denominator and reconcile one authority/year before claiming complete coverage. A first source pass through all states is not complete statewide collection.
 
+## Public state/UT evidence display
+
+The state card now has a separate source-inventory section backed by `data/public-jurisdiction-source-coverage.json`. It covers all 28 states and 8 union territories and keeps historical map records, PMGSY candidates, MPLADS rows, budget candidates, reported-expenditure candidates and project/tender candidates in separate fields. These figures describe acquisition queues; they are not additive totals or verified amounts. The source snapshot and cutoffs are shown on the card.
+
+The public inventory exposes aggregate counts only. Original PDFs, raw candidate rows, bank/beneficiary details and unpublished project drafts stay in the owner review process. A source-reported amount can be shown later as a source fact with its edition, locator, unit and review status; it must not be merged into reviewed spending totals until its identity, scope and accounting basis are reconciled.
+
+Odisha has a separate PPMS/Panchayat collection summary because it is outside the 536-row state project/tender intake. The card labels photo-coordinate dossiers as reported photo locations, distinguishes bill evidence from settlement, and shows unmatched institution bank-report records without attributing them to projects. To add a map dot, reconcile its source identity and documented location, retain the source-precision label, and use the protected owner MFA workflow. Missing payment or completion evidence stays unknown.
+
+Refresh this display after each dated coverage audit and acquisition-summary update. Keep the 36-jurisdiction inventory complete even when a source has no rows; a zero in one collection is never a claim that the jurisdiction has no development activity.
+
 No new email recipient, RTI filing/fee, paid access, automatic approval, deployment or access-control bypass is authorized by this collection scope. Blocked routes are checkpointed while independent public-source work continues.
