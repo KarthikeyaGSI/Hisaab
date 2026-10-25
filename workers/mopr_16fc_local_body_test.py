@@ -5,6 +5,7 @@ import unittest
 import mopr_16fc_local_body as source
 
 
+@unittest.skipUnless(source.DATA.exists(), 'Private source-acquisition fixtures are not included in the public checkout')
 class Mopr16FCLocalBodyTest(unittest.TestCase):
     def test_source_and_controls(self):
         result = source.validate()
