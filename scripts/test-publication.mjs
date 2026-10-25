@@ -30,7 +30,8 @@ try{
  const wildcardSearch=await client.rpc('admin_candidates_page',{p_offset:0,p_limit:1,p_query:seed+' 100%Xcomplete'});if(wildcardSearch.error)throw wildcardSearch.error;assert(wildcardSearch.data.total===0,'Search interpreted literal input as wildcards');
  const specific=await client.rpc('admin_candidate',{p_id:candidate});assert(specific.data?.id===candidate,'Candidate lookup must not depend on page position');
  assert((await anonymous.rpc('admin_candidates_page')).error,'Anonymous candidate page exposed');
- const payload={...raw,stages:raw.stages.map(s=>({...s,state:s.state==='pending'?'found':s.state})),money:raw.money.map(e=>({...e,approved:true}))};
+ const payload={...raw,stages:raw.stages.map(s=>({...s,state:s.state==='pending'?'found':s.state,...(s.state==='pending'?{reviewStatus:'verified'}:{})})),money:raw.money.map(e=>({...e,approved:true,reviewStatus:'verified'}))};
+ const initialReconciliation=await client.rpc('reconcile_candidate',{p_id:candidate,p_payload:payload,p_reason:'Explicit reconciliation of the disposable publication fixture.'});if(initialReconciliation.error)throw initialReconciliation.error;
  assert((await client.rpc('publish_reviewed_candidate',{p_id:candidate,p_payload:payload,p_reason:'Disposable publication security test.'})).error,'Unlicensed source published');
  const document=sql(`select id from private.source_documents where source_id='${source}' and sha256='${receipt.documentHash}';`);
  const permission=await client.rpc('verify_source_permission',{p_document:document,p_basis:'Disposable local fixture permission review for tests only.',p_evidence:'Disposable fixture source proof, not a real government license.'});if(permission.error)throw permission.error;
