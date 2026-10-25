@@ -33,3 +33,7 @@ design/netlify-authorization.png
 design/supabase-hisaab-organisation.png
 design/supabase-hosted-auth.png
 design/supabase-hosted-security.png
+
+# Local review exports and video production sources are not website source.
+/output/
+/videos/

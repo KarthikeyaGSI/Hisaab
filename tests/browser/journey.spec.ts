@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import sharp from 'sharp';
 import {PDFDocument} from 'pdf-lib';
 import {createHash} from 'node:crypto';

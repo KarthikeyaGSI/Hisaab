@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 test('development sectors stay in the app and return to the map',async({page},info)=>{
  await page.goto('/');
  await page.getByRole('button',{name:'Explore India',exact:true}).click();await page.getByRole('button',{name:'Evidence progress and data acquisition'}).click();

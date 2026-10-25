@@ -12,12 +12,104 @@ from state_development_budget_tables import goa_glance,manipur_glance,haryana_se
 from state_development_reconcile import table_check,rounding_context
 
 from state_development_inspected_accounts import inspected_accounts,SOURCES
-from state_development_programme_tables import ap_programmes,hp_current_heads,assam_current_heads,cg_afs_heads,haryana_programmes,tamil_inspected_revenue_heads,karnataka_regional_programmes,goa_current_heads
+from state_development_programme_tables import ap_programmes,hp_current_heads,assam_current_heads,cg_afs_heads,haryana_programmes,tamil_inspected_revenue_heads,karnataka_regional_programmes,goa_current_heads,goa_demand_major_heads,jharkhand_crossreferenced_june_actuals,goa_demand_budget_summaries,sikkim_sic_budget_heads
 from state_development_inventory import observed_reports
 from state_development_classification import suggest
 from state_development_remaining_tables import meghalaya_current_heads,gujarat_outcome_schemes
 
 class StateEvidenceRules(unittest.TestCase):
+    def test_goa_demand_details_reconcile_all_97_codes_to_independent_control(self):
+        import sys,tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from state_development_collection import BASE
+        codes=[f'{n:02}' for n in range(1,95)]+['A1','A2','A3']
+        pages=[]
+        for pn in range(1,5):
+            lines=[]
+            if pn==1:lines=[{'line':1,'text':'Rs. in lakhs Revenue Exp Capital Exp Total 2026-2027'}]
+            for i,code in enumerate(codes[(pn-1)*25:pn*25],1):
+                lines.append({'line':i+1,'text':f'{code} Department {code} 1.00 0.00 1.00'})
+            pages.append({'page':pn,'lines':lines})
+        doc={'sourceId':'goa-budget-alternative-linked-10','stateCode':'30','sha256':'372133495751984cd0213737652672afa4bb29d9c298107c676d09f599db5007','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        with tempfile.TemporaryDirectory() as directory:
+            base=Path(directory);folder=base/'30';folder.mkdir();
+            (folder/'checkpoint.json').write_text(json.dumps({'documents':[{'sourceId':'goa-budget-alternative-linked-8','sha256':'controlhash','url':'https://example.invalid/control','retrievedAt':'2026-10-15'}]}))
+            (folder/'controlhash.json').write_text(json.dumps({'pages':[{'page':1,'lines':[{'line':1,'text':'Total 97.00 0.00 97.00'}]}]}))
+            with patch('state_development_collection.BASE',base):rows=goa_demand_budget_summaries(doc,{'pages':pages})
+        self.assertEqual(len(rows),97);self.assertEqual(rows[0]['amountRupees'],'100000.00')
+        self.assertEqual(rows[-1]['unit'],'lakh');self.assertEqual(rows[0]['sourceControl']['totalLakhs'],'97.00')
+        self.assertEqual(rows[0]['budgetTableScope'],'goa_demand_total')
+        self.assertFalse(any(r['publicationApproved'] for r in rows))
+        with self.assertRaisesRegex(ValueError,'edition changed'):
+            goa_demand_budget_summaries({**doc,'sha256':'different'}, {'pages':pages})
+
+    def test_goa_full_volume_one_major_head_rows_reconcile_each_demand_control(self):
+        checkpoint=json.loads((collection.BASE/'30'/'checkpoint.json').read_text())
+        doc=next(d for d in checkpoint['documents'] if d['sourceId']=='goa-demands-volume-i-full-alt-host-2026')
+        extraction=json.loads((collection.BASE/'30'/(doc['sha256']+'.json')).read_text())
+        rows=goa_demand_major_heads(doc,extraction)
+        self.assertEqual(len(rows),1077)
+        self.assertEqual(len({r['sourceDemandNumber'] for r in rows}),97)
+        self.assertEqual({(r['financialYear'],r['estimate']) for r in rows},
+                         {('2025-2026','original'),('2025-2026','revised'),('2026-2027','original')})
+        self.assertTrue(all(r['unit']=='lakh' and r['reviewStatus']=='awaiting_review' for r in rows))
+        self.assertEqual(rows[0]['sourceDemandNumber'],'01')
+        self.assertEqual(rows[0]['sourceMajorHead'],'2011')
+        self.assertEqual(rows[0]['sourceTotal'],'5421.50')
+        self.assertEqual(rows[1]['sourceTotal'],'5421.50')
+        self.assertEqual(rows[2]['sourceTotal'],'5619.00')
+        from copy import deepcopy
+        changed = deepcopy(extraction)
+        first_total = next(r for r in changed['pages'][0]['lines'] if 'Total      Demand' in r['text'])
+        first_total['text'] = first_total['text'].replace('6000.01', '6001.01')
+        with self.assertRaisesRegex(ValueError, 'fails FY2025-26'):
+            goa_demand_major_heads(doc, changed)
+        with self.assertRaisesRegex(ValueError, 'source edition changed'):
+            goa_demand_major_heads({**doc, 'sha256': 'unexpected'}, extraction)
+
+    def test_jharkhand_crossreferenced_trend_unit_captures_cumulative_actuals(self):
+        doc={'sourceId':'cag-monthly-20-linked-2','stateCode':'20','sha256':'cfb37fda2a7b1b29890adb677d5b2804143e9dc9df1e6641a8294edebb64daeb','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        pages=[]
+        for page in range(1,18):
+            text=[]
+            if page in [10,11,12,13,14,15,16,17]:
+                item={10:'4(a)',11:'4(b)',12:'4(c)',13:'4(d)',14:'4(e)',15:'5(a)',16:'5(b)',17:'8'}[page]
+                text=[f'Refer to Item No. {item} of Monthly Accounts at a Glance','(in Crores)','Monthly Trend','June 1,00.00 2,00.00 3,00.00 4,00.00']
+            pages.append({'page':page,'lines':[{'line':i,'text':t} for i,t in enumerate(text,1)]})
+        rows=jharkhand_crossreferenced_june_actuals(doc,{'pages':pages})
+        self.assertEqual(len(rows),16)
+        self.assertEqual(rows[0]['amountRupees'],'2000000000.00')
+        self.assertEqual(rows[1]['amountRupees'],'4000000000.00')
+        self.assertEqual(rows[0]['periodEnd'],'2026-06-30')
+        self.assertEqual(rows[1]['periodEnd'],'2025-06-30')
+        self.assertEqual(rows[0]['measure'],'reported_spent')
+        self.assertFalse(any(r['publicationApproved'] for r in rows))
+        pages[9]['lines'][1]['text']='(in Rupees)'
+        with self.assertRaisesRegex(ValueError,'unit/cross-reference changed'):
+            jharkhand_crossreferenced_june_actuals(doc,{'pages':pages})
+
+    def test_sikkim_sic_department_rows_reconcile_parent_children_and_total(self):
+        doc={'sourceId':'sikkim-sic-budget-2026-observed','stateCode':'11','sha256':'caf4221c3fe914634e3dab7d35e4df630edff023a228b97c5a1222dc5077f905','url':'https://example.invalid','retrievedAt':'2026-10-15'}
+        details=[]
+        for n in range(1,19):
+            row=[f'45.00.{n:02}',f'Item {n}','2','1','1','1']
+            details.append((['',*row] if n==1 else row))
+        rows=[['Major/Sub-Major/Minor/Sub/Detailed Heads','Actuals 2024-25','Budget Estimates 2025-26','Revised Estimate 2025-2026','Budget Estimate 2026-27'],
+              ['45 ChiefInformationCommission','5','10','20','30'],*details,
+              ['Total','45 ChiefInformationCommission','25','28','38','48']]
+        pages=[{'page':1,'lines':[{'line':i,'text':v} for i,v in enumerate(['BUDGET OF SIC - 2026-2027','BUDGET OF SIKKIM INFORMATION COMMISSION','Demand No. 28','(In Thousands of Rupees)','Major/Sub-Major/Minor/Sub/Detailed Heads','Actuals','2024-25','Budget Estimates 2025-26','Revised','Estimate','2025-2026','Budget Estimate','2026-27'],1)]}]
+        facts=sikkim_sic_budget_heads(doc,{'pages':pages,'tables':[{'table':1,'rows':rows}]})
+        self.assertEqual(len(facts),57)
+        self.assertEqual(facts[0]['amountRupees'],'10000.00')
+        self.assertEqual(facts[-1]['amountRupees'],'1000.00')
+        self.assertEqual(facts[0]['hierarchyRole'],'parent')
+        self.assertEqual(facts[3]['hierarchyRole'],'object_head_detail')
+        self.assertTrue(all(x['classification']=='administrative_context' and not x['publicationApproved'] for x in facts))
+        rows[-1][-1]='49'
+        with self.assertRaisesRegex(ValueError,'components do not match'):
+            sikkim_sic_budget_heads(doc,{'pages':pages,'tables':[{'table':1,'rows':rows}]})
+
     def test_goa_head_budgets_exclude_prior_actuals_and_keep_negative_recoveries(self):
         doc={'sourceId':'goa-budget-alternative-linked-17','stateCode':'30','sha256':'fixture','url':'https://example.invalid','retrievedAt':'2026-10-15'}
         text=['DISBURSEMENT Rs. in lakhs 2024-2025 2025-2026 2026-2027',

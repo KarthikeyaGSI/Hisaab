@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import {stubFundingInCI} from './atlas-fixtures';
 test.beforeEach(async({page})=>stubFundingInCI(page));
 test('clean India opens into a state card with independent historical and funding layers',async({page},info)=>{

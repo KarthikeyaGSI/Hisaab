@@ -1,4 +1,4 @@
-from state_development_programme_tables import ap_programmes,assam_current_heads,hp_current_heads,cg_afs_heads,maharashtra_targeted_programmes,manipur_current_heads,haryana_programmes,karnataka_regional_programmes,tamil_inspected_revenue_heads,goa_current_heads
+from state_development_programme_tables import ap_programmes,assam_current_heads,hp_current_heads,cg_afs_heads,maharashtra_targeted_programmes,manipur_current_heads,haryana_programmes,karnataka_regional_programmes,tamil_inspected_revenue_heads,goa_current_heads,goa_demand_major_heads,jharkhand_crossreferenced_june_actuals,goa_demand_budget_summaries,sikkim_sic_budget_heads
 from state_development_inspected_accounts import inspected_accounts
 """Source-specific candidates from preserved originals; no approvals/public totals."""
 import json
@@ -266,6 +266,10 @@ def main():
             facts+=karnataka_regional_programmes(doc,extraction)
             facts+=tamil_inspected_revenue_heads(doc,extraction)
             facts+=goa_current_heads(doc,extraction)
+            facts+=goa_demand_major_heads(doc,extraction)
+            facts+=goa_demand_budget_summaries(doc,extraction)
+            facts+=sikkim_sic_budget_heads(doc,extraction)
+            expenditure+=jharkhand_crossreferenced_june_actuals(doc,extraction)
             inspected_budget,inspected_actual=inspected_accounts(doc)
             facts+=inspected_budget;expenditure+=inspected_actual
             if doc['sourceKind']=='reported_expenditure':

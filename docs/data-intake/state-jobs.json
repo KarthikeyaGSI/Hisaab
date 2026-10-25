@@ -496,7 +496,7 @@
       "jurisdiction": "21",
       "name": "Odisha",
       "status": "unassigned",
-      "priority": "Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.",
+      "priority": "Reuse 43,265 PPMS bill rows and 1,466 assessed originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.",
       "method": "docs/data-acquisition-contract.md",
       "routes": [
         "official_public_reports",

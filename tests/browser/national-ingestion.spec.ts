@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import {readFile} from 'node:fs/promises';
 
 test('actual catalogue is the default and collection counts do not expose pending evidence',async({page,request})=>{

@@ -230,7 +230,7 @@ Remaining checks: actual fiscal headers and units; maintenance/administrative cl
 
 ## 19. Odisha (LGD 21)
 
-Reuse 43,265 PPMS bill rows and 1,306 originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.
+Reuse 43,265 PPMS bill rows and 1,466 assessed originals; add current budget/actual context without assigning missing project payments or duplicating prior collection.
 
 - **monthly expenditure index** — [CAG Odisha monthly expenditure and annual account availability](https://cag.gov.in/en/state-accounts-report?defuat_state_id=84).
 - **budget index** — [Odisha Finance budget editions and departmental outcome budgets](https://finance.odisha.gov.in/en/publication/finance-budget).

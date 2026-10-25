@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import {readFile} from 'node:fs/promises';
 
 test('national sector coverage shows acquisition and keeps budget amounts private',async({page,request})=>{

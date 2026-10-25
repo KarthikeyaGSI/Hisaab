@@ -1,6 +1,6 @@
 {
   "version": "state-development-evidence/1",
-  "updatedAt": "2026-10-15T06:42:59.884580+00:00",
+  "updatedAt": "2026-10-15T09:41:27.264984+00:00",
   "financialYears": [
     "2025-2026",
     "2026-2027"
@@ -238,15 +238,15 @@
       "code": "30",
       "name": "Goa",
       "status": "partial_collected",
-      "originals": 25,
-      "pdfs": 21,
+      "originals": 30,
+      "pdfs": 26,
       "sourceTables": 35,
-      "numericEvidenceLines": 1481,
+      "numericEvidenceLines": 33777,
       "blockedSources": 6,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review recovered FY2026–27 AFS revenue/capital disbursement heads and original/revised alternatives; acquire programme detail and in-window actual expenditure. Additional direct source failures remain recorded.",
+      "nextAction": "Review 97 FY2026–27 demand-summary totals against the independent printed all-demands control; classify development purpose and preserve overlap with AFS heads. Acquire in-scope actuals and project/bill links.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -255,27 +255,27 @@
         "procurement_index",
         "procurement_report"
       ],
-      "budgetCandidates": 411,
+      "budgetCandidates": 1585,
       "expenditureCandidates": 0,
       "projectCandidates": 0,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 274,
+          "budgetCandidates": 992,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 137,
+          "budgetCandidates": 593,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
       ],
       "budgetContextCandidates": 0,
-      "namedBudgetCandidates": 411
+      "namedBudgetCandidates": 1585
     },
     {
       "order": 7,
@@ -422,7 +422,7 @@
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review remaining departmental tables and wrapped head labels; June 2026 monthly report does not establish a monetary unit, so do not normalize its figures without an official unit definition; obtain project-linked expenditure.",
+      "nextAction": "Review Jharkhand June monthly accounts, now unit-confirmed from explicitly cross-referenced trend pages, as provisional broad expenditure. Add the reported-expense candidates only as cumulative categories, then obtain detailed major-head actuals and project-linked bills; budget labels and scheme/payment links remain incomplete.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -432,21 +432,21 @@
         "reported_expenditure"
       ],
       "budgetCandidates": 345,
-      "expenditureCandidates": 0,
+      "expenditureCandidates": 16,
       "projectCandidates": 20,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
           "budgetCandidates": 230,
-          "reportedExpenditureCandidates": 0,
-          "latestExpenditureCutoff": null,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2025-06-30",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
           "budgetCandidates": 115,
-          "reportedExpenditureCandidates": 0,
-          "latestExpenditureCutoff": null,
+          "reportedExpenditureCandidates": 8,
+          "latestExpenditureCutoff": "2026-06-30",
           "completeCoverage": false
         }
       ],
@@ -594,11 +594,11 @@
       "pdfs": 16,
       "sourceTables": 35,
       "numericEvidenceLines": 2503,
-      "blockedSources": 21,
+      "blockedSources": 36,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Review recovered gender/child targeted programme outlays, distinct from beneficiary counts and full programme budgets; recover broken observed departmental PDF links through another official route and obtain project accounts.",
+      "nextAction": "The official department index yields 35 2026–27 PDF links; every observed department-book path (35/35) returned HTTP 404. Seek corrected current PDF paths through the official budget system or alternate government-hosted publication, then obtain project/payment registers.",
       "sourceKinds": [
         "budget",
         "budget_index",
@@ -944,15 +944,15 @@
       "code": "11",
       "name": "Sikkim",
       "status": "partial_collected",
-      "originals": 8,
-      "pdfs": 3,
-      "sourceTables": 31,
-      "numericEvidenceLines": 634,
-      "blockedSources": 6,
+      "originals": 18,
+      "pdfs": 10,
+      "sourceTables": 34,
+      "numericEvidenceLines": 1937,
+      "blockedSources": 8,
       "reviewedFinancialFacts": 0,
       "publishedFacts": 0,
       "completeCoverage": false,
-      "nextAction": "Detailed statewide AFS and observed FY2025–26 demand/MTFP/CAG appropriation routes remain unavailable after bounded official-source attempts. Broad CAG context is not a complete budget; seek working originals.",
+      "nextAction": "Retrieve the known official FY2026–27 Annual Financial Statement through a working HTTPS route; its exact Finance Department PDF currently times out over HTTPS. Do not use the HTTP-only response. Then acquire detailed demands for roads, rural development, education and health, and connect programme budgets to accounts and project/bill IDs.",
       "sourceKinds": [
         "budget_context",
         "department_budget",
@@ -961,27 +961,27 @@
         "procurement_report",
         "reported_expenditure"
       ],
-      "budgetCandidates": 11,
-      "expenditureCandidates": 11,
+      "budgetCandidates": 90,
+      "expenditureCandidates": 39,
       "projectCandidates": 18,
       "financialYearCoverage": [
         {
           "financialYear": "2025-2026",
-          "budgetCandidates": 11,
-          "reportedExpenditureCandidates": 11,
+          "budgetCandidates": 73,
+          "reportedExpenditureCandidates": 39,
           "latestExpenditureCutoff": "2026-03-31",
           "completeCoverage": false
         },
         {
           "financialYear": "2026-2027",
-          "budgetCandidates": 0,
+          "budgetCandidates": 17,
           "reportedExpenditureCandidates": 0,
           "latestExpenditureCutoff": null,
           "completeCoverage": false
         }
       ],
-      "budgetContextCandidates": 11,
-      "namedBudgetCandidates": 0
+      "budgetContextCandidates": 39,
+      "namedBudgetCandidates": 51
     },
     {
       "order": 23,
@@ -1249,17 +1249,17 @@
       "namedBudgetCandidates": 430
     }
   ],
-  "originals": 600,
-  "pdfs": 469,
-  "sourceTables": 1122,
-  "numericEvidenceLines": 239320,
+  "originals": 615,
+  "pdfs": 481,
+  "sourceTables": 1125,
+  "numericEvidenceLines": 272919,
   "reviewedFinancialFacts": 0,
   "publication": "private_collection_only",
   "completeCoverage": false,
   "completeStates": 0,
-  "statesWithNamedBudgetCandidates": 27,
+  "statesWithNamedBudgetCandidates": 28,
   "statesWithBudgetCandidates": 28,
-  "budgetCandidates": 25712,
-  "expenditureCandidates": 421,
+  "budgetCandidates": 26965,
+  "expenditureCandidates": 465,
   "projectCandidates": 536
 }

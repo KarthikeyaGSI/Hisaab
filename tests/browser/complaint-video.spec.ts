@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import {readFile} from 'node:fs/promises';
 import {createCipheriv,createHash} from 'node:crypto';
 const headers={Origin:'http://127.0.0.1:3000'};

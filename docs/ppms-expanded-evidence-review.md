@@ -6,11 +6,17 @@ The preserved Balangir source project report joins 155 project dossiers to treas
 
 The wider preserved treasury catalogue contains 157 bill rows for those 155 projects; two rows report Failed. All permitted observed download links in this scope are assessed, producing 145 PDFs for 143 projects. No remaining observed download links are queued; missing links/records are not fabricated. Five documents explicitly omit cheque dates/numbers. Thirty-four have clipped beneficiary amount columns and cheque/report differences; eight readable beneficiary totals differ from the cheque. One hundred and three documents reconcile report, cheque and beneficiary arithmetic, without establishing units, final-recipient roles, independent settlement or publication permission.
 
-The source report changed over retrieval editions. There is no reconciled universal cutoff or claim of complete lifetime payments. Full original checksums and exact catalogue bill associations pass. All 1286 currently assessed statewide documents remain private and unapproved.
+The source report changed over retrieval editions. There is no reconciled universal cutoff or claim of complete lifetime payments. Full original checksums and exact catalogue bill associations pass. All 1,546 currently assessed statewide documents remain private and unapproved.
 
 ## Pilot component recovery — 8 October 2026
 
 42 separately observed official bill dialogs are preserved privately with checksums. 0 pilot projects still await clipped-component reading. Original PDFs remain unchanged and retain their clipped-layout labels. 34 visible totals match their reported bill amounts; 8 differ and remain unresolved. These totals are component arithmetic, not new payments or verified settlement. Engineering-role labels are not assumed to be contractors. Missing transaction dates, agreements, actual sites, amount definitions, allocation/recipient roles and reuse remain unresolved.
+
+## Statewide supporting-document acquisition update — 15 October 2026
+
+A bounded four-batch pass assessed 80 more exact bill-linked PPMS documents. The retained statewide subset now contains 1,546 originals tied to exact project-code/bill-serial rows. The public report catalogue contains 43,265 bill rows and 42,260 project codes; 37,571 non-Failed bill rows expose a payment-detail PDF link. Of those observed links, 1,546 are assessed and 36,025 remain. These are catalogue-scope counts, not complete state or national payment coverage.
+
+The integrated audit passes for all 1,546 preserved originals, exact bill associations, unique download URLs and conflict quarantine; there are no acquisition failures. The parser flags 516 clipped beneficiary amount layouts, 420 cheque/report amount differences and 130 readable beneficiary-sum differences. These categories overlap. No shared payment identity was detected in this assessed subset, but this does not establish correct allocation or settlement. All figures remain private and unapproved; payment approvals remain zero. District-level evidence review, exact project geography, amount definitions, recipient roles and recipient credit/return evidence remain unresolved.
 
 ## In-app review
 
@@ -110,3 +116,13 @@ Please supply existing component/allocation registers, payment-advice editions a
 For every response, retain the official project/bill identifiers, original record reference, revision/cutoff and amount definitions. Ask for documented project shares of package/component payments, recipient capacity and actual credit/return references where held. Do not request bank accounts or unnecessary personal identifiers.
 
 This annex supplements the existing agency/RTI preparation; the responsible authority, submission route and applicant information must still be confirmed before filing. No inferred payment totals or approvals result from this checklist.
+
+
+## 15 October continuation checkpoint
+
+A further four bounded batches assessed 80 exact official bill-linked documents. The current statewide subset is 1,466 preserved originals with zero acquisition failures; 36,105 of the catalogue's 37,571 observed links remain. The parser flags 468 clipped layouts, 372 cheque/report amount differences and 122 readable beneficiary-sum differences (overlapping categories). All remain private and unapproved; no cheque is represented as settled and zero payments are approved. The assessment still lacks district-wide geography, recipient-role confirmation, amount-basis definitions, settlement/return evidence and source-rights decisions.
+
+
+## 15 October — continued exact bill-document collection
+
+Completed another four bounded batches of twenty official bill-linked documents, increasing the current statewide assessment from 1,466 to 1,546 originals, with zero acquisition failures. All original checksums and exact bill/URL associations pass. The current assessment flags 516 clipped layouts, 420 cheque/report differences and 130 readable beneficiary-sum differences; those categories overlap. Of the previously observed 37,571 report-linked documents, 36,025 remain. Collection does not establish units, gross/net allocation, payee roles, settlement, exact site or public reuse approval. No new payment or publication approval was made.

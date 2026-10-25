@@ -1,0 +1,38 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 24px;
+  overflow-y: auto;
+  background: rgb(7 16 18 / 88%);
+  backdrop-filter: blur(16px);
+  color: #eaf1ed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: min(100%, 620px);
+  padding: clamp(24px, 5vw, 44px);
+  margin: auto;
+  border: 1px solid #3b5148;
+  border-radius: 24px;
+  background: #13201b;
+  box-shadow: 0 28px 100px rgb(0 0 0 / 36%);
+}
+.label { color: #a5c4b4; font-size: 11px; font-weight: 700; letter-spacing: .16em; }
+.card h1 { margin: 18px 0; font-size: clamp(26px, 4.5vw, 36px); font-weight: 500; line-height: 1.12; letter-spacing: -.035em; }
+.card p, .card li { font-size: 14px; line-height: 1.6; color: #c5d2cb; }
+.card ul { padding-left: 20px; margin: 22px 0; }
+.card li + li { margin-top: 12px; }
+.card strong { color: #f0f5f1; font-weight: 600; }
+.process { border-top: 1px solid #35473d; border-bottom: 1px solid #35473d; padding: 15px 0; }
+.process summary { cursor: pointer; font-size: 13px; font-weight: 600; }
+.process ol { padding-left: 20px; }
+.process li { font-size: 13px; }
+.enter { display: flex; width: 100%; justify-content: space-between; gap: 12px; padding: 15px 18px; margin-top: 24px; border: 0; border-radius: 11px; background: #d9edaa; color: #162414; cursor: pointer; font-size: 14px; font-weight: 700; }
+.enter:hover { background: #e6f7c1; }
+.enter:focus-visible, .process summary:focus-visible { outline: 3px solid #c7e9ee; outline-offset: 5px; }
+.footnote { display: block; margin-top: 13px; color: #a1b4a8; font-size: 11px; line-height: 1.5; }
+@media (max-width: 480px) { .backdrop { padding: 12px; } .card { border-radius: 18px; } }

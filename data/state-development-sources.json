@@ -340,7 +340,7 @@
     {
       "code": "30",
       "name": "Goa",
-      "nextAction": "Review recovered FY2026–27 AFS revenue/capital disbursement heads and original/revised alternatives; acquire programme detail and in-window actual expenditure. Additional direct source failures remain recorded.",
+      "nextAction": "Review 1,585 budget fiscal candidates, including 1,077 major-head entries reconciled against 103 demand-section controls. Extract programme/account paths from the four preserved detailed FY2025–26/FY2026–27 Vol-II/III books (1,420 indexed pages); resolve AFS/demand overlap, distinguish maintenance and administration, and obtain current-window expenditure and project/bill links.",
       "sources": [
         {
           "id": "goa-budget-index",
@@ -413,6 +413,61 @@
           "label": "Official Goa Demands Volume I FY2026–27",
           "url": "https://goabudget.gov.in/assets/documents/2026-27/Vol-I/Vol-I.pdf",
           "contextUrl": "https://datalibertarian.in/sources"
+        },
+        {
+          "id": "goa-demands-volume-i-full-alt-host-2026",
+          "kind": "budget",
+          "label": "Full Demands for Grants Volume I FY2026–27 (official alternate Goa Budget host)",
+          "url": "https://budget.goa.gov.in/Goabudget/assets/documents/2026-27/Vol-I/Vol-I.pdf",
+          "contextUrl": "https://budget.goa.gov.in/Goabudget/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "goa-detailed-volume-ii-2025-26",
+          "kind": "department_budget",
+          "label": "Goa detailed Demands Volume II FY2025-26 (official observed link)",
+          "url": "https://budget.goa.gov.in/Goabudget/assets/documents/2025-26/Vol-II/Vol-II.pdf",
+          "contextUrl": "https://budget.goa.gov.in/Goabudget/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "goa-detailed-volume-iii-2025-26",
+          "kind": "department_budget",
+          "label": "Goa detailed Demands Volume III FY2025-26 (official observed link)",
+          "url": "https://budget.goa.gov.in/Goabudget/assets/documents/2025-26/Vol-III/Vol-III.pdf",
+          "contextUrl": "https://budget.goa.gov.in/Goabudget/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "goa-detailed-volume-ii-2026-27",
+          "kind": "department_budget",
+          "label": "Goa detailed Demands Volume II FY2026-27 (official observed link)",
+          "url": "https://budget.goa.gov.in/Goabudget/assets/documents/2026-27/Vol-II/Vol-II.pdf",
+          "contextUrl": "https://budget.goa.gov.in/Goabudget/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "goa-detailed-volume-iii-2026-27",
+          "kind": "department_budget",
+          "label": "Goa detailed Demands Volume III FY2026-27 (official observed link)",
+          "url": "https://budget.goa.gov.in/Goabudget/assets/documents/2026-27/Vol-III/Vol-III.pdf",
+          "contextUrl": "https://budget.goa.gov.in/Goabudget/",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ]
     },
@@ -610,7 +665,7 @@
     {
       "code": "20",
       "name": "Jharkhand",
-      "nextAction": "Review remaining departmental tables and wrapped head labels; June 2026 monthly report does not establish a monetary unit, so do not normalize its figures without an official unit definition; obtain project-linked expenditure.",
+      "nextAction": "Review Jharkhand June monthly accounts, now unit-confirmed from explicitly cross-referenced trend pages, as provisional broad expenditure. Add the reported-expense candidates only as cumulative categories, then obtain detailed major-head actuals and project-linked bills; budget labels and scheme/payment links remain incomplete.",
       "sources": [
         {
           "id": "jharkhand-budget-index",
@@ -850,7 +905,8 @@
           "years": [
             "2025-2026",
             "2026-2027"
-          ]
+          ],
+          "linkedReportOffset": 20
         },
         {
           "id": "mh-gender-child-observed-2026",
@@ -864,7 +920,7 @@
           ]
         }
       ],
-      "nextAction": "Review recovered gender/child targeted programme outlays, distinct from beneficiary counts and full programme budgets; recover broken observed departmental PDF links through another official route and obtain project accounts."
+      "nextAction": "The official department index yields 35 2026–27 PDF links; every observed department-book path (35/35) returned HTTP 404. Seek corrected current PDF paths through the official budget system or alternate government-hosted publication, then obtain project/payment registers."
     },
     {
       "code": "14",
@@ -1210,7 +1266,8 @@
           "id": "sikkim-budget-2026",
           "kind": "budget_context",
           "label": "Official full-budget passage and separate department demands",
-          "url": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+2026-27+Concludes%3B+House+Passes+Key+Bill+and+Separate+Demands+for+Grants"
+          "url": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+2026-27+Concludes%3B+House+Passes+Key+Bill+and+Separate+Demands+for+Grants",
+          "contextUrl": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+of+the+Sikkim+Legislative+Assembly+Commences+in+the+Capital"
         },
         {
           "id": "sikkim-food-budget",
@@ -1235,12 +1292,13 @@
           "id": "sikkim-afs-observed-2026",
           "url": "https://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS2026-27/Annual%20Financial%20Statement%202026-27.pdf",
           "kind": "budget",
-          "label": "Observed official FY2026–27 financial publication; inspect original edition and units",
-          "contextUrl": "https://datalibertarian.in/sources",
+          "label": "Finance Department Annual Financial Statement FY2026–27; exact official PDF located, but secure endpoint timed out in this environment",
+          "contextUrl": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+of+the+Sikkim+Legislative+Assembly+Commences+in+the+Capital",
           "years": [
             "2025-2026",
             "2026-2027"
-          ]
+          ],
+          "accessNote": "The same exact official PDF URL returned a timeout over HTTPS. A HEAD check over HTTP returned 200, but the PDF was not downloaded over insecure transport; use only a working official HTTPS mirror."
         },
         {
           "id": "sikkim-observed-grant13-2025",
@@ -1281,9 +1339,146 @@
           "years": [
             "2025-2026"
           ]
+        },
+        {
+          "id": "sikkim-sic-budget-2026-observed",
+          "kind": "department_budget",
+          "label": "Sikkim Information Commission official FY2026–27 demand table; one department only, in thousand rupees",
+          "url": "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dsikkim-information-commission%2Fbudget-of-sic-20026-2027",
+          "contextUrl": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=General+Budget+Session+2026-27+Concludes%3B+House+Passes+Key+Bill+and+Separate+Demands+for+Grants",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "sikkim-observed-grant16-2025",
+          "url": "https://www.sikkimfred.gov.in/Budget_2025-26/Documents/DemandForGrants2025-26/pdf/17.%20Dem16.pdf",
+          "kind": "budget",
+          "label": "Official Sikkim FY2025–26 Demand 16, Commerce and Industries; search-indexed official PDF",
+          "contextUrl": "https://www.sikkimfred.gov.in",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "sikkim-observed-grant41-2025",
+          "url": "https://www.sikkimfred.gov.in/Budget_2025-26/Documents/DemandForGrants2025-26/pdf/43.%20Dem41.pdf",
+          "kind": "budget",
+          "label": "Official Sikkim FY2025–26 Demand 41, Urban Development; search-indexed official PDF",
+          "contextUrl": "https://www.sikkimfred.gov.in",
+          "years": [
+            "2025-2026"
+          ]
+        },
+        {
+          "id": "sikkim-cag-accounts-may-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAY-2025-0685bc1a550d1a6-73298944.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, May 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-june-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-JUNE-2025-06889b9fc260185-08063794.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, June 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-july-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-JULY-2025-068afe318a825c4-78410356.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, July 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-august-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-AUG-2025-068d50e5115ecf3-06289703.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, August 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-september-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-SEP-2025-06909bf21861f48-20449736.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, September 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-october-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-OCT-2025-0695750d574a241-08441014.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, October 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-cag-accounts-december-2025",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-DEC-2025-069784a02d49335-88783896.pdf",
+          "kind": "reported_expenditure",
+          "label": "Official CAG Sikkim monthly accounts, December 2025; cumulative account period, not independent monthly expenditure",
+          "contextUrl": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=87",
+          "years": [
+            "2025-2026"
+          ],
+          "reportingPeriodType": "cumulative_monthly_account",
+          "doNotSumWithOtherMonths": true
+        },
+        {
+          "id": "sikkim-food-departmental-work",
+          "kind": "department_budget",
+          "label": "Official Sikkim Food & Civil Supplies Departmental Work page, discovered through its budget page navigation",
+          "url": "https://sikkimfcs.sikkim.gov.in/Public/FinanceAccountSection/FinanceSectionContent/69",
+          "contextUrl": "https://sikkimfcs.sikkim.gov.in/Public/FinanceAccountSection/RevenueCapitalDetailsView/53",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
+        },
+        {
+          "id": "sikkim-food-central-assistance",
+          "kind": "department_budget",
+          "label": "Official Sikkim Food & Civil Supplies Central Assistance page, discovered through its budget page navigation",
+          "url": "https://sikkimfcs.sikkim.gov.in/Public/FinanceAccountSection/FinanceSectionContent/54",
+          "contextUrl": "https://sikkimfcs.sikkim.gov.in/Public/FinanceAccountSection/RevenueCapitalDetailsView/53",
+          "years": [
+            "2025-2026",
+            "2026-2027"
+          ]
         }
       ],
-      "nextAction": "Detailed statewide AFS and observed FY2025–26 demand/MTFP/CAG appropriation routes remain unavailable after bounded official-source attempts. Broad CAG context is not a complete budget; seek working originals."
+      "nextAction": "Retrieve the known official FY2026–27 Annual Financial Statement through a working HTTPS route; its exact Finance Department PDF currently times out over HTTPS. Do not use the HTTP-only response. Then acquire detailed demands for roads, rural development, education and health, and connect programme budgets to accounts and project/bill IDs."
     },
     {
       "code": "33",

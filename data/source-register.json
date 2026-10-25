@@ -39,7 +39,7 @@
     "family": "National schemes",
     "status": "private_acquisition_policy_identified_review_pending",
     "access": "Public dashboard state-specific report responses, originals preserved",
-    "coverage": "211,029 source rows; 210,946 usable distinct road identities across 32 source state/UT partitions; 67,099 in 2016\u20132026 sanction-year window; first 10 road-level financial snapshot rows matched by exact package/title, awaiting revision and geography review",
+    "coverage": "211,029 source rows; 210,946 usable distinct road identities across 32 source state/UT partitions; 67,099 in 2016–2026 sanction-year window; first 10 road-level financial snapshot rows matched by exact package/title, awaiting revision and geography review",
     "restriction": "OMMAS policy at https://pmgsy.dord.gov.in/Home/HomeCopyrightPolicy/ permits accurate attributed text/data reuse without prior permission, with retrieval date and no endorsement. Document-specific rights and MFA review remain required. 7,161 geography proposals passed automated lineage checks. First 10 road-level sanctioned-cost/cumulative-expenditure rows acquired; 8 have differing sanction values between reports. No individual payment ledger or completion certificate acquired.",
     "lastChecked": "2026-10-07"
   },
@@ -204,18 +204,18 @@
     "family": "Water financial context",
     "status": "private_review_pending",
     "access": "Official public dashboard report route",
-    "coverage": "Five visible-year reports, 2019\u201320 through 2023\u201324: 148 state/year rows preserved privately.",
+    "coverage": "Five visible-year reports, 2019–20 through 2023–24: 148 state/year rows preserved privately.",
     "restriction": "State-level Amount field, not work-level contractor payments. Release/drawdown semantics and reproduction permission require review. No individual work identities imported from this report.",
     "lastChecked": "2026-10-06"
   },
   {
     "id": "union-budget-2026",
-    "name": "Union Budget expenditure context, 2026\u201327 edition",
+    "name": "Union Budget expenditure context, 2026–27 edition",
     "url": "https://www.indiabudget.gov.in/",
     "family": "National financial context",
     "status": "private_permission_and_review_pending",
     "access": "Official PDF/XLSX expenditure statements",
-    "coverage": "102 demand statements checked against the authoritative PDF; 408 context rows covering actuals 2024\u201325, BE/RE 2025\u201326 and BE 2026\u201327.",
+    "coverage": "102 demand statements checked against the authoritative PDF; 408 context rows covering actuals 2024–25, BE/RE 2025–26 and BE 2026–27.",
     "restriction": "Website policy requires Ministry of Finance permission for republication. Includes spending beyond development; figures are not contractor payments. Unknown PDF values remain unspecified.",
     "lastChecked": "2026-10-06"
   },
@@ -227,7 +227,7 @@
     "status": "retrieval_pending",
     "access": "Official zonal railway/production-unit statements",
     "coverage": "Official Lok Sabha answer of 25 March 2026 identifies Consolidated Budget Statements containing earnings, expenses, capital expenditure and work lists. Individual work extraction is pending.",
-    "restriction": "A referenced ECOR 2026\u201327 route returned a non-PDF response during assessment. Historical and current editions need verified retrieval and permission; no payments or station coordinates inferred.",
+    "restriction": "A referenced ECOR 2026–27 route returned a non-PDF response during assessment. Historical and current editions need verified retrieval and permission; no payments or station coordinates inferred.",
     "lastChecked": "2026-10-06"
   },
   {
@@ -240,5 +240,148 @@
     "coverage": "812,976 accepted source geometry records from 58 archives and 29 historical state files. Not all current projects or jurisdictions.",
     "restriction": "Coordinates are original source values, not independently verified; suspect points exist. No approved payment links, verified photos or building footprints. Local indexed store only; hosted distribution pending. Official release: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1800373",
     "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "delhi-budget-detailed-demands-2026-27",
+    "name": "GNCTD Detailed Demands for Grants 2026–27",
+    "url": "https://finance.delhi.gov.in/finance/detailed-demands-grants-2026-27",
+    "family": "State/UT budget evidence",
+    "status": "official_originals_preserved_private_review_pending",
+    "access": "Twenty official PDF volumes; embedded-text extraction where available and English-only OCR for scanned D-7",
+    "coverage": "20 demand volumes, 547 pages; 420 pages have embedded text, 127 pages in D-7 are scan/OCR indexed. Delhi own-budget evidence only; does not replace Union transfer statements or project-level expenditure.",
+    "restriction": "Originals remain private and unpublished; no development-only classification or total reconciliation completed. Hindi OCR and review of extracted amounts required; source reuse rights not reviewed.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "state-ut-procurement-directory",
+    "name": "Government of India state and UT eProcurement portal directory (CPPP/GePNIC)",
+    "url": "https://eprocure.gov.in/mmp/sites/default/files/eproc/States_eProc_relatedlinks.pdf",
+    "family": "Procurement discovery",
+    "status": "all_36_routes_indexed_private_review",
+    "access": "Official directory; individual portals may require CAPTCHA and have separate formats",
+    "coverage": "Official GePNIC/CPPP directory routes for 35 jurisdictions; supplemented with official Andaman and Nicobar eProcurement and Ladakh portals, giving discovery routes for all 36. Andaman ePublishing entry alone is not an award/payment catalogue.",
+    "restriction": "Directory and portals are discovery aids, not complete tender/award/payment datasets. Search forms may require CAPTCHA; individual portal access, data completeness, award/payment availability, and republication rights must be checked separately.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "andaman-eprocurement",
+    "name": "Andaman and Nicobar Administration eProcurement",
+    "url": "https://eprocure.andamannicobar.gov.in/nicgep/app",
+    "family": "Procurement discovery",
+    "status": "official_portal_route_discovered_not_acquired",
+    "access": "Public portal; form-based search may require CAPTCHA",
+    "coverage": "Procurement notices and tender-status/results routes; an official village-road notice was observed, but no award/payment chain acquired.",
+    "restriction": "Tender and award records are not proof of settled payment. Individual tender notices and documents require source/rights review before republication.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "ladakh-eprocurement",
+    "name": "Ladakh Administration eProcurement",
+    "url": "https://tenders.ladakh.gov.in/nicgep/app",
+    "family": "Procurement discovery",
+    "status": "official_portal_route_discovered_not_acquired",
+    "access": "Public portal; search form may require CAPTCHA",
+    "coverage": "Tender, archive, status and results routes; named public works are visible in listings, but no award/payment chain acquired.",
+    "restriction": "Tender and award records are not proof of settled payment. Individual tender notices and documents require source/rights review before republication.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "puducherry-finance-budget-beams",
+    "name": "Puducherry Finance Department budget and BEAMS",
+    "url": "https://beams.py.gov.in/",
+    "family": "State/UT budget and accounts",
+    "status": "official_document_entrypoint_found_extraction_pending",
+    "access": "Public department page lists Annual Financial Statement and links to BEAMS; application reports may require authenticated access",
+    "coverage": "Official BEAMS homepage links FY2026–27 Budget at a Glance and AFS PDFs. The AFS is 38 pages and contains actual FY2024–25, BE/RE FY2025–26 and BE FY2026–27, with revenue and disbursement statements; detailed BE retrieval timed out during this check.",
+    "restriction": "AFS amounts are broad accounting heads, not development-only figures or project payments. BEAMS application data may require access controls. No figures have been approved from this source; rights and source units need review.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "puducherry-dat-monthly-accounts",
+    "name": "Puducherry Directorate of Accounts and Treasuries monthly compilation reports",
+    "url": "https://dat.py.gov.in/expenditures",
+    "family": "State/UT expenditure accounts",
+    "status": "twenty_one_monthly_originals_preserved_private_unreviewed",
+    "access": "Public monthly downloads by Puducherry, Karaikal, Mahe and Yanam regions; this collection uses only links listed by the official accounts directorate",
+    "coverage": "FY2026–27 April–September 2026 source page lists 21 of 24 possible region-month PDFs. Twenty-one originals are checksum-preserved privately, covering all four regions for most months; 9,199 pages and 74,933 voucher lines have been indexed. Mahe April and Mahe/Yanam September were not listed at retrieval. This is a monthly accounts compilation, not an asset or bank-settlement register.",
+    "restriction": "Voucher lines include receipts/refunds/suspense as well as expenditure; they are not verified contractor settlements and are not project-linked. Amounts remain in source text, unnormalized and unsummed. Missing report links mean unavailable in this source listing, not zero. Publication rights remain under review.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "ladakh-lifms",
+    "name": "Ladakh Integrated Financial Management System",
+    "url": "https://lifms.ladakh.gov.in/",
+    "family": "State/UT budget and accounts",
+    "status": "system_identified_authenticated_access",
+    "access": "Official system describes online budgeting and real-time expenditure monitoring; observed interface requires username, password and verification code",
+    "coverage": "Potential department/territory budget authorization and expenditure source; public review summaries exist, but no raw expenditure export acquired.",
+    "restriction": "Do not bypass login or verification code. Request a public export or records from the Finance Department; summaries are not project payments and must be reconciled to underlying accounts.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "lakshadweep-pao-accounts",
+    "name": "Lakshadweep Pay and Accounts Office",
+    "url": "https://lakshadweep.gov.in/departments-new/pay-and-accounts-office/",
+    "family": "State/UT accounts and payment custodian",
+    "status": "official_custodian_identified_public_exports_unverified",
+    "access": "Official office page describes bill processing, daily/monthly accounts through e-Lekha/PFMS and annual accounts to CGA/audit authorities",
+    "coverage": "Promising custodian for territory expenditure records. No project-linked bill/payment export or public API has been verified.",
+    "restriction": "Contact details are not authorization to send a request. Seek lawful public reports or owner-approved request; recipient-side accounts still need project allocation evidence.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "jammu-kashmir-beams-budget",
+    "name": "Jammu and Kashmir Finance Department BEAMS and budget orders",
+    "url": "https://jkgad.nic.in/common/showOrder.aspx?actCode=O45052",
+    "family": "State/UT budget and accounts",
+    "status": "official_budget_and_allocation_controls_found_extraction_pending",
+    "access": "Public budget authorization order; BEAMS is the departmental allocation and monitoring route",
+    "coverage": "2026–27 authorizations and expenditure-control rules are discoverable, with references to the Annual Financial Statement and BEAMS. Complete public programme/account extracts and recipient-side payments remain unverified.",
+    "restriction": "Authorization, release and expenditure are separate stages. Do not infer actual expenditure or contractor settlement from an allotment order. Verify source edition, cutoff and reuse terms.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "cag-state-monthly-key-indicators-2026-27",
+    "name": "CAG State Accounts Report — Monthly Key Indicators 2026–27",
+    "url": "https://cag.gov.in/en/state-accounts-report",
+    "family": "State accounts and reported expenditure",
+    "status": "27_latest_listed_state_reports_preserved_private_unreviewed_24_partially_indexed",
+    "access": "Public state-specific report pages and PDF links; one listed report returned HTTP 403 in this collection",
+    "coverage": "Latest downloadable FY2026–27 Monthly Key Indicators PDFs preserved privately for 27 of 28 states. The CAG page exposed no current Goa report. Telangana’s listed September report returned HTTP 403, so June was preserved as the newest downloadable fallback. The first-page index contains 214 broad candidate rows across 27 reports: 178 machine-extracted rows and 36 visually transcribed rows from Gujarat, Meghalaya and Uttarakhand.",
+    "restriction": "CAG monthly indicators are broad state-account totals, with provisional status stated in the source, not development-only expenditure or project/payment records. Months can be cumulative; never add them. Parent and sector rows overlap. Recipient, contract, project allocation, location and bank settlement are not established. All extraction remains private, unclassified and unapproved; source reuse terms still require review.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "goa-monthly-scheme-expenditure",
+    "name": "Goa Finance Department monthly scheme-wise expenditure reporting",
+    "url": "https://www.goa.gov.in/policy_downloads/order-planning-statistics-and-evaluation/",
+    "family": "State accounts and reported expenditure",
+    "status": "official_reporting_order_found_public_monthly_export_not_verified",
+    "access": "Official Goa circular instructs Heads of Departments to submit major-head-wise, scheme-wise and minor-head-wise monthly expenditure; circular is publicly indexed, but a monthly state export was not verified in this collection.",
+    "coverage": "Potentially valuable source route for Goa's scheme-level expenditure. The circular is not itself a dataset. Goa's CAG State Accounts page displayed no FY2026–27 monthly report in its accessible page content.",
+    "restriction": "Do not infer compliance or actual amounts from the circular. Identify the reporting custodian and obtain the monthly returns through the public portal or formal records request; retain cutoff and accounting definitions.",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "nhidcl-project-status-register-20260831",
+    "name": "NHIDCL project register — original-source comparison and reproduction policy",
+    "url": "https://www.nhidcl.com/en/current-status",
+    "family": "Project registers and contract facts",
+    "status": "original_comparison_completed_owner_review_pending",
+    "access": "Public official PDF and website policy; preserved privately",
+    "coverage": "211 state project candidates across 10 states compared to the original 31 August 2026 register. 168 prioritised for contract-fact review, 43 with additional source gaps. This is a partial source scope, not national or state completeness.",
+    "restriction": "Reproduction policy allows accurate use with attribution, excluding third-party material. Verify document scope and owner evidence decisions before publication. Costs are not payments; reported completion is not a certificate; coordinates and allocated recipient payments are not established. Policy: https://www.nhidcl.com/en/website-policies",
+    "lastChecked": "2026-10-15"
+  },
+  {
+    "id": "eight-ut-development-review",
+    "name": "Eight-UT development source and card review register",
+    "url": "https://cag.gov.in/ae/jammu-and-kashmir/en/state-accounts-report?defuat_account_report_type=360",
+    "family": "UT budgets and project evidence",
+    "status": "private_partial_collection",
+    "access": "Observed official procurement pages, preserved NHIDCL register, Union demand context and public CAG download",
+    "coverage": "Eight UTs; 182 project/tender source-record drafts including 21 recovered NHIDCL rows; 16 mixed Union demand context rows. June 2026 J&K monthly PDF preserved; existing Delhi and Puducherry collections retained separately.",
+    "restriction": "No complete UT development coverage or approved payment cards. Procurement samples are not full exports. Source rights and owner MFA review required. Chandigarh two PDF routes returned HTML; Puducherry BEAMS scheduled maintenance recorded.",
+    "lastChecked": "2026-10-15"
   }
 ]

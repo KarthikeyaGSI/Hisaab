@@ -88,4 +88,18 @@
 .state-development-review form button{grid-column:1/-1;justify-self:start;min-height:44px}
 .state-development-review details{margin-top:10px;padding:12px;border:1px solid #e2e8f0;border-radius:12px}
 .state-development-review summary{font-size:14px;font-weight:600;line-height:1.5;overflow-wrap:anywhere}
+.project-evidence-card{margin-block:1rem;padding:1.25rem;border:1px solid #dce5ef;border-radius:1rem;background:#f9fbff;color:#17304f;overflow-wrap:anywhere}
+.project-evidence-card-status{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;font-size:.75rem;font-weight:600;color:#375c89}
+.project-evidence-card-status span{padding:.3rem .6rem;border-radius:1rem;background:#e9f0fc}
+.project-evidence-card h5{margin:1rem 0 .5rem;font-size:1.05rem;line-height:1.4;letter-spacing:-.015em}
+.project-evidence-card-reference{color:#53677e;font-size:.8rem!important}
+.project-evidence-card dl{margin:1rem 0;display:grid;gap:.85rem}
+.project-evidence-card dt{font-size:.75rem;line-height:1.45;color:#53677e}
+.project-evidence-card dd{margin:.2rem 0 0;font-size:.9rem;line-height:1.5;font-weight:600}
+.project-evidence-card-amounts{padding:1rem;border-radius:.75rem;background:#fff;border:1px solid #e2e8f0}
+.project-evidence-card footer{display:grid;gap:.65rem;margin-top:1rem;padding-top:1rem;border-top:1px solid #dce5ef}
+.project-evidence-card footer small{color:#53677e;overflow-wrap:anywhere}
+.project-evidence-card footer a{min-height:2.75rem;display:inline-flex;align-items:center;font-size:.85rem;font-weight:600}
+.project-evidence-card li{margin-block:.5rem;font-size:.85rem;line-height:1.5}
+@media(prefers-contrast:more){.project-evidence-card,.project-evidence-card-amounts{border-color:#17304f;background:#fff}.project-evidence-card-status{color:#17304f}}
 @media(max-width:600px){.state-development-review{padding:14px}.state-development-review form{grid-template-columns:minmax(0,1fr)}}

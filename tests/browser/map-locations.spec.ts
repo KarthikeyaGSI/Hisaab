@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './preview-fixture';
 import {demoWorks} from '../../src/lib/demo';
 test('project pagination and a direct receipt retain the selected identity and stage evidence',async({page})=>{
  const work={...demoWorks[0],id:'browser-test-project',title:'Browser-only example road',financialYear:'2026-2027',demo:false};
