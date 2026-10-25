@@ -11,8 +11,9 @@ describe('public preview entry notice', () => {
     expect(html).toContain('aria-modal="true"');
     expect(html).toContain('Hisaab is still under development.');
     expect(html).toContain('8,12,976');
+    expect(html).toContain('254,275');
     expect(html).toContain('asset records');
-    expect(html).toContain('additional source information');
+    expect(html).toContain('project and activity source records');
     expect(html).toContain('I understand — explore Hisaab');
   });
 });

@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-10-25T10:18:45.556813+00:00",
+  "auditedAt": "2026-10-26T02:04:00+05:30",
   "scope": "Public acquisition snapshot. Source cutoffs vary. Counts are from distinct research layers; they overlap and are not totals of unique projects, spending, verified sites or payments. A zero means no record in that saved collection, not that no activity exists.",
   "jurisdictions": [
     {
@@ -22,7 +22,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Review 9,108 extracted programme/subhead fiscal entries and incomplete English/accounting-path labels; retain printed sector rounding discrepancy; obtain dated official project/bill allocations."
+      "nextResearchStep": "Review 9,108 extracted programme/subhead fiscal entries and incomplete English/accounting-path labels; retain printed sector rounding discrepancy; obtain dated official project/bill allocations.",
+      "distinctProjectTenderReferences": 32
     },
     {
       "code": "12",
@@ -44,7 +45,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 4,
-      "nextResearchStep": "Review wrapped bilingual heads and blank charge/capital cells; expand schemes and link actual expenditure to official project IDs."
+      "nextResearchStep": "Review wrapped bilingual heads and blank charge/capital cells; expand schemes and link actual expenditure to official project IDs.",
+      "distinctProjectTenderReferences": 22
     },
     {
       "code": "18",
@@ -66,7 +68,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 3,
-      "nextResearchStep": "Review recovered production FY2026–27 AFS grant/head entries; confirm the separate test-labelled FY2025–26 expenditure export against production; expand named schemes and payment joins."
+      "nextResearchStep": "Review recovered production FY2026–27 AFS grant/head entries; confirm the separate test-labelled FY2025–26 expenditure export against production; expand named schemes and payment joins.",
+      "distinctProjectTenderReferences": 69
     },
     {
       "code": "10",
@@ -88,7 +91,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review scanned AFS monetary cells against originals; expand beyond scheme-group totals and obtain project-linked expenditure."
+      "nextResearchStep": "Review scanned AFS monetary cells against originals; expand beyond scheme-group totals and obtain project-linked expenditure.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "22",
@@ -110,7 +114,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 14,
-      "nextResearchStep": "Review extracted revenue/capital AFS heads from both editions; translate preserved legacy-font Hindi labels; detailed demands/programmes and actual project spending remain incomplete."
+      "nextResearchStep": "Review extracted revenue/capital AFS heads from both editions; translate preserved legacy-font Hindi labels; detailed demands/programmes and actual project spending remain incomplete.",
+      "distinctProjectTenderReferences": 1
     },
     {
       "code": "30",
@@ -132,7 +137,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 6,
-      "nextResearchStep": "Review 97 FY2026–27 demand-summary totals against the independent printed all-demands control; classify development purpose and preserve overlap with AFS heads. Acquire in-scope actuals and project/bill links."
+      "nextResearchStep": "Review 97 FY2026–27 demand-summary totals against the independent printed all-demands control; classify development purpose and preserve overlap with AFS heads. Acquire in-scope actuals and project/bill links.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "24",
@@ -154,7 +160,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 2,
-      "nextResearchStep": "Review outcome-budget scheme subdivisions, missing merged labels and overlapping budget heads; reconcile with development/department totals."
+      "nextResearchStep": "Review outcome-budget scheme subdivisions, missing merged labels and overlapping budget heads; reconcile with development/department totals.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "6",
@@ -176,7 +183,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review programme/subhead totals extracted from all 1,999 demand-book pages; recover full wrapped titles/accounting paths and distinguish salary/pension/maintenance transfers from development and utilisation."
+      "nextResearchStep": "Review programme/subhead totals extracted from all 1,999 demand-book pages; recover full wrapped titles/accounting paths and distinguish salary/pension/maintenance transfers from development and utilisation.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "2",
@@ -198,7 +206,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 2,
-      "nextResearchStep": "Review recovered revenue/capital/loan AFS heads and demand summary; full schemes and project-linked actuals remain pending. Public Union/state-share report failed and remains unavailable."
+      "nextResearchStep": "Review recovered revenue/capital/loan AFS heads and demand summary; full schemes and project-linked actuals remain pending. Public Union/state-share report failed and remains unavailable.",
+      "distinctProjectTenderReferences": 14
     },
     {
       "code": "20",
@@ -220,7 +229,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review Jharkhand June monthly accounts, now unit-confirmed from explicitly cross-referenced trend pages, as provisional broad expenditure. Add the reported-expense candidates only as cumulative categories, then obtain detailed major-head actuals and project-linked bills; budget labels and scheme/payment links remain incomplete."
+      "nextResearchStep": "Review Jharkhand June monthly accounts, now unit-confirmed from explicitly cross-referenced trend pages, as provisional broad expenditure. Add the reported-expense candidates only as cumulative categories, then obtain detailed major-head actuals and project-linked bills; budget labels and scheme/payment links remain incomplete.",
+      "distinctProjectTenderReferences": 18
     },
     {
       "code": "29",
@@ -242,7 +252,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Review regional-programme subset and broader AFS heads; preserve department/statement overlap; extract remaining saved demands and obtain FY2025–26 detail."
+      "nextResearchStep": "Review regional-programme subset and broader AFS heads; preserve department/statement overlap; extract remaining saved demands and obtain FY2025–26 detail.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "32",
@@ -264,7 +275,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Reconcile revised and original budget/plan editions and parent/child overlaps; extract named schemes and project accounts."
+      "nextResearchStep": "Reconcile revised and original budget/plan editions and parent/child overlaps; extract named schemes and project accounts.",
+      "distinctProjectTenderReferences": 19
     },
     {
       "code": "23",
@@ -286,7 +298,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Review scanned 127-scheme provisions; acquire FY2025–26 detailed grants/AFS and preserve maintenance/administrative exclusions."
+      "nextResearchStep": "Review scanned 127-scheme provisions; acquire FY2025–26 detailed grants/AFS and preserve maintenance/administrative exclusions.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "27",
@@ -308,7 +321,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 36,
-      "nextResearchStep": "The official department index yields 35 2026–27 PDF links; every observed department-book path (35/35) returned HTTP 404. Seek corrected current PDF paths through the official budget system or alternate government-hosted publication, then obtain project/payment registers."
+      "nextResearchStep": "The official department index yields 35 2026–27 PDF links; every observed department-book path (35/35) returned HTTP 404. Seek corrected current PDF paths through the official budget system or alternate government-hosted publication, then obtain project/payment registers.",
+      "distinctProjectTenderReferences": 14
     },
     {
       "code": "14",
@@ -330,7 +344,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review recovered FY2026–27 revenue/capital/debt/loan heads. Missing capital component splits in the separate overview remain unresolved; expand programmes and actual-expenditure links."
+      "nextResearchStep": "Review recovered FY2026–27 revenue/capital/debt/loan heads. Missing capital component splits in the separate overview remain unresolved; expand programmes and actual-expenditure links.",
+      "distinctProjectTenderReferences": 49
     },
     {
       "code": "17",
@@ -352,7 +367,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review current named heads and directly anchored voted/charged children; no unfunded parent or unanchored continuation is counted. Reconcile earlier scheme-channel overlaps and scanned monthly actuals."
+      "nextResearchStep": "Review current named heads and directly anchored voted/charged children; no unfunded parent or unanchored continuation is counted. Reconcile earlier scheme-channel overlaps and scanned monthly actuals.",
+      "distinctProjectTenderReferences": 35
     },
     {
       "code": "15",
@@ -374,7 +390,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Reconcile FY2025–26 demand charge/vote rows with FY2026–27 AFS; expand named schemes and preserve CSS/other share uncertainty."
+      "nextResearchStep": "Reconcile FY2025–26 demand charge/vote rows with FY2026–27 AFS; expand named schemes and preserve CSS/other share uncertainty.",
+      "distinctProjectTenderReferences": 21
     },
     {
       "code": "13",
@@ -396,7 +413,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Expand AFS major heads into schemes and demands; review scanned introduction/summary sources and reported-expenditure scope."
+      "nextResearchStep": "Expand AFS major heads into schemes and demands; review scanned introduction/summary sources and reported-expenditure scope.",
+      "distinctProjectTenderReferences": 24
     },
     {
       "code": "21",
@@ -418,7 +436,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "All 68 observed budget-index PDF links attempted; extract scanned FY2025–26/scheme demand books with visual checks, preserve gender/child/department overlap and the ceiling rounding discrepancy."
+      "nextResearchStep": "All 68 observed budget-index PDF links attempted; extract scanned FY2025–26/scheme demand books with visual checks, preserve gender/child/department overlap and the ceiling rounding discrepancy.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "3",
@@ -440,7 +459,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Expand recovered AFS heads into detailed grants/programmes; review wrapped/missing labels and obtain actual expenditure/project registers."
+      "nextResearchStep": "Expand recovered AFS heads into detailed grants/programmes; review wrapped/missing labels and obtain actual expenditure/project registers.",
+      "distinctProjectTenderReferences": 16
     },
     {
       "code": "8",
@@ -462,7 +482,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review full outcome-budget scheme/BFC repeats and state/central components; acquire FY2025–26 detailed programmes and expenditure."
+      "nextResearchStep": "Review full outcome-budget scheme/BFC repeats and state/central components; acquire FY2025–26 detailed programmes and expenditure.",
+      "distinctProjectTenderReferences": 19
     },
     {
       "code": "11",
@@ -484,7 +505,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 8,
-      "nextResearchStep": "Retrieve the known official FY2026–27 Annual Financial Statement through a working HTTPS route; its exact Finance Department PDF currently times out over HTTPS. Do not use the HTTP-only response. Then acquire detailed demands for roads, rural development, education and health, and connect programme budgets to accounts and project/bill IDs."
+      "nextResearchStep": "Retrieve the known official FY2026–27 Annual Financial Statement through a working HTTPS route; its exact Finance Department PDF currently times out over HTTPS. Do not use the HTTP-only response. Then acquire detailed demands for roads, rural development, education and health, and connect programme budgets to accounts and project/bill IDs.",
+      "distinctProjectTenderReferences": 16
     },
     {
       "code": "33",
@@ -506,7 +528,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 2,
-      "nextResearchStep": "FY2025–26 statewide AFS recovered and all 42 pages OCR-processed; nine original-page revenue heads transcribed. Review remaining scanned heads and public-works annexure; acquire correct FY2026–27 statewide edition, not a mislabeled index."
+      "nextResearchStep": "FY2025–26 statewide AFS recovered and all 42 pages OCR-processed; nine original-page revenue heads transcribed. Review remaining scanned heads and public-works annexure; acquire correct FY2026–27 statewide edition, not a mislabeled index.",
+      "distinctProjectTenderReferences": 16
     },
     {
       "code": "36",
@@ -528,7 +551,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 10,
-      "nextResearchStep": "Retain rounding discrepancies; expand FY2025–26 schemes and check scheme/department/capital overlap and failed source links."
+      "nextResearchStep": "Retain rounding discrepancies; expand FY2025–26 schemes and check scheme/department/capital overlap and failed source links.",
+      "distinctProjectTenderReferences": 0
     },
     {
       "code": "16",
@@ -550,7 +574,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Reconcile FY2026–27 gross major heads with recovery/net rows; expand full demands and link expenditure to named projects."
+      "nextResearchStep": "Reconcile FY2026–27 gross major heads with recovery/net rows; expand full demands and link expenditure to named projects.",
+      "distinctProjectTenderReferences": 31
     },
     {
       "code": "9",
@@ -572,7 +597,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Expand beyond gross/net statewide object summaries into grant/programme heads; review Hindi labels and preserve maintenance exclusions."
+      "nextResearchStep": "Expand beyond gross/net statewide object summaries into grant/programme heads; review Hindi labels and preserve maintenance exclusions.",
+      "distinctProjectTenderReferences": 14
     },
     {
       "code": "5",
@@ -594,7 +620,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Expand beyond 31 grant totals into scanned major/programme heads; read monthly actuals and keep debt/administration outside development totals."
+      "nextResearchStep": "Expand beyond 31 grant totals into scanned major/programme heads; read monthly actuals and keep debt/administration outside development totals.",
+      "distinctProjectTenderReferences": 17
     },
     {
       "code": "19",
@@ -616,7 +643,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 3,
-      "nextResearchStep": "Confirm interim/original/revised budget editions and acquire remaining scheme tables; reconcile department and head overlaps."
+      "nextResearchStep": "Confirm interim/original/revised budget editions and acquire remaining scheme tables; reconcile department and head overlaps.",
+      "distinctProjectTenderReferences": 28
     },
     {
       "code": "35",
@@ -638,7 +666,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 24
     },
     {
       "code": "4",
@@ -660,7 +689,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 2,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 15
     },
     {
       "code": "26",
@@ -682,7 +712,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 22
     },
     {
       "code": "7",
@@ -704,7 +735,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 20
     },
     {
       "code": "1",
@@ -726,7 +758,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 1,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 28
     },
     {
       "code": "37",
@@ -748,7 +781,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 17
     },
     {
       "code": "31",
@@ -770,7 +804,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 12
     },
     {
       "code": "34",
@@ -792,7 +827,8 @@
       "publishedFactsInStateCollection": 0,
       "collectionStatus": "partial_collected",
       "blockedSources": 0,
-      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget."
+      "nextResearchStep": "Review acquired procurement/contract facts; obtain exact project geography, allocated bills, recipient payment dates and source rights. Union transfer/territory demands are mixed context, not a complete local development budget.",
+      "distinctProjectTenderReferences": 18
     }
   ],
   "odishaAdditionalCollections": {

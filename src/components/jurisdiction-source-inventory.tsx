@@ -3,7 +3,7 @@
 import {useEffect,useState} from 'react';
 
 type JurisdictionInventory={
- code:string;name:string;kind:'state'|'union_territory';collectionStatus:string;blockedSources:number;nextResearchStep:string;historicalMapRecords:number;districtNameMatchCandidates:number;districtsInSavedRegistry:number;
+ code:string;name:string;kind:'state'|'union_territory';collectionStatus:string;blockedSources:number;nextResearchStep:string;historicalMapRecords:number;distinctProjectTenderReferences:number;districtNameMatchCandidates:number;districtsInSavedRegistry:number;
  pmgsyWorkingWindowCandidates:number;mpladsSourceRows:number;sourceOriginals:number;sourcePdfs:number;sourceTables:number;numericEvidenceLines:number;
  budgetCandidates:number;reportedExpenditureCandidates:number;projectTenderCandidates:number;reviewedFactsInStateCollection:number;publishedFactsInStateCollection:number;
 };
@@ -39,7 +39,7 @@ export function JurisdictionSourceInventory({jurisdiction}:{jurisdiction:string}
    <div><small>Asset records with location + details</small><strong>{count(item.historicalMapRecords)}</strong><span>2022 archive · source-listed asset type and category; not a current asset count</span></div>
    <div><small>PMGSY work candidates</small><strong>{count(item.pmgsyWorkingWindowCandidates)}</strong><span>Saved working-window records · locations and payments need separate review</span></div>
    <div><small>MPLADS source rows</small><strong>{count(item.mpladsSourceRows)}</strong><span>Report rows · not unique projects or payments</span></div>
-   <div><small>Project / tender candidates</small><strong>{count(item.projectTenderCandidates)}</strong><span>From the state/UT development collection; other pilots may add records</span></div>
+   <div><small>Distinct project / tender IDs</small><strong>{count(item.distinctProjectTenderReferences)}</strong><span>Deduplicated within this jurisdiction’s source collection</span></div>
    <div><small>Budget candidates</small><strong>{count(item.budgetCandidates)}</strong><span>FY 2025–26 and FY 2026–27 collection · awaiting reconciliation</span></div>
    <div><small>Reported-expenditure candidates</small><strong>{count(item.reportedExpenditureCandidates)}</strong><span>Source candidates · not project payments</span></div>
   </div>

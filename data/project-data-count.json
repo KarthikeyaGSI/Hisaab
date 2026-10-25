@@ -1,0 +1,56 @@
+{
+  "auditedAt": "2026-10-26",
+  "projectDataSourceRecords": 254275,
+  "countingRule": "Counts source-identified project and activity records, not unique physical projects. Exact repeated identifiers are deduplicated within each collection; the same physical work may still appear in multiple agencies' collections.",
+  "sources": [
+    {
+      "name": "PMGSY",
+      "count": 210946,
+      "unit": "distinct source work IDs",
+      "basis": "data/nationwide-ingestion.json uniqueSourceWorks; spans the collected dashboard work records, not a complete national works ledger"
+    },
+    {
+      "name": "State project and tender collections",
+      "count": 475,
+      "unit": "distinct state-scoped source project IDs",
+      "basis": "Latest projectCandidates files deduplicated by state code and sourceProjectId"
+    },
+    {
+      "name": "Union territory project and tender collections",
+      "count": 156,
+      "unit": "distinct territory-scoped source project IDs",
+      "basis": "Latest projectCandidates files deduplicated by territory code and sourceProjectId"
+    },
+    {
+      "name": "Odisha PPMS",
+      "count": 42260,
+      "unit": "distinct project codes",
+      "basis": "data/ppms-state-acquisition.json; distinct codes across the acquired state bill rows"
+    },
+    {
+      "name": "Chandanbhati eGramSwaraj",
+      "count": 436,
+      "unit": "distinct activity IDs",
+      "basis": "Three acquired financial-year snapshots; activity IDs deduplicated across years"
+    },
+    {
+      "name": "Amarpur MGNREGA",
+      "count": 1,
+      "unit": "work-code observation",
+      "basis": "Project details observed in the official portal; original work-register document is still pending"
+    },
+    {
+      "name": "Delhi SER-2",
+      "count": 1,
+      "unit": "tender-ID observation",
+      "basis": "One identified tender with status-search observations; project documents have not been acquired"
+    }
+  ],
+  "notAddedAgain": [
+    "The 67,099 PMGSY working-window candidates are included in the PMGSY source-work count.",
+    "The 200 selected road records are already represented in PMGSY source records.",
+    "The 155 Odisha photo-location dossiers are within Odisha's PPMS project-code collection.",
+    "The 206 NHIDCL date-recovery records are within the state/territory project-ID collection.",
+    "Budget lines, expenditure candidates, map points and repeated bill rows are not counted as additional projects."
+  ]
+}
