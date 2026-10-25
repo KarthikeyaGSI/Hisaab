@@ -44,6 +44,7 @@ class StateEvidenceRules(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'edition changed'):
             goa_demand_budget_summaries({**doc,'sha256':'different'}, {'pages':pages})
 
+    @unittest.skipUnless((collection.BASE/'30'/'checkpoint.json').exists(), 'Private source-acquisition fixtures are not included in the public checkout')
     def test_goa_full_volume_one_major_head_rows_reconcile_each_demand_control(self):
         checkpoint=json.loads((collection.BASE/'30'/'checkpoint.json').read_text())
         doc=next(d for d in checkpoint['documents'] if d['sourceId']=='goa-demands-volume-i-full-alt-host-2026')

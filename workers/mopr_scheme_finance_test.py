@@ -4,6 +4,7 @@ from mopr_scheme_finance import DATA, validate
 import json
 
 
+@unittest.skipUnless(DATA.exists(), 'Private source-acquisition fixtures are not included in the public checkout')
 class MoPRSchemeFinanceTest(unittest.TestCase):
     def setUp(self):
         self.data = json.loads(DATA.read_text())

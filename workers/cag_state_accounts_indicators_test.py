@@ -27,6 +27,7 @@ class CAGStateAccountIndicatorTests(unittest.TestCase):
         self.assertEqual(row['budgetEstimateCroreText'], '288000.00')
         self.assertEqual(row['actualsUpToReportingPeriodCroreText'], '42064.49')
 
+    @unittest.skipUnless(MANIFEST.exists() and MANUAL_REVIEW.exists(), 'Private source-acquisition fixtures are not included in the public checkout')
     def test_visual_transcriptions_are_bound_to_originals_and_remain_unapproved(self):
         manifest = json.loads(MANIFEST.read_text())
         reports = {r['state']: r for r in manifest['reports']}

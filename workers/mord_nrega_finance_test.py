@@ -1,9 +1,10 @@
 import unittest
 from decimal import Decimal
 
-from mord_nrega_finance import build, validate
+from mord_nrega_finance import DATA, RELEASES_ORIGINAL, WATER_ORIGINAL, build, validate
 
 
+@unittest.skipUnless(DATA.exists() and RELEASES_ORIGINAL.exists() and WATER_ORIGINAL.exists(), 'Private source-acquisition fixtures are not included in the public checkout')
 class MoRDRuralWorksFinanceTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
