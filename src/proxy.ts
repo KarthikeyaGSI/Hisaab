@@ -6,7 +6,9 @@ export function proxy(request:NextRequest){
   // Explicitly fail closed until the signed release-gate integration is implemented.
   return new NextResponse('Public release is not yet enabled. Complete the release audit first.',{status:503});
  }
- if(process.env.HISAAB_PUBLIC_PREVIEW==='true'){
+ // Hosted installs without an explicit mode serve the read-only public preview.
+ // Set false to require administrator credentials for the entire site.
+ if(process.env.HISAAB_PUBLIC_PREVIEW!=='false'){
   if(publicPreviewRead(request.nextUrl.pathname,request.method))return NextResponse.next();
   if(!request.nextUrl.pathname.startsWith('/admin')&&!request.nextUrl.pathname.startsWith('/api/v1/admin')&&!authorizedPreview(request))return NextResponse.json({error:'This public preview supports exploring published records. Citizen submissions are not open yet.'},{status:503,headers:{'Cache-Control':'no-store'}});
  }

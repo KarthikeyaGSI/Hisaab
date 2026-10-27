@@ -30,4 +30,6 @@ Complaint email dispatch is disabled until a dedicated verified Hisaab sender is
 
 ## Deployment
 
+Deployments default to the read-only public preview when `HISAAB_PUBLIC_PREVIEW` is unset. Published browsing pages and their read APIs are available without credentials; administrator routes and citizen submissions remain protected. Set `HISAAB_PUBLIC_PREVIEW=false` to require administrator credentials across the site. The public-release audit gate remains enforced independently.
+
 Target: Supabase in the separate Hisaab organisation and Netlify frontend; intended domain `adiram.me`. The hosted Supabase database is configured and verified. Delivery order is implementation and validation, GitHub upload and passing CI, then repository-connected Netlify staging. Direct-folder deployment is disabled. Netlify deployment and DNS cutover have not happened. Do not activate paid plans, change DNS, enable public release or populate unverified records as part of routine development.
